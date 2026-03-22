@@ -1,0 +1,128 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모모와 웃음꽃 씨앗</title>
+  <style>
+    :root {
+      --w: min(96vw, 1600px);
+      --h: calc(var(--w) * 9 / 16);
+      --paper: rgba(246, 237, 214, 0.92);
+      --ink: #2b251e;
+      --title: #382c21;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #111;
+      font-family: "Noto Sans KR", "Pretendard", sans-serif;
+    }
+    .deck {
+      position: relative;
+      width: var(--w);
+      height: var(--h);
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 30px 80px rgba(0,0,0,.45);
+      background: #000;
+    }
+    .slide { position: absolute; inset: 0; opacity: 0; pointer-events: none; }
+    .slide.active { opacity: 1; pointer-events: auto; }
+    .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .text-box {
+      position: absolute;
+      left: 8%;
+      width: 84%;
+      bottom: 5.2%;
+      height: 18%;
+      background: var(--paper);
+      border-radius: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5% 2.2%;
+      text-align: center;
+      color: var(--ink);
+      font-size: 28pt;
+      line-height: 1.4;
+      font-weight: 400;
+      white-space: pre-line;
+    }
+    .cover .text-box {
+      color: var(--title);
+      font-size: clamp(34px, 5vh, 72px);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .hit { position: absolute; top: 0; bottom: 0; width: 22%; z-index: 20; cursor: pointer; }
+    .hit.prev { left: 0; }
+    .hit.next { right: 0; }
+  </style>
+</head>
+<body>
+  <main class="deck">
+    <section class="slide cover active"><img class="bg" src="assets/p01.svg" alt="" /><div class="text-box">모모와 웃음꽃 씨앗</div></section>
+    <section class="slide"><img class="bg" src="assets/p02.svg" alt="" /><div class="text-box">모모는 오늘도 빵집을 도와주려 했어요.
+그런데 하늘에서 반짝이는 씨앗 하나가 툭,
+모모 앞에 떨어졌어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p03.svg" alt="" /><div class="text-box">할머니는 씨앗을 보고 깜짝 놀랐어요.
+“이건 웃음꽃 씨앗이란다.
+아주 특별한 마음이 있어야 피어난단다.”</div></section>
+    <section class="slide"><img class="bg" src="assets/p04.svg" alt="" /><div class="text-box">모모는 씨앗에게 따뜻한 물을 주고 속삭였어요.
+“예쁜 꽃아, 우리 마을을 환하게 밝혀 줘.”</div></section>
+    <section class="slide"><img class="bg" src="assets/p05.svg" alt="" /><div class="text-box">모모는 기뻐서 깡충 뛰었어요.
+하지만 새싹은 금방 고개를 푹 숙이고 말았어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p06.svg" alt="" /><div class="text-box">모모가 친구들에게 도움을 청하자,
+친구들은 각자 준비해 왔어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p07.svg" alt="" /><div class="text-box">다람쥐는 햇빛 같은 노래를,
+아기 곰은 포근한 포옹을,
+오리는 반짝이는 물방울 웃음을 가져왔어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p08.svg" alt="" /><div class="text-box">신기하게도 새싹이 살짝 흔들리더니
+잎이 한 장 더 피어났어요.
+모모는 “우리 마음이 들렸나 봐!” 하고 활짝 웃었어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p09.svg" alt="" /><div class="text-box">갑자기 바람이 세게 불어
+텃밭의 흙이 날렸어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p10.svg" alt="" /><div class="text-box">모두가 놀랐지만 도망치지 않았어요.
+친구들은 서로 손을 잡고
+새싹을 둘러 바람을 막아 주었어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p11.svg" alt="" /><div class="text-box">바람이 멎자 꽃봉오리가 천천히 열리더니,
+무지개빛 웃음꽃이 활짝 피었어요.
+향기는 걱정을 간질이며 웃음으로 바꿔 주었어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p12.svg" alt="" /><div class="text-box">토라졌던 친구도, 피곤했던 어른들도,
+모두 얼굴이 환해졌어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p13.svg" alt="" /><div class="text-box">모모는 깨달았어요.
+특별한 마음은 거창한 게 아니라
+함께하는 마음이라는 걸요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p14.svg" alt="" /><div class="text-box">해 질 무렵, 모모와 친구들은
+빵집 창가에 나란히 앉아 웃음꽃을 바라봤어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p15.svg" alt="" /><div class="text-box">할머니가 따뜻한 빵을 내오며 말했어요.
+“오늘 너희가 마을에 가장 맛있는 선물을 줬구나.”
+모모는 속삭였어요. “내일도 함께 웃게 해 줄게.”</div></section>
+    <div class="hit prev" id="prev"></div>
+    <div class="hit next" id="next"></div>
+  </main>
+
+  <script>
+    const slides = [...document.querySelectorAll('.slide')];
+    const show = (idx) => {
+      const n = slides.length;
+      const i = (idx + n) % n;
+      slides.forEach((s, k) => s.classList.toggle('active', k === i));
+      window.current = i;
+    };
+    window.current = 0;
+    document.getElementById('prev').addEventListener('click', () => show(window.current - 1));
+    document.getElementById('next').addEventListener('click', () => show(window.current + 1));
+    window.addEventListener('keydown', (e) => {
+      if (['ArrowRight', 'PageDown', ' '].includes(e.key)) show(window.current + 1);
+      if (['ArrowLeft', 'PageUp'].includes(e.key)) show(window.current - 1);
+      if (e.key === 'Home') show(0);
+      if (e.key === 'End') show(slides.length - 1);
+    });
+  </script>
+</body>
+</html>

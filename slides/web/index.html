@@ -1,0 +1,144 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>웃음별을 찾아서</title>
+  <style>
+    :root {
+      --w: min(96vw, 1600px);
+      --h: calc(var(--w) * 9 / 16);
+      --paper: rgba(246, 237, 214, 0.92);
+      --ink: #2b251e;
+      --title: #382c21;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #111;
+      font-family: "Noto Sans KR", "Pretendard", sans-serif;
+    }
+    .deck {
+      position: relative;
+      width: var(--w);
+      height: var(--h);
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 30px 80px rgba(0,0,0,.45);
+      background: #000;
+    }
+    .slide {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .slide.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .text-box {
+      position: absolute;
+      left: 8%;
+      width: 84%;
+      bottom: 5.2%;
+      height: 18%;
+      background: var(--paper);
+      border-radius: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5% 2.2%;
+      text-align: center;
+      color: var(--ink);
+      font-size: clamp(18px, 2.1vh, 37px);
+      line-height: 1.4;
+      font-weight: 400;
+      white-space: pre-line;
+    }
+    .cover .text-box {
+      color: var(--title);
+      font-size: clamp(34px, 5vh, 72px);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .hit {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 22%;
+      z-index: 20;
+      cursor: pointer;
+    }
+    .hit.prev { left: 0; }
+    .hit.next { right: 0; }
+  </style>
+</head>
+<body>
+  <main class="deck" id="deck">
+    <section class="slide cover active"><img class="bg" src="assets/p01.svg" alt="" /><div class="text-box">웃음별을 찾아서</div></section>
+    <section class="slide"><img class="bg" src="assets/p02.svg" alt="" /><div class="text-box">콩이는 오늘이 그냥 평범한 날일 줄 알았어요.
+그런데 문 앞에 반짝이는 금빛 편지 한 장이 놓여 있었어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p03.svg" alt="" /><div class="text-box">편지에는 이렇게 쓰여 있었어요.
+“무지개 숲의 웃음별이 사라졌어요. 도와주세요!”
+하나와 콩이는 서로를 보고 힘차게 고개를 끄덕였어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p04.svg" alt="" /><div class="text-box">배낭에는 물병, 쿠키, 손전등, 그리고 용기 한 스푼이 들어 있었어요.
+둘은 “우리가 찾아올게!” 하고 외치며 길을 나섰어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p05.svg" alt="" /><div class="text-box">숲은 예뻤지만 길이 여러 갈래로 나뉘어 있었어요.
+그때 느릿느릿 거북이 토리가 나타나
+“서두르지 말고 바람 소리를 들어봐”라고 말했어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p06.svg" alt="" /><div class="text-box">바람은 오른쪽 길에서 은은한 종소리를 실어 왔어요.
+하나와 콩이, 토리는 종소리를 따라 조심조심 걸어갔어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p07.svg" alt="" /><div class="text-box">다리는 밟을 때마다 통통 튀어서 건너기 어려웠어요.
+콩이는 겁이 났지만 하나가 손을 내밀며 말했어요.
+“천천히, 같이 가면 돼!”</div></section>
+    <section class="slide"><img class="bg" src="assets/p08.svg" alt="" /><div class="text-box">몽실은 “내가 재채기하다가 웃음별을 날려 버렸어…” 하며 훌쩍였어요.
+모두는 혼내지 않고 “괜찮아, 같이 찾자!” 하고 몽실을 안아줬어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p09.svg" alt="" /><div class="text-box">웃음별은 손이 닿지 않는 곳에 있었어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p10.svg" alt="" /><div class="text-box">토리는 받침이 되고, 몽실은 몸을 둥실 띄우고, 하나는 그 위에 올라섰어요.
+마지막으로 콩이가 폴짝 뛰어 웃음별을 톡! 잡았어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p11.svg" alt="" /><div class="text-box">별이 번쩍하자 숲 전체에 웃음소리가 퍼졌어요.
+새들도 짹짹, 다람쥐도 까르르, 몽실도 킥킥 웃기 시작했어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p12.svg" alt="" /><div class="text-box">모두가 쿠키를 나눠 먹으며 감사 인사를 했어요.
+하나는 말했어요.
+“우리가 해낸 건 힘이 세서가 아니라, 함께했기 때문이야.”</div></section>
+    <section class="slide"><img class="bg" src="assets/p13.svg" alt="" /><div class="text-box">콩이는 오늘이 세상에서 가장 멋진 날이라고 생각했어요.
+겁이 나도 손을 잡으면 용기가 생긴다는 걸 배웠거든요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p14.svg" alt="" /><div class="text-box">하늘 한가운데서 웃음별이 반짝이며 윙크했어요.</div></section>
+    <section class="slide"><img class="bg" src="assets/p15.svg" alt="" /><div class="text-box">하나가 속삭였어요.
+“내일도 누군가 도움이 필요하면, 우리 또 출동하자!”</div></section>
+    <div class="hit prev" id="prev"></div>
+    <div class="hit next" id="next"></div>
+  </main>
+
+  <script>
+    const slides = [...document.querySelectorAll('.slide')];
+    const show = (idx) => {
+      const n = slides.length;
+      const i = (idx + n) % n;
+      slides.forEach((s, k) => s.classList.toggle('active', k === i));
+      window.current = i;
+    };
+    window.current = 0;
+    document.getElementById('prev').addEventListener('click', () => show(window.current - 1));
+    document.getElementById('next').addEventListener('click', () => show(window.current + 1));
+    window.addEventListener('keydown', (e) => {
+      if (['ArrowRight', 'PageDown', ' '].includes(e.key)) show(window.current + 1);
+      if (['ArrowLeft', 'PageUp'].includes(e.key)) show(window.current - 1);
+      if (e.key === 'Home') show(0);
+      if (e.key === 'End') show(slides.length - 1);
+    });
+  </script>
+</body>
+</html>
