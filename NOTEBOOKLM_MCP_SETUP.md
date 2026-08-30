@@ -47,7 +47,7 @@ python -m notebooklm -p account3 login
 ```
 
 ### 4단계: 글로벌 MCP 설정 등록
-- 파일 경로: `C:\Users\user\.gemini\config\mcp_config.json`
+- 파일 경로: `C:\Users\jinso\.gemini\config\mcp_config.json`
 - 아래와 같이 3개 계정의 MCP 서버가 등록되었습니다:
 
 ```json
@@ -57,9 +57,8 @@ python -m notebooklm -p account3 login
       "command": "python",
       "args": [
         "-m",
-        "notebooklm",
-        "mcp",
-        "-p",
+        "notebooklm.mcp",
+        "--profile",
         "account1"
       ]
     },
@@ -67,9 +66,8 @@ python -m notebooklm -p account3 login
       "command": "python",
       "args": [
         "-m",
-        "notebooklm",
-        "mcp",
-        "-p",
+        "notebooklm.mcp",
+        "--profile",
         "account2"
       ]
     },
@@ -77,9 +75,8 @@ python -m notebooklm -p account3 login
       "command": "python",
       "args": [
         "-m",
-        "notebooklm",
-        "mcp",
-        "-p",
+        "notebooklm.mcp",
+        "--profile",
         "account3"
       ]
     }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0">
+  <title>Story Slide</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --character-theme: {{CHARACTER_THEME}};
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <!-- 배경 오버레이 및 프레임 장식 -->
+    <div class="texture-overlay"></div>
+    <div class="frame-border"></div>
+    <div class="corner-ornament corner-tl"></div>
+    <div class="corner-ornament corner-tr"></div>
+    <div class="corner-ornament corner-bl"></div>
+    <div class="corner-ornament corner-br"></div>
+
+    <!-- 1. 상단 헤더 -->
+    <header class="header">
+      <div class="chapter-badge">
+        <span class="seal-stamp">野談</span>
+        <span class="chapter-title">{{CHAPTER_TITLE}}</span>
+      </div>
+      <div class="slide-counter">{{SLIDE_COUNTER}}</div>
+    </header>
+
+    <!-- 2. 중앙 메인 본문 -->
+    <main class="main-content">
+      {{SPEAKER_TAG_HTML}}
+      <div class="text-card">
+        <p class="screen-text">{{SLIDE_SCREEN_TEXT}}</p>
+      </div>
+    </main>
+
+    <!-- 3. 하단 푸터 -->
+    <footer class="footer">
+      <div class="footer-source">조선 야담 실화 극장 • 은혜 갚은 머슴</div>
+      <div class="footer-deco">❖ ❖ ❖</div>
+    </footer>
+  </div>
+</body>
+</html>

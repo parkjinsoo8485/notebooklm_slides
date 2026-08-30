@@ -1,0 +1,193 @@
+﻿from pathlib import Path
+
+SAMPLES_DIR = Path(r"c:\My_Project\src\notebooklm_slides\output\voice_samples\songrim_female_v4")
+EXACT_YT = "빈 소달구지 하나로 어린 딸을 키우던 가난한 농부에게 누군가 찾아와 그리 속삭였습니다. 새벽 장터길 쫓기던 여인을 달구지 안에 숨겨 준 바로 다음 날이었지요."
+
+VERSIONS = [
+    ("r1", "-4%", "-25Hz", "중음역 매칭", 198.1, 1769, 0.0485, "2kHz 부스트"),
+    ("r2", "-4%", "-27Hz", "순수 피치",   193.6, 1736, 0.0467, "EQ 없음"),
+    ("r3", "-4%", "-27Hz", "중고음역 EQ", 193.6, 1706, 0.0457, "1.5~2.5kHz 부스트"),
+    ("r4", "-4%", "-27Hz", "야담 정밀 EQ",193.6, 1683, 0.0458, "800Hz+1.8kHz 부스트"),
+    ("r5", "-3%", "-27Hz", "빠른 속도",   193.6, 1753, 0.0466, "-3% 속도"),
+    ("r6", "-5%", "-27Hz", "느린 속도 ⭐", 195.8, 1727, 0.0469, "F0 완벽 일치!"),
+    ("r7", "-4%", "-29Hz", "더 낮은 피치", 191.4, 1733, 0.0456, "2.5kHz 부스트"),
+]
+
+TARGET_F0   = 195.8
+TARGET_CENT = 1632
+TARGET_ZCR  = 0.049
+
+colors = ["#10b981","#3b82f6","#f59e0b","#ec4899","#8b5cf6","#06b6d4","#f97316"]
+
+def badge(val, target, thr_good, thr_ok):
+    diff = abs(val - target)
+    if diff <= thr_good: return "best"
+    if diff <= thr_ok:   return "good"
+    return "warn"
+
+def badge_label(cls):
+    return {"best": "✅ BEST", "good": "⚠️ GOOD", "warn": "❌ WARN"}[cls]
+
+cards = ""
+for i, (name, rate, pitch, label, f0, cent, zcr, note) in enumerate(VERSIONS):
+    c = colors[i]
+    f0_cls   = badge(f0,   TARGET_F0,   5, 10)
+    cent_cls = badge(cent, TARGET_CENT, 100, 200)
+    zcr_cls  = badge(zcr,  TARGET_ZCR,  0.005, 0.01)
+    overall  = "best" if f0_cls=="best" and cent_cls in ("best","good") else ("good" if f0_cls in ("best","good") else "warn")
+    cards += f"""
+        <div class="card" style="--c:{c};" id="card-{name}">
+          <div class="card-head">
+            <span class="num" style="background:{c};">{i+1}</span>
+            <div class="card-info">
+              <div class="card-title" style="color:{c};">[{name}] {label}</div>
+              <div class="card-sub">rate: {rate} · pitch: {pitch} · {note}</div>
+            </div>
+            <div class="overall-badge badge-{overall}">{badge_label(overall)}</div>
+          </div>
+          <div class="metrics">
+            <div class="metric badge-{f0_cls}">
+              <span class="m-label">F0</span>
+              <span class="m-val">{f0} Hz</span>
+              <span class="m-diff">{f0-TARGET_F0:+.1f}</span>
+            </div>
+            <div class="metric badge-{cent_cls}">
+              <span class="m-label">Centroid</span>
+              <span class="m-val">{cent} Hz</span>
+              <span class="m-diff">{cent-TARGET_CENT:+.0f}</span>
+            </div>
+            <div class="metric badge-{zcr_cls}">
+              <span class="m-label">ZCR</span>
+              <span class="m-val">{zcr:.4f}</span>
+              <span class="m-diff">{zcr-TARGET_ZCR:+.4f}</span>
+            </div>
+          </div>
+          <audio controls preload="none" src="{name}.mp3"></audio>
+        </div>"""
+
+html = f"""<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>송림야담 여성 나레이터 v4 정밀 복원 비교</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{{--bg:#060b14;--card:#0d1a2e;--border:#1a2d45;--text:#e8edf5;--muted:#4a6080;}}
+*{{box-sizing:border-box;margin:0;padding:0;}}
+body{{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;padding:40px 20px;min-height:100vh;}}
+.wrap{{max-width:920px;margin:0 auto;}}
+
+h1{{font-family:'Noto Serif KR',serif;font-size:26px;font-weight:700;text-align:center;margin-bottom:6px;
+    background:linear-gradient(135deg,#60a5fa,#a78bfa,#f472b6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}}
+.sub{{color:var(--muted);font-size:12.5px;text-align:center;margin-bottom:28px;line-height:1.8;}}
+
+/* 원본/목표 박스 */
+.target-box{{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;}}
+@media(max-width:600px){{.target-box{{grid-template-columns:1fr;}}}}
+.orig-box{{background:linear-gradient(135deg,rgba(239,68,68,.12),var(--card));
+           border:2px solid #ef4444;border-radius:16px;padding:20px;
+           box-shadow:0 8px 24px -5px rgba(239,68,68,.25);}}
+.orig-title{{font-size:14px;font-weight:700;color:#fca5a5;margin-bottom:10px;display:flex;align-items:center;gap:6px;}}
+.orig-script{{background:rgba(0,0,0,.4);border-left:3px solid #ef4444;border-radius:0 8px 8px 0;
+              font-family:'Noto Serif KR',serif;font-size:13px;line-height:1.9;color:#f1f5f9;
+              padding:12px 16px;margin-bottom:12px;}}
+.target-metrics{{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px;}}
+.target-title{{font-size:14px;font-weight:700;color:#fbbf24;margin-bottom:14px;}}
+.t-row{{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border);}}
+.t-row:last-child{{border-bottom:none;}}
+.t-label{{font-size:12px;color:var(--muted);font-family:monospace;}}
+.t-val{{font-size:16px;font-weight:700;color:#f472b6;font-family:monospace;}}
+.t-desc{{font-size:11px;color:#8b9fc0;}}
+
+/* 카드 */
+.section-head{{font-size:15px;font-weight:700;color:#a78bfa;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border);}}
+.card{{background:var(--card);border:1.5px solid var(--c, var(--border));border-radius:14px;padding:18px;margin-bottom:12px;
+       transition:transform .15s,box-shadow .15s;}}
+.card:hover{{transform:translateY(-2px);box-shadow:0 12px 30px -8px rgba(0,0,0,.4);}}
+.card-head{{display:flex;align-items:center;gap:12px;margin-bottom:12px;}}
+.num{{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+      font-weight:800;font-size:14px;color:#fff;flex-shrink:0;}}
+.card-info{{flex:1;min-width:0;}}
+.card-title{{font-weight:700;font-size:14px;margin-bottom:3px;}}
+.card-sub{{font-size:11px;color:var(--muted);font-family:monospace;}}
+.overall-badge{{font-size:11px;font-weight:700;padding:4px 10px;border-radius:20px;white-space:nowrap;flex-shrink:0;}}
+
+.metrics{{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px;}}
+.metric{{border-radius:8px;padding:8px 10px;display:flex;flex-direction:column;gap:2px;}}
+.m-label{{font-size:10px;color:var(--muted);font-family:monospace;text-transform:uppercase;}}
+.m-val{{font-size:14px;font-weight:700;font-family:monospace;}}
+.m-diff{{font-size:10px;font-family:monospace;opacity:.8;}}
+
+audio{{width:100%;height:38px;border-radius:8px;}}
+
+/* 배지 색상 */
+.badge-best{{background:rgba(16,185,129,.15);border:1px solid rgba(16,185,129,.4);color:#34d399;}}
+.badge-good{{background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.35);color:#fbbf24;}}
+.badge-warn{{background:rgba(239,68,68,.12);border:1px solid rgba(239,68,68,.35);color:#f87171;}}
+
+.guide{{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;margin-top:20px;}}
+.guide h3{{font-size:13px;font-weight:700;color:#fbbf24;margin-bottom:10px;}}
+.guide li{{font-size:12.5px;color:var(--muted);line-height:2.2;list-style:none;padding-left:4px;}}
+.guide li::before{{content:"→ ";color:#60a5fa;}}
+.guide li strong{{color:var(--text);}}
+.guide li em{{color:#34d399;font-style:normal;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🎙️ 송림야담 여성 나레이터 v4 정밀 복원</h1>
+  <p class="sub">SunHi 실측 F0(239.7Hz) 기반 정밀 보정 · 비선형 계수 1.62 적용<br>
+  이번 버전부터 <strong style="color:#34d399;">수치가 원본과 거의 일치</strong>합니다</p>
+
+  <div class="target-box">
+    <div class="orig-box">
+      <div class="orig-title">🔴 원본: 유튜브 '송림야담' 실제 여성 나레이터</div>
+      <div class="orig-script">"{EXACT_YT}"</div>
+      <audio controls preload="auto" src="../songrim_100pct_replica/01_youtube_actual_original.mp3"></audio>
+    </div>
+    <div class="target-metrics">
+      <div class="target-title">🎯 원본 분석 목표값</div>
+      <div class="t-row">
+        <span class="t-label">F0 (기본 피치)</span>
+        <span class="t-val">195.8 Hz</span>
+        <span class="t-desc">Alto/Mezzo</span>
+      </div>
+      <div class="t-row">
+        <span class="t-label">Spectral Centroid</span>
+        <span class="t-val">1632 Hz</span>
+        <span class="t-desc">따뜻한 중저음</span>
+      </div>
+      <div class="t-row">
+        <span class="t-label">ZCR (부드러움)</span>
+        <span class="t-val">0.0490</span>
+        <span class="t-desc">매우 부드러운</span>
+      </div>
+      <div class="t-row">
+        <span class="t-label">이번 보정 방법</span>
+        <span class="t-val" style="font-size:13px;color:#60a5fa;">-27Hz 파라미터</span>
+        <span class="t-desc">비선형×1.62</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-head">🧬 v4 정밀 복제 7가지 비교</div>
+  {cards}
+
+  <div class="guide">
+    <h3>📋 선택 가이드</h3>
+    <ul>
+      <li>원본 ▶ 재생 후 각 버전과 <strong>A/B 반복 비교</strong></li>
+      <li><em>✅ BEST</em> = F0 ±5Hz 이내 / Centroid ±100Hz 이내</li>
+      <li>F0와 Centroid 모두 <em>BEST</em>인 버전이 가장 원본에 가까운 음색</li>
+      <li><strong>r6</strong>은 F0 완벽 일치 (195.8Hz=195.8Hz), <strong>r4</strong>는 Centroid 최근접 (1683 vs 1632)</li>
+      <li>가장 비슷한 번호 → <strong>알려주시면 즉시 최종 적용</strong>합니다</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>"""
+
+out = SAMPLES_DIR / "compare_female_v4.html"
+out.write_text(html, encoding="utf-8")
+print("OK: " + str(out))

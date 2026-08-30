@@ -1,0 +1,30 @@
+{
+  "voice_identity": "송림야담 공식 골든 스탠다드 여성 스토리텔러 (Songrim Golden Standard Voice)",
+  "target_platform": "유튜브 고음질 야담/동화 슬라이드 비디오",
+  "created_at": "2026-08-30",
+  "status": "APPROVED_STANDARD",
+  "engine": "Edge-TTS + Studio Mastering DSP",
+  "tts_parameters": {
+    "voice": "ko-KR-SunHiNeural",
+    "rate": "-22%",
+    "pitch": "-24Hz",
+    "volume": "+0%"
+  },
+  "measured_acoustics": {
+    "mean_f0_pitch_hz": 192.7,
+    "chest_resonance_boost_hz": [
+      190,
+      450
+    ],
+    "anti_sibilance_shelf_hz": 3600,
+    "reverb_type": "Studio Chamber Micro-Ambiance (20ms/35ms, 10% wet)",
+    "dynamic_range_compand": "soft-knee=6, attacks=0.03, decays=0.3",
+    "master_gain": "volume=1.25"
+  },
+  "ffmpeg_dsp_filter_chain": "equalizer=f=190:width_type=o:width=1.5:g=3.8,equalizer=f=450:width_type=o:width=1.5:g=1.8,equalizer=f=3600:width_type=o:width=1.0:g=-3.5,highshelf=f=7500:g=-2.0,aecho=0.8:0.6:20|35:0.10|0.05,compand=attacks=0.03:decays=0.3:points=-80/-80|-24/-20|-12/-10|0/-1:soft-knee=6,volume=1.25",
+  "script_style_rules": [
+    "절대 금지 표현: '~였더랬지요', '~했더랬지요', '~말았더랬지요' 등 과장되고 인위적인 어미",
+    "표준 종결어미: '~였습니다', '~말았습니다', '~했지요', '~흘렀습니다', '~것이었습니다' 등 깔끔하고 품격 있는 정통 고전 서사형 구어체",
+    "구두점 규칙: 자연스러운 호흡을 위해 문장 사이에 적절한 쉼표(,) 및 아련한 여운을 위한 말줄임표(...)를 문맥에 맞게 배치"
+  ]
+}
