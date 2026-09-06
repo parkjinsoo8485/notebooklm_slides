@@ -53,9 +53,11 @@ AI TTS와 화면 자막(SRT)의 역할을 엄격히 분리하여 **정확한 맞
 * `달빛마저` ➔ **[달빈마저]**
 
 ### 7) 경음화(된소리되기) 및 서사 어휘 강화 (제23항)
-* `월이댁` ➔ **[월이땍]** (TTS 입력: `월이땍` / 주막 노파의 토속적이고 구수한 사잇소리 경음화)
+* `월이댁` ➔ **[월이땍]**, `대감댁` ➔ **[대감땍]** (사잇소리 현상: `대감때게서`, `대감땍 마님` 등 주막/가문 명칭 경음화)
+* `흩어지고` ➔ **[흐터지고]** (ㅎ 탈락 및 ㅌ 연음: `흐터지고`, `흐터져`, `흐터진` 등)
 * `거센` ➔ **[거쎈]** (거센 여울목, 거센 바람의 매서운 물살/기세를 살리기 위한 경음화)
 * `거세게` ➔ **[거쎄게]**, `달빛조차` ➔ **[달비쪼차]**, `손가락질` ➔ **[손까락찔]**
+
 
 ### 8) 수사/극적 강조 장음화 (제6항)
 * 서슬 퍼런 명령 대목에서 단음으로 날아가지 않고 무게감을 주기 위해 장음/강조 처리.
@@ -122,4 +124,15 @@ AI TTS와 화면 자막(SRT)의 역할을 엄격히 분리하여 **정확한 맞
 * 🚀 **TTS 음성 생성 스크립트**: [`scripts/02_generate_edge_tts.py`](file:///c:/My_Project/src/notebooklm_slides/scripts/02_generate_edge_tts.py)
 * 🎬 **영상 렌더링 스크립트**: [`scripts/03_render_video.py`](file:///c:/My_Project/src/notebooklm_slides/scripts/03_render_video.py)
 * 🎧 **전체 120개 슬라이드 통합 청음실**: [`output/full_story_player.html`](file:///c:/My_Project/src/notebooklm_slides/output/full_story_player.html)
+* 🌟 **저작권 무료 실제 육성 6종 쇼케이스**: [`output/public_voices_slide01/public_voice_slide01_showcase.html`](file:///c:/My_Project/src/notebooklm_slides/output/public_voices_slide01/public_voice_slide01_showcase.html)
+* 👑 **선정된 공식 마스터 보이스 3종**:
+  1. 👴 **[TOP] 실제 야담 할아버지 육성** (실제 야담 명인 원음) - 깊은 흉성과 70대 연륜
+     * **전용 TOP 엔진**: [`scripts/TOP_generate_real_grandfather_yadam.py`](file:///c:/My_Project/src/notebooklm_slides/scripts/TOP_generate_real_grandfather_yadam.py)
+     * 실행: `python scripts/TOP_generate_real_grandfather_yadam.py --slides [1|1-10|all]`
+  2. 📜 **전통 야담 구연가** (한국구비문학대계 설화 아카이브, 공공누리 제1유형) - 판소리/사투리 완급 조절
+  3. 🗣️ **표준어 남성 성우** (Zeroth-Korean #104, CC BY 4.0) - 중후하고 안정된 정통 역사 서사
+  * 사양 파일: [`master_voice_standard/selected_master_voices.json`](file:///c:/My_Project/src/notebooklm_slides/master_voice_standard/selected_master_voices.json)
+  * 전용 생성 CLI: `python scripts/generate_selected_master_voices.py --voice [standard_male_104|folklore_storyteller] --slides [1|1-10|all]`
+
+
 * 📊 **슬라이드 메타데이터 마스터**: [`output/slides_data.json`](file:///c:/My_Project/src/notebooklm_slides/output/slides_data.json)
