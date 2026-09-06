@@ -1,0 +1,14 @@
+{
+  "speaker_id": "104",
+  "profile": {
+    "folder": "speaker_104_male_studio",
+    "name": "표준어 정통 남성 성우 #104",
+    "gender": "male",
+    "license": "CC BY 4.0 (저작권 완전 무료)",
+    "source": "Zeroth-Korean (OpenSLR 40)",
+    "style": "중후하고 안정된 서사/다큐멘터리 톤"
+  },
+  "sample_count": 64,
+  "total_duration_sec": 629.4,
+  "train_list": "C:\\My_Project\\src\\notebooklm_slides\\data\\gpt_sovits_training_corpus\\speaker_104_male_studio\\train.list"
+}

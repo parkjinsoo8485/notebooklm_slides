@@ -1,0 +1,14 @@
+{
+  "speaker_id": "147",
+  "profile": {
+    "folder": "speaker_147_male_young",
+    "name": "청년 남성 성우 #147",
+    "gender": "male",
+    "license": "CC BY 4.0 (저작권 완전 무료)",
+    "source": "Zeroth-Korean (OpenSLR 40)",
+    "style": "젊은 선비/도령 캐릭터 톤"
+  },
+  "sample_count": 53,
+  "total_duration_sec": 517.1,
+  "train_list": "C:\\My_Project\\src\\notebooklm_slides\\data\\gpt_sovits_training_corpus\\speaker_147_male_young\\train.list"
+}

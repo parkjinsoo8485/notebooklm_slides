@@ -1,0 +1,89 @@
+{
+  "version": "2026.09.06",
+  "status": "OFFICIALLY_APPROVED",
+  "voices": {
+    "real_grandfather": {
+      "id": "real_grandfather",
+      "name": "👴 [실제 야담 할아버지 육성] (연륜과 깊은 한이 서린 육성)",
+      "license": "실제 야담 명인 육성 (Public Archive / 자유 이용)",
+      "source": "실제 야담 명인 육성",
+      "description": "가슴을 울리는 깊은 흉성과 70대 할아버지의 구수한 사투리/억양이 비극적 서사에 몰입감을 더합니다.",
+      "engine": "GPT-SoVITS V2 Zero-Shot + Studio Mastering DSP",
+      "ref_audio": "audio_samples/ref_real_grandfather.wav",
+      "prompt_text": "여름이면 맨의 소리가 맨 맨 마을을 가득 채웠지",
+      "sample_slide01": "audio_samples/sample_slide01_real_grandfather.mp3",
+      "dsp_filter": "equalizer=f=120:width_type=o:width=1.5:g=+3.5dB,equalizer=f=1500:width_type=o:width=1.0:g=-3.5dB,loudnorm=I=-16:LRA=11:TP=-1.5",
+      "top_script": "scripts/TOP_generate_real_grandfather_yadam.py",
+      "status": "OFFICIAL_STANDARD"
+    },
+    "folklore_storyteller": {
+      "id": "folklore_storyteller",
+      "name": "📜 전통 야담 구연가 (구수한 판소리 완급 조절)",
+      "license": "공공누리 제1유형 (출처표시 시 상업적 이용 및 변경 허용)",
+      "source": "한국구비문학대계 설화 아카이브 (한국학중앙연구원)",
+      "description": "사투리 억양과 구전 야담 특유의 리듬감이 살아 숨 쉬는 우리 민족 고유의 전기수 낭독 톤",
+      "engine": "GPT-SoVITS V2 Zero-Shot + Studio Mastering DSP",
+      "ref_audio": "audio_samples/ref_folklore_storyteller.wav",
+      "prompt_text": "마을의 장터는 이른 아침부터 모여든 사람들로 북적였고",
+      "sample_slide01": "audio_samples/sample_slide01_folklore_storyteller.mp3",
+      "dsp_filter": "equalizer=f=150:width_type=o:width=1.3:g=+2.5dB,equalizer=f=2200:width_type=o:width=1.0:g=-2.5dB,loudnorm=I=-16:LRA=11:TP=-1.5",
+      "top_script": "scripts/TOP_generate_folklore_storyteller_yadam.py",
+      "recommended_usage": "전통 야담, 민담, 도령/머슴/민초 대화 및 사투리 구연 파트"
+    },
+    "standard_male_104": {
+      "id": "standard_male_104",
+      "name": "🎙️ 표준어 남성 정통 성우 #104 (중후하고 안정된 서사 톤)",
+      "license": "CC BY 4.0 (상업적 이용 및 변형 100% 완전 자유 허용)",
+      "source": "Zeroth-Korean Speech Corpus #104 (OpenSLR 40)",
+      "description": "잡음과 울림이 전혀 없는 스튜디오 원음으로, 묵직하고 차분하게 역사의 비극을 이끌어가는 정통 성우 톤",
+      "engine": "GPT-SoVITS V2 Zero-Shot + Studio Mastering DSP",
+      "ref_audio": "audio_samples/ref_zeroth_male_104.wav",
+      "prompt_text": "한 잔의 커피가 소비자에게 전해지기 위해선 여러 차례의 공정을 거쳐야 한다",
+      "sample_slide01": "audio_samples/sample_slide01_zeroth_male_104.mp3",
+      "dsp_filter": "equalizer=f=130:width_type=o:width=1.3:g=+3.0dB,equalizer=f=2500:width_type=o:width=1.0:g=-2.5dB,loudnorm=I=-16:LRA=11:TP=-1.5",
+      "recommended_usage": "메인 역사 내레이션, 공식 다큐멘터리 서사, 비장한 전개"
+    },
+    "standard_female_105": {
+      "id": "standard_female_105",
+      "name": "👩 표준어 여성 정통 성우 #105 (맑고 또렷한 낭독 톤)",
+      "license": "CC BY 4.0 (상업적 이용 및 변형 100% 완전 자유 허용)",
+      "source": "Zeroth-Korean Speech Corpus #105 (OpenSLR 40)",
+      "description": "잡음과 에코가 전혀 없는 스튜디오 원음으로, 단아하고 맑은 발음의 여성 성우 톤",
+      "engine": "GPT-SoVITS V2 Zero-Shot + Studio Mastering DSP",
+      "ref_audio": "audio_samples/ref_zeroth_female_105.wav",
+      "prompt_text": "하지만 그 누구도 앞으로 닥쳐올 거대한 운명의 소용돌이를 알지 못했습니다",
+      "sample_slide01": "output/public_voices_slide01/slide01_2_zeroth_female_105.mp3",
+      "recommended_usage": "안방마님, 아가씨, 서정적 여성 캐릭터 및 문학 낭독"
+    },
+    "narrator_male_126": {
+      "id": "narrator_male_126",
+      "name": "📖 차분한 남성 나레이터 #126 (담담한 문학적 서사)",
+      "license": "CC BY 4.0 (상업적 이용 및 변형 100% 완전 자유 허용)",
+      "source": "Zeroth-Korean Speech Corpus #126 (OpenSLR 40)",
+      "description": "과장되지 않고 차분하게 가라앉은 톤으로 비극의 비장미를 극대화하는 성우 톤",
+      "engine": "GPT-SoVITS V2 Zero-Shot + Studio Mastering DSP",
+      "ref_audio": "audio_samples/ref_zeroth_narrator_126.wav",
+      "prompt_text": "어두운 밤하늘 아래 홀로 서 있는 그의 그림자는 유난히도 길고 쓸쓸했습니다",
+      "sample_slide01": "output/public_voices_slide01/slide01_3_zeroth_narrator_126.mp3",
+      "recommended_usage": "담담한 회상, 비극적 서사의 결말부"
+    },
+    "studio_voice_actor_tts": {
+      "id": "studio_voice_actor_tts",
+      "name": "🎙️ 스튜디오 전문 성우 발화 데이터셋 (30종 고음질 WAV)",
+      "license": "Open Domain / Free Research & Commercial Use",
+      "source": "Hugging Face daje/korean-tts-training",
+      "description": "숫자, 일상, 감정, 문학 발화를 완벽한 딕션으로 녹음한 초고음질 무반향 스튜디오 성우 원음",
+      "engine": "GPT-SoVITS Training & Fine-Tuning Corpus",
+      "ref_audio": "audio_samples/ref_studio_voice_actor.wav",
+      "corpus_path": "data/clean_voice_actors/korean_tts_training_studio",
+      "recommended_usage": "GPT-SoVITS 성우 모델 미세조정(Fine-Tuning) 및 클린 낭독 학습"
+    }
+  },
+  "listening_rooms": {
+    "hub": "output/all_listening_rooms_hub.html",
+    "voice_actors_vault": "output/voice_actors_player.html",
+    "public_voices_showcase": "output/public_voices_slide01/public_voice_slide01_showcase.html",
+    "full_120_slides_player": "output/full_story_player.html",
+    "elderly_creative_player": "output/slide01_creative_elderly/slide01_creative_elderly_player.html"
+  }
+}

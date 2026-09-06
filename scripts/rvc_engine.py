@@ -328,13 +328,20 @@ class RVCStandaloneInfer:
         # 1. 입력 오디오 로드 (16kHz 변환)
         wav, sr = librosa.load(str(input_wav_path), sr=16000)
 
-        # 2. HuBERT 특징 추출 (50Hz -> 100Hz repeat_interleave 2x)
+        # 2. HuBERT 특징 추출
         with torch.no_grad():
             inp = torch.from_numpy(wav).unsqueeze(0).float().to(self.device)
             feats, _ = self.hubert.extract_features(inp)
             feat = feats[-1].squeeze(0) # [T_50, 768]
-            
-            # FAISS 음색 인덱스 검색 및 블렌딩
+
+            # 1. HuBERT Feature 부드러운 선형 보간 (계단 현상 / 금속성 버징 방지)
+            feat = feat.unsqueeze(0).transpose(1, 2) # [1, 768, T_50]
+            t_target = feat.shape[2] * 2 # 100Hz (10ms)
+            feat = F.interpolate(feat, size=t_target, mode="linear", align_corners=False)
+            feat = feat.transpose(1, 2).squeeze(0) # [T_100, 768]
+            t_len = feat.shape[0]
+
+            # 2. FAISS 음색 인덱스 검색 및 블렌딩
             if self.index is not None and index_rate > 0:
                 try:
                     feat_np = feat.cpu().numpy().astype(np.float32)
@@ -343,12 +350,9 @@ class RVCStandaloneInfer:
                     feat = (1 - index_rate) * feat + index_rate * torch.from_numpy(idx_feat).to(self.device)
                 except Exception:
                     pass
+                    pass
 
-            # RVC v2는 100Hz (10ms) 해상도를 기대하므로 2배 확장
-            feat = feat.repeat_interleave(2, dim=0) # [T_100, 768]
-            t_len = feat.shape[0]
-
-            # 3. F0 추출 (100Hz)
+            # 3. 고품질 F0 추출 및 부드러운 스무딩 (Parselmouth + Median Filter)
             f0_arr = self.extract_f0_pm(wav, sr, f0_up_key=f0_up_key)
             
             # F0 길이 정렬
@@ -356,6 +360,17 @@ class RVCStandaloneInfer:
                 f0_arr = np.pad(f0_arr, (0, t_len - len(f0_arr)), mode="edge")
             else:
                 f0_arr = f0_arr[:t_len]
+
+            # F0 스무딩: scipy medfilt로 급격한 옥타브 점프/스파이크 완화
+            try:
+                from scipy.signal import medfilt
+                f0_arr_smooth = f0_arr.copy()
+                voiced = f0_arr_smooth > 0
+                if np.any(voiced):
+                    f0_arr_smooth[voiced] = medfilt(f0_arr_smooth[voiced], kernel_size=5)
+                f0_arr = f0_arr_smooth
+            except Exception:
+                pass
 
             # Coarse pitch (이산화 0~255) 및 Continuous pitch (Hz)
             coarse_pitch = f0_to_coarse(f0_arr)
@@ -373,8 +388,9 @@ class RVCStandaloneInfer:
             # 음량 노멀라이징 & 저장
             max_val = np.abs(out_np).max()
             if max_val > 0.99:
-                out_np = out_np / max_val * 0.98
+                out_np = out_np / max_val * 0.95
 
             sf.write(str(output_wav_path), out_np, self.target_sr)
             print(f"✨ RVC 음성 변환 완료 -> {output_wav_path.name}")
             return output_wav_path
+

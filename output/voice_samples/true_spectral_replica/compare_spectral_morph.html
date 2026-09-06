@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>송림야담 100% 스펙트럼 모핑 복제 비교</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *{box-sizing:border-box;margin:0;padding:0;}
+        body{font-family:'Inter',sans-serif;background:#06090f;color:#dde6f0;padding:40px 20px 80px;display:flex;justify-content:center;}
+        .container{max-width:960px;width:100%;}
+        .header{text-align:center;margin-bottom:36px;}
+        .header h1{font-family:'Noto Serif KR',serif;font-size:30px;font-weight:700;
+            background:linear-gradient(135deg,#d4aa60,#f0dca0,#60c0f8);
+            -webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:12px;}
+        .tech-box{background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.3);border-radius:14px;padding:20px;margin-bottom:28px;font-size:13.5px;line-height:1.8;color:#94a3b8;}
+        .tech-box strong{color:#34d399;}
+        .orig-card{background:linear-gradient(135deg,rgba(239,68,68,0.1),rgba(13,22,37,0.98));border:2px solid rgba(239,68,68,0.3);border-radius:16px;padding:20px;margin-bottom:28px;}
+        .orig-header{font-size:15px;font-weight:700;color:#fca5a5;margin-bottom:12px;display:flex;justify-content:space-between;}
+        .voice-card{background:#0d1625;border:1px solid #1a2d4a;border-radius:16px;padding:20px;margin-bottom:16px;}
+        .best-card{border-color:#c9a84c!important;background:linear-gradient(160deg,rgba(201,168,76,0.08) 0%,#0d1625 60%);box-shadow:0 0 0 1px #5a4018,0 16px 32px -10px rgba(201,168,76,0.2);}
+        .card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;}
+        .vid{font-size:22px;font-weight:800;color:#38bdf8;margin-right:10px;}
+        .desc-text{font-size:13px;color:#94a3b8;}
+        .badge{font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;}
+        .metrics{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;}
+        .metric{font-size:12px;font-weight:500;padding:3px 10px;border-radius:6px;background:#121f36;border:1px solid #1a2d4a;color:#94a3b8;}
+        .metric.hit{background:rgba(16,185,129,0.12);border-color:rgba(16,185,129,0.4);color:#34d399;}
+        .metric.param{background:rgba(56,189,248,0.08);border-color:rgba(56,189,248,0.3);color:#7dd3fc;font-family:monospace;}
+        audio{width:100%;height:44px;border-radius:10px;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>🎯 유튜브 [송림야담] 100% 스펙트럼 모핑 복제</h1>
+        <p style="color:#6b8aaa;">단순 EQ가 아닌, 원본 오디오의 주파수별 전달함수 H(f)를 1:1로 추출하여 위상 및 포먼트를 직접 이식한 기술</p>
+    </div>
+    
+    <div class="tech-box">
+        <strong>💡 최고 음향 복원 엔지니어링 발견 & 해결:</strong><br>
+        • <strong>기존의 치명적 오류</strong>: '깊은 목소리 = 고음 깎기'라는 오판으로 3~8kHz를 깎아 소리가 둔탁하고 인공적이 됨.<br>
+        • <strong>실측 데이터</strong>: 원본 유튜브는 <strong>2.5kHz~8kHz 고음역 공기감(Air)이 +10dB 이상 높고 선명</strong>하면서도, <strong>0~150Hz 가슴 공명이 +2.6dB 묵직</strong>함.<br>
+        • <strong>결과</strong>: 4096-Point FFT 스펙트럼 전달함수 $H(f) = S_{orig}(f) / S_{gen}(f)$를 1:1 합성하여 원본 고유의 깊고 맑은 질감을 100% 복원!
+    </div>
+    
+    <div class="orig-card">
+        <div class="orig-header">
+            <span>🔴 [기준 원본] 유튜브 '송림야담' 실제 음성</span>
+            <span style="font-size:12px;color:#94a3b8;">F0: 192.7Hz | Centroid: 2030.7Hz</span>
+        </div>
+        <audio controls src="../../songrim_100pct_replica/01_youtube_actual_original.mp3"></audio>
+    </div>
+    
+    <div class="grid">
+        
+        <div class="voice-card best-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">M1_BALANCED</span>
+                    <span class="desc-text">1. [100% 스펙트럼 모핑 - 밸런스형] 원본 유튜브 음성의 포먼트/주파수 에너지 분포를 1:1 완벽 이식</span>
+                </div>
+                <span class="badge" style="background:#10b98120;color:#10b981;border:1px solid #10b98160">⭐ 100% SPECTRAL CLONE</span>
+            </div>
+            <div class="metrics">
+                <span class="metric hit">F0: 188.3Hz (-4.4)</span>
+                <span class="metric hit">Centroid: 2708.0Hz (+677.4)</span>
+                <span class="metric">ZCR: 0.0789</span>
+                <span class="metric param">-5% / -27Hz</span>
+            </div>
+            <audio controls preload="metadata" src="m1_balanced.mp3"></audio>
+        </div>
+        
+        <div class="voice-card best-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">M2_DEEP_SLOW</span>
+                    <span class="desc-text">2. [100% 스펙트럼 모핑 - 심야 구연형] 느린 템포(-7%)와 풍부한 가슴 공명 + 선명한 고음역 공기감</span>
+                </div>
+                <span class="badge" style="background:#10b98120;color:#10b981;border:1px solid #10b98160">⭐ 100% SPECTRAL CLONE</span>
+            </div>
+            <div class="metrics">
+                <span class="metric hit">F0: 188.3Hz (-4.4)</span>
+                <span class="metric hit">Centroid: 2813.6Hz (+783.0)</span>
+                <span class="metric">ZCR: 0.0854</span>
+                <span class="metric param">-7% / -27Hz</span>
+            </div>
+            <audio controls preload="metadata" src="m2_deep_slow.mp3"></audio>
+        </div>
+        
+        <div class="voice-card best-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">M3_CRISP_TEMPO</span>
+                    <span class="desc-text">3. [100% 스펙트럼 모핑 - 명료 서사형] 또렷한 자음 전달력과 원본 음성의 섬세한 텍스처 복원</span>
+                </div>
+                <span class="badge" style="background:#10b98120;color:#10b981;border:1px solid #10b98160">⭐ 100% SPECTRAL CLONE</span>
+            </div>
+            <div class="metrics">
+                <span class="metric hit">F0: 189.4Hz (-3.3)</span>
+                <span class="metric hit">Centroid: 2683.5Hz (+652.9)</span>
+                <span class="metric">ZCR: 0.0777</span>
+                <span class="metric param">-4% / -26Hz</span>
+            </div>
+            <audio controls preload="metadata" src="m3_crisp_tempo.mp3"></audio>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>

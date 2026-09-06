@@ -8,10 +8,11 @@
     "avatar_path": "",
     "emotion": "비장함과 고요",
     "slide_screen_text": "한양 북촌 명문가의 안주인이었던 윤씨 마님, 하루아침에 역모의 누명을 쓰고 쫓겨나다.",
-    "voice_script": "옛날 옛적, ... 한양 북촌 명문가의 어질고 고왔던 윤씨 마님이, 하루아침에 억울한 역모의 누명을 쓰고, ... 첩첩산중 깊은 산골로 쫓겨나고 말았습니다, ... 차가운 달빛조차 서럽게 얼어붙던, ... 어느 쓸쓸한 늦가을 밤의 비극이었습니다.",
+    "voice_script": "옛날 옛적... 한양 북촌 명문가의 어질고 고왔던 윤씨 마님이, 하루아침에 억울한 역모의 누명을 쓰고... 첩첩산중 깊은 산골로 쫓겨나고 말았습니다. 차가운 달빛조차 서럽게 얼어붙던... 어느 쓸쓸한 늦가을 밤의 비극이었습니다.",
     "audio_path": "output/audio/slide_001.mp3",
-    "audio_duration": 26.349,
-    "subtitle_path": "output/subtitles/slide_001.srt"
+    "audio_duration": 20.78,
+    "subtitle_path": "output/subtitles/slide_001.srt",
+    "phonetic_script": "옛날 옛적, ... 한양 북촌 명문가에 어질고 고왔던 윤씨 마님이, 하루아침에 억울한 역모에 누명을 쓰고, ... 첩첩산중 깊은 산꼴로 쫓겨나고 말았습니다. 차가운 달삣조차 서럽게 얼어붙던, ... 어느 쓸쓸한 늦가을 밤에 비극이었습니다."
   },
   {
     "slide_index": 2,
@@ -22,10 +23,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "비통과 눈물",
     "slide_screen_text": "가문도, 재물도 모두 잃었거늘 이제 이 가련한 목숨 하나 부지해 무엇하겠는가.",
-    "voice_script": "살을 에는 비바람이 들이치는 차가운 흙바닥에 주저앉아, 마님은 피눈물을 삼키며 하염없이 흐느꼈습니다. 가문과 재물을 모두 잃어버리고 홀로 남겨진 슬픔에, 가련한 목숨마저 놓아버리고 싶을 만큼 절망적인 밤이었습니다. 백 년을 이어온 명문가의 영화는, 그렇게 한 줌 잿더미가 되어 허망하게 흩어지고 말았습니다.",
+    "voice_script": "살을 에는 비바람이 들이치는 차가운 흙바닥에 주저앉아, 마님은 피눈물을 삼키며... 하염없이 흐느꼈습니다. 가문과 재물을 모두 잃어버리고, 홀로 남겨진 슬픔에... 가련한 목숨마저 놓아버리고 싶을 만큼, 절망적인 밤이었습니다. 백 년을 이어온 명문가의 영화는, 그렇게 한 줌 잿더미가 되어... 허망하게 흩어지고 말았습니다.",
     "audio_path": "output/audio/slide_002.mp3",
-    "audio_duration": 32.301,
-    "subtitle_path": "output/subtitles/slide_002.srt"
+    "audio_duration": 28.18,
+    "subtitle_path": "output/subtitles/slide_002.srt",
+    "phonetic_script": "살을 에는 비바람이 들이치는 차가운 흑빠다게 주저앉아, 마님은 피눈물을 삼키며, ... 하염없이 흐느꼈습니다. 가문과 재물을 모두 잃어버리고, 홀로 남겨진 슬픔에, ... 가련한 목숨마저 놓아버리고 싶을 만큼, 절망적인 밤이었습니다. 뱅 년을 이어온 명문가에 영화는, 그렇게 한 줌 잳떠미가 되어, ... 허망하게 흩어지고 말았습니다."
   },
   {
     "slide_index": 3,
@@ -36,10 +38,11 @@
     "avatar_path": "",
     "emotion": "적막함",
     "slide_screen_text": "화려했던 비단옷은 흙탕물에 찢기고, 수많은 노비와 친척들은 모두 마님을 외면했습니다.",
-    "voice_script": "곱디곱던 비단옷은 흙탕물에 찢기고, ... 평소 머리를 조아리던 친척과 노비들마저 역적의 집안이라 손가락질하며, 뒤도 돌아보지 않고 뿔뿔이 달아나 버렸습니다, ...",
+    "voice_script": "곱디곱던 비단옷은 흙탕물에 찢기고... 평소 머리를 조아리던 친척과 노비들마저, 역적의 집안이라 손가락질하며... 뒤도 돌아보지 않고, 뿔뿔이 달아나 버렸습니다.",
     "audio_path": "output/audio/slide_003.mp3",
-    "audio_duration": 17.301,
-    "subtitle_path": "output/subtitles/slide_003.srt"
+    "audio_duration": 14.38,
+    "subtitle_path": "output/subtitles/slide_003.srt",
+    "phonetic_script": "곱디곱던 비단오슨 흙탕물에 찢기고, ... 평소 머리를 조아리던 친척과 노비들마저, 역적에 집안이라 손까락질하며, ... 뒤도 돌아보지 않고, 뿔뿔이 달아나 버렸습니다."
   },
   {
     "slide_index": 4,
@@ -50,10 +53,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "결연함",
     "slide_screen_text": "마님! 소인 돌쇠가 여기 있사옵니다. 결코 마님을 홀로 두지 않을 것입니다.",
-    "voice_script": "그때, 어둠을 뚫고 거친 숨을 몰아쉬며 한 사내가 달려왔습니다, ... 대감댁에서 가장 궂은일을 도맡아 하던, 우직하고 충직한 머슴 돌쇠였습니다, ...",
+    "voice_script": "그때, 어둠을 뚫고 거친 숨을 몰아쉬며... 한 사내가 달려왔습니다. 대감댁에서 가장 궂은일을 도맡아 하던, 우직하고 충직한 머슴... 돌쇠였습니다.",
     "audio_path": "output/audio/slide_004.mp3",
-    "audio_duration": 16.077,
-    "subtitle_path": "output/subtitles/slide_004.srt"
+    "audio_duration": 16.5,
+    "subtitle_path": "output/subtitles/slide_004.srt",
+    "phonetic_script": "그때, 어둠을 뚫고 거친 숨을 몰아쉬며, ... 한 사내가 달려왔습니다. 대감댁에서 가장 구즈니를 도맡아 하던, 우직하고 충직한 머슴, ... 돌쇠였습니다."
   },
   {
     "slide_index": 5,
@@ -64,10 +68,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "만류와 애환",
     "slide_screen_text": "돌쇠야, 어서 도망치거라. 나와 함께 있다가는 너마저 목숨을 부지하지 못한다.",
-    "voice_script": "마님은 피눈물을 흘리며, 자신과 함께 있으면 위험하니 어서 도망쳐 목숨을 부지하라며 돌쇠를 애타게 밀쳐냈습니다.",
+    "voice_script": "마님은 피눈물을 흘리며, 자신과 함께 있으면 위험하니... 어서 도망쳐 목숨을 부지하라며, 돌쇠를 애타게 밀쳐냈습니다.",
     "audio_path": "output/audio/slide_005.mp3",
-    "audio_duration": 12.621,
-    "subtitle_path": "output/subtitles/slide_005.srt"
+    "audio_duration": 11.3,
+    "subtitle_path": "output/subtitles/slide_005.srt",
+    "phonetic_script": "마님은 피눈물을 흘리며, 자신과 함께 있으면 위험하니, ... 어서 도망쳐 목숨을 부지하라며, 돌쇠를 애타게 밀쳐냈습니다."
   },
   {
     "slide_index": 6,
@@ -78,10 +83,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "충심과 헌신",
     "slide_screen_text": "소인은 대감마님과 마님의 은혜로 목숨을 건진 몸입니다. 목숨이 다하는 날까지 마님을 모실 따름입니다.",
-    "voice_script": "하지만, 돌쇠는 차가운 땅바닥에 무릎을 꿇고 엎드려, 대감마님과 마님께 입은 은혜가 태산과 같으니 목숨이 다하는 날까지 결코 곁을 떠나지 않겠노라 굳게 맹세했습니다.",
+    "voice_script": "하지만, 돌쇠는 차가운 땅바닥에 무릎을 꿇고 엎드려... 대감마님과 마님께 입은 은혜가 태산과 같으니, 목숨이 다하는 날까지... 결코 곁을 떠나지 않겠노라, 굳게 맹세했습니다.",
     "audio_path": "output/audio/slide_006.mp3",
-    "audio_duration": 16.989,
-    "subtitle_path": "output/subtitles/slide_006.srt"
+    "audio_duration": 17.42,
+    "subtitle_path": "output/subtitles/slide_006.srt",
+    "phonetic_script": "하지만, 돌쇠는 차가운 땅바닥에 무르플 꿀코 엎드려, ... 대감마님과 마님께 입은 은혜가 태산과 같으니, 목숨이 다하는 날까지, ... 결코 곁을 떠나지 않겠노라, 굳게 맹세했습니다."
   },
   {
     "slide_index": 7,
@@ -92,10 +98,11 @@
     "avatar_path": "",
     "emotion": "애잔함",
     "slide_screen_text": "첩첩산중 강원도 골짜기, 버려진 빈 오두막. 두 사람의 험난한 피난살이가 시작되다.",
-    "voice_script": "포졸들의 서슬 퍼런 칼날을 피해 당도한 곳은, ... 인적이 완전히 끊긴 강원도 첩첩산중, 바람만 휑하니 드나드는 무너져가는 낡은 귀틀집이었답니다, ...",
+    "voice_script": "포졸들의 서슬 퍼런 칼날을 피해 당도한 곳은... 인적이 완전히 끊긴 강원도 첩첩산중, 바람만 휑하니 드나드는... 무너져가는 낡은 귀틀집이었습니다.",
     "audio_path": "output/audio/slide_007.mp3",
-    "audio_duration": 15.117,
-    "subtitle_path": "output/subtitles/slide_007.srt"
+    "audio_duration": 14.18,
+    "subtitle_path": "output/subtitles/slide_007.srt",
+    "phonetic_script": "포졸들에 서슬 퍼런 칼날을 피해 당도한 곳은, ... 인적이 완전히 끊긴 강원도 첩첩산중, 바람만 휑하니 드나드는, ... 무너져가는 낡은 귀틀찝이었습니다."
   },
   {
     "slide_index": 8,
@@ -106,10 +113,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "부지런함",
     "slide_screen_text": "돌쇠는 피투성이가 된 맨손으로 갈대를 베어 지붕을 얹고, 황토를 개어 벽의 틈새를 메우기 시작했습니다.",
-    "voice_script": "돌쇠는 밤낮을 가리지 않고 맨손으로 갈대를 베어 지붕을 얹고, ... 얼어붙은 흙을 파내어 벽 틈새의 살을 에는 칼바람을 하나하나 막아냈습니다, ...",
+    "voice_script": "돌쇠는 밤낮을 가리지 않고, 맨손으로 갈대를 베어 지붕을 얹고... 얼어붙은 흙을 파내어, 벽 틈새의 살을 에는 칼바람을 하나하나 막아냈습니다.",
     "audio_path": "output/audio/slide_008.mp3",
-    "audio_duration": 15.429,
-    "subtitle_path": "output/subtitles/slide_008.srt"
+    "audio_duration": 14.66,
+    "subtitle_path": "output/subtitles/slide_008.srt",
+    "phonetic_script": "돌쇠는 밤나즐 가리지 않고, 맨손으로 갈때를 베어 지붕을 얹고, ... 얼어붙은 흘글 파내어, 벽 틈새에 살을 에는 칼바람을 하나하나 막아냈습니다."
   },
   {
     "slide_index": 9,
@@ -120,10 +128,11 @@
     "avatar_path": "",
     "emotion": "따스함",
     "slide_screen_text": "방 한 켠에 온기가 돌고, 작은 불씨 하나가 두 사람의 희망을 밝혔습니다.",
-    "voice_script": "며칠 동안 쉼 없이 땀을 쏟은 끝에, ... 방 한구석에 은은한 온기가 돌기 시작했고, 타닥타닥 타오르는 작은 아궁이 불씨가 두 사람의 희망을 밝혔습니다.",
+    "voice_script": "며칠 동안 쉼 없이 땀을 쏟은 끝에... 방 한구석에 은은한 온기가 돌기 시작했고, 타닥타닥 타오르는 작은 아궁이 불씨가... 두 사람의 희망을 밝혔습니다.",
     "audio_path": "output/audio/slide_009.mp3",
-    "audio_duration": 15.813,
-    "subtitle_path": "output/subtitles/slide_009.srt"
+    "audio_duration": 14.54,
+    "subtitle_path": "output/subtitles/slide_009.srt",
+    "phonetic_script": "며칠 동안 쉼 없이 땀을 쏟은 끝에, ... 방 한구석에 은은한 온기가 돌기 시작했고, 타닥타닥 타오르는 작은 아궁이 불씨가, ... 두 사람에 희망을 밝혔습니다."
   },
   {
     "slide_index": 10,
@@ -134,10 +143,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "미안함과 고마움",
     "slide_screen_text": "돌쇠야, 손이 온통 상처투성이구나 나 같은 죄인을 위해 어찌 이리 고생을 한단 말이냐.",
-    "voice_script": "비바람을 막느라 온통 피투성이가 된 돌쇠의 거친 손을 본 마님은, 죄인이나 다름없는 자신을 위해 어찌 이리 헌신하느냐며 가슴 아파했습니다.",
+    "voice_script": "비바람을 막느라 온통 피투성이가 된 돌쇠의 거친 손을 본 마님은... 죄인이나 다름없는 자신을 위해 어찌 이리 헌신하느냐며, 가슴 아파했습니다.",
     "audio_path": "output/audio/slide_010.mp3",
-    "audio_duration": 14.013,
-    "subtitle_path": "output/subtitles/slide_010.srt"
+    "audio_duration": 12.86,
+    "subtitle_path": "output/subtitles/slide_010.srt",
+    "phonetic_script": "비바람을 막느라 온통 피투성이가 된 돌쇠에 거친 손을 본 마님은, ... 죄인이나 다름없는 자신을 위해 어찌 이리 헌신하느냐며, 가슴 아파했습니다."
   },
   {
     "slide_index": 11,
@@ -148,10 +158,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "미소와 위로",
     "slide_screen_text": "소인은 머슴이라 살갗이 질깁니다. 마님께서 따뜻하시면 그것으로 족하옵니다.",
-    "voice_script": "돌쇠는 황급히 상처 난 손을, 등 뒤로 감추며, 자신은 살갗이 질긴 머슴이니 마님께서는 부디 몸조심에만 마음을 쓰시라며 안심시켜 드렸습니다.",
+    "voice_script": "돌쇠는 황급히 상처 난 손을 등 뒤로 감추며... 자신은 살갗이 질긴 머슴이니, 마님께서는 부디 몸조심에만 마음을 쓰시라며 안심시켜 드렸습니다.",
     "audio_path": "output/audio/slide_011.mp3",
-    "audio_duration": 15.093,
-    "subtitle_path": "output/subtitles/slide_011.srt"
+    "audio_duration": 14.06,
+    "subtitle_path": "output/subtitles/slide_011.srt",
+    "phonetic_script": "돌쇠는 황급히 상처 난 손을 등 뒤로 감추며, ... 자신은 살까치 질긴 머슴이니, 마님께서는 부디 몸조심에만 마음을 쓰시라며 안심시켜 드렸습니다."
   },
   {
     "slide_index": 12,
@@ -162,10 +173,11 @@
     "avatar_path": "",
     "emotion": "냉혹한 현실",
     "slide_screen_text": "하지만 산골의 겨울은 혹독했고, 당장 먹을 곡식 한 톨 남아있지 않았습니다.",
-    "voice_script": "하지만, 산골의 겨울은 너무나 매서웠고, ... 당장 끼니를 이을 곡식 한 톨 남아있지 않아, 텅 빈 곳간에는 차가운 북풍만이 맴돌았지요, ...",
+    "voice_script": "하지만, 산골의 겨울은 너무나 매서웠고... 당장 끼니를 이을 곡식 한 톨 남아있지 않아, 텅 빈 곳간에는... 차가운 북풍만이 맴돌았습니다.",
     "audio_path": "output/audio/slide_012.mp3",
-    "audio_duration": 15.045,
-    "subtitle_path": "output/subtitles/slide_012.srt"
+    "audio_duration": 13.54,
+    "subtitle_path": "output/subtitles/slide_012.srt",
+    "phonetic_script": "하지만, 산꼴에 겨울은 너무나 매서웠고, ... 당장 끼니를 이을 곡식 한 톨 남아있지 않아, 텅 빈 곳간에는, ... 차가운 북풍만이 맴돌았습니다."
   },
   {
     "slide_index": 13,
@@ -176,10 +188,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "강인한 의지",
     "slide_screen_text": "돌쇠는 험준한 눈 덮인 바위산을 매일같이 오르내리며 칡뿌리와 약초를 캐어 마님께 바쳤습니다.",
-    "voice_script": "돌쇠는 눈보라 치는 험준한 바위산을 헤매며, 꽁꽁 얼어붙은 땅을 손톱이 부러지도록 파내어, 칡뿌리와 귀한 산약초를 캐내어 마님께 바쳤습니다.",
+    "voice_script": "돌쇠는 눈보라 치는 험준한 바위산을 헤매며... 꽁꽁 얼어붙은 땅을 손톱이 부러지도록 파내어, 칡뿌리와 귀한 산약초를 캐내어... 마님께 바쳤습니다.",
     "audio_path": "output/audio/slide_013.mp3",
-    "audio_duration": 14.997,
-    "subtitle_path": "output/subtitles/slide_013.srt"
+    "audio_duration": 14.3,
+    "subtitle_path": "output/subtitles/slide_013.srt",
+    "phonetic_script": "돌쇠는 눈보라 치는 험준한 바위산을 헤매며, ... 꽁꽁 얼어붙은 땅을 손톱이 부러지도록 파내어, 칡뿌리와 귀한 산냑초를 캐내어, ... 마님께 바쳤습니다."
   },
   {
     "slide_index": 14,
@@ -190,10 +203,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "염려",
     "slide_screen_text": "날이 저물었는데 아직 돌아오지 않다니 혹 산짐승이라도 만난 것은 아닐까.",
-    "voice_script": "어둠이 짙게 내려앉아도 돌쇠가 돌아오지 않자, ... 마님은 혹여 산짐승이라도 만난 것은 아닌지, 문밖을 서성이며 뜬눈으로 밤을 지새웠지요, ...",
+    "voice_script": "어둠이 짙게 내려앉아도 돌쇠가 돌아오지 않자... 마님은 혹여 산짐승이라도 만난 것은 아닌지, 문밖을 서성이며... 뜬눈으로 밤을 지새웠습니다.",
     "audio_path": "output/audio/slide_014.mp3",
-    "audio_duration": 15.021,
-    "subtitle_path": "output/subtitles/slide_014.srt"
+    "audio_duration": 13.22,
+    "subtitle_path": "output/subtitles/slide_014.srt",
+    "phonetic_script": "어둠이 짙게 내려앉아도 돌쇠가 돌아오지 않자, ... 마님은 혹여 산찜슴이라도 만난 것은 아닌지, 문바끌 서성이며, ... 뜬눈으로 밤을 지새웠습니다."
   },
   {
     "slide_index": 15,
@@ -204,10 +218,11 @@
     "avatar_path": "",
     "emotion": "감동",
     "slide_screen_text": "눈보라를 헤치고 돌아온 돌쇠의 품 안에는 마님을 위한 따뜻한 산새 알과 산삼 한 뿌리가 안겨 있었습니다.",
-    "voice_script": "자정이 넘어서야 눈보라를 뚫고 돌아온 돌쇠의 품속에는, ... 자신의 뜨거운 체온으로 따스하게 품어온 산새 알과 귀한 산삼 한 뿌리가 안겨 있었습니다.",
+    "voice_script": "자정이 넘어서야 눈보라를 뚫고 돌아온 돌쇠의 품속에는... 자신의 뜨거운 체온으로 따스하게 품어온 산새 알과, 귀한 산삼 한 뿌리가 안겨 있었습니다.",
     "audio_path": "output/audio/slide_015.mp3",
-    "audio_duration": 15.405,
-    "subtitle_path": "output/subtitles/slide_015.srt"
+    "audio_duration": 13.62,
+    "subtitle_path": "output/subtitles/slide_015.srt",
+    "phonetic_script": "자정이 넘어서야 눈보라를 뚫고 돌아온 돌쇠에 품속에는, ... 자신에 뜨거운 체온으로 따스하게 품어온 산쌔알과, 귀한 산삼 한 뿌리가 안겨 있었습니다."
   },
   {
     "slide_index": 16,
@@ -218,10 +233,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "오열",
     "slide_screen_text": "너는 어찌하여 네 목숨을 돌보지 않는단 말이냐! 네가 죽으면 나 혼자 살아 무엇하겠느냐!",
-    "voice_script": "꽁꽁 얼어붙은 돌쇠의 젖은 옷자락을 쥔 마님은, 험한 눈보라 속에 목숨을 아끼지 않고 먹을 것을 구해온 그 정성에 북받치는 눈물을 떨구었습니다.",
+    "voice_script": "꽁꽁 얼어붙은 돌쇠의 젖은 옷자락을 쥔 마님은... 험한 눈보라 속에 목숨을 아끼지 않고 먹을 것을 구해온 그 정성에, 북받치는 눈물을 떨구었습니다.",
     "audio_path": "output/audio/slide_016.mp3",
-    "audio_duration": 14.733,
-    "subtitle_path": "output/subtitles/slide_016.srt"
+    "audio_duration": 15.22,
+    "subtitle_path": "output/subtitles/slide_016.srt",
+    "phonetic_script": "꽁꽁 얼어붙은 돌쇠에 젖은 옷자락을 쥔 마님은, ... 험한 눈보라 속에 목숨을 아끼지 않고 먹을 것을 구해온 그 정성에, 북받치는 눈물을 떨구었습니다."
   },
   {
     "slide_index": 17,
@@ -232,10 +248,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "굳건한 맹세",
     "slide_screen_text": "마님, 부디 살아만 계셔 주십시오. 반드시 억울함을 씻고 한양으로 돌아가실 날이 올 것입니다.",
-    "voice_script": "돌쇠는 주먹을 불끈 쥐며, 마님께서 살아만 계셔 주신다면 어떤 험산 준령이라도 기꺼이 헤치고 나가겠노라 묵묵히 다짐했습니다.",
+    "voice_script": "돌쇠는 주먹을 불끈 쥐며... 마님께서 살아만 계셔 주신다면, 어떤 험산 준령이라도 기꺼이 헤치고 나가겠노라... 묵묵히 다짐했습니다.",
     "audio_path": "output/audio/slide_017.mp3",
-    "audio_duration": 13.677,
-    "subtitle_path": "output/subtitles/slide_017.srt"
+    "audio_duration": 11.54,
+    "subtitle_path": "output/subtitles/slide_017.srt",
+    "phonetic_script": "돌쇠는 주먹을 불끈 쥐며, ... 마님께서 살아만 계셔 주신다면, 어떤 험산 준령이라도 기꺼이 헤치고 나가겠노라, ... 묵묵히 다짐했습니다."
   },
   {
     "slide_index": 18,
@@ -246,10 +263,11 @@
     "avatar_path": "",
     "emotion": "의문과 복선",
     "slide_screen_text": "그런데 이 우직한 머슴 돌쇠에게는 마님조차 알지 못하는 은밀한 비밀이 숨겨져 있었습니다.",
-    "voice_script": "그런데 이 우직한 머슴 돌쇠에게는, ... 마님조차 알지 못하는 커다란 비밀이 숨겨져 있었으니, 그의 눈빛엔 범상치 않은 기품이 서려 있었습니다.",
+    "voice_script": "그런데, 이 우직한 머슴 돌쇠에게는... 마님조차 알지 못하는 커다란 비밀이 숨겨져 있었으니, 그의 눈빛엔 범상치 않은 기품이 서려 있었습니다.",
     "audio_path": "output/audio/slide_018.mp3",
-    "audio_duration": 15.549,
-    "subtitle_path": "output/subtitles/slide_018.srt"
+    "audio_duration": 13.86,
+    "subtitle_path": "output/subtitles/slide_018.srt",
+    "phonetic_script": "그런데, 이 우직한 머슴 돌쇠에게는, ... 마님조차 알지 못하는 커다란 비밀이 숨겨져 있었으니, 그에 눈삐첸 범상치 않은 기품이 서려 있었습니다."
   },
   {
     "slide_index": 19,
@@ -260,10 +278,11 @@
     "avatar_path": "",
     "emotion": "긴장감",
     "slide_screen_text": "깊은 밤, 마님이 잠든 사이 오두막 뒤편 바위굴에서 돌쇠는 홀로 붓을 쥐고 글을 써 내려가고 있었습니다.",
-    "voice_script": "깊은 밤, 마님이 잠든 사이 바위굴 속에서 홀로 붓을 든 돌쇠는, ... 한양의 대제학조차 감탄할 힘차고 유려한 명문장을 거침없이 써 내려갔지요, ...",
+    "voice_script": "깊은 밤, 마님이 잠든 사이 바위굴 속에서 홀로 붓을 든 돌쇠는... 한양의 대제학조차 감탄할, 힘차고 유려한 명문장을 거침없이 써 내려갔습니다.",
     "audio_path": "output/audio/slide_019.mp3",
-    "audio_duration": 16.653,
-    "subtitle_path": "output/subtitles/slide_019.srt"
+    "audio_duration": 15.26,
+    "subtitle_path": "output/subtitles/slide_019.srt",
+    "phonetic_script": "깊은 밤, 마님이 잠든 사이 바위굴 속에서 홀로 붓을 든 돌쇠는, ... 한양에 대제학조차 감탄할, 힘차고 유려한 명문장을 거침없이 써 내려갔습니다."
   },
   {
     "slide_index": 20,
@@ -274,10 +293,11 @@
     "avatar_path": "",
     "emotion": "기대와 여운",
     "slide_screen_text": "머슴의 탈을 쓴 사내, 그의 정체는 과연 누구인가? 그리고 마님을 향한 그의 진짜 계획은 무엇일까?",
-    "voice_script": "머슴의 탈을 쓴 의문의 사내, 그의 진짜 정체는 과연 누구이며, 마님을 향한 진짜 계획은 무엇이었을까요... 숨겨진 진실은 다음, 제2막으로 이어집니다.",
+    "voice_script": "머슴의 탈을 쓴 의문의 사내... 그의 진짜 정체는 과연 누구이며, 마님을 향한 진짜 계획은 무엇이었을까요. 숨겨진 진실은 다음... 제2막으로 이어집니다.",
     "audio_path": "output/audio/slide_020.mp3",
-    "audio_duration": 17.733,
-    "subtitle_path": "output/subtitles/slide_020.srt"
+    "audio_duration": 14.3,
+    "subtitle_path": "output/subtitles/slide_020.srt",
+    "phonetic_script": "머슴에 탈을 쓴 의문에 사내, ... 그에 진짜 정체는 과연 누구이며, 마님을 향한 진짜 계획은 무엇이었을까요. 숨겨진 진실은 다음, ... 제2막으로 이어집니다."
   },
   {
     "slide_index": 21,
@@ -288,10 +308,11 @@
     "avatar_path": "",
     "emotion": "긴장감",
     "slide_screen_text": "김판서의 가슴을 짓누르는 불안감. 윤씨 마님이 살아있다니 완전한 범죄를 위한 추격의 서막.",
-    "voice_script": "한편, 윤씨 가문을 모함하고 권세를 쥔 김판서는, ... 윤씨 마님이 깊은 산골에 살아있다는 소문이 돌자, 남몰래 불안감에 휩싸이기 시작했습니다, ...",
+    "voice_script": "한편, 윤씨 가문을 모함하고 권세를 쥔 김판서는... 윤씨 마님이 깊은 산골에 살아있다는 소문이 돌자, 남몰래 불안감에 휩싸이기 시작했습니다.",
     "audio_path": "output/audio/slide_021.mp3",
-    "audio_duration": 16.269,
-    "subtitle_path": "output/subtitles/slide_021.srt"
+    "audio_duration": 13.78,
+    "subtitle_path": "output/subtitles/slide_021.srt",
+    "phonetic_script": "한편, 윤씨 가문을 모함하고 권세를 쥔 김판서는, ... 윤씨 마님이 깊은 산꼴에 살아있다는 소문이 돌자, 남몰래 불안감에 휩싸이기 시작했습니다."
   },
   {
     "slide_index": 22,
@@ -302,10 +323,11 @@
     "avatar_path": "assets/gim_panseo_avatar.jpg",
     "emotion": "냉혹",
     "slide_screen_text": "그 계집과 머슴 놈을 찾아내어 흔적도 없이 없애거라!",
-    "voice_script": "권세를 쥔 김판서는 사병들을 불러 모아, 쫓겨난 마님과 머슴을 샅샅이 뒤져 단 한 놈도 살려두지 말라는 서슬 퍼런 추살령을 내렸습니다.",
+    "voice_script": "권세를 쥔 김판서는 사병들을 불러 모아... 쫓겨난 마님과 머슴을 샅샅이 뒤져, 단 한 놈도 살려두지 말라는... 서슬 퍼런 추살령을 내렸습니다.",
     "audio_path": "output/audio/slide_022.mp3",
-    "audio_duration": 13.125,
-    "subtitle_path": "output/subtitles/slide_022.srt"
+    "audio_duration": 12.54,
+    "subtitle_path": "output/subtitles/slide_022.srt",
+    "phonetic_script": "권세를 쥔 김판서는 사병들을 불러 모아, ... 쫓겨난 마님과 머슴을 샅샅이 뒤져, 단 한 놈도 살려두지 말라는, ... 서슬 퍼런 추살령을 내렸습니다."
   },
   {
     "slide_index": 23,
@@ -316,10 +338,11 @@
     "avatar_path": "",
     "emotion": "긴장감",
     "slide_screen_text": "어둠을 뚫고 타오르는 붉은 횃불들. 사냥개처럼 좁혀오는 추격의 발자국. 강원도 깊은 산골로 향하는 사병들.",
-    "voice_script": "어둠을 가르는 붉은 횃불과 날카로운 쇠붙이 소리가 산골로 좁혀오며, ... 조용하던 오두막 주변으로 차가운 살기가 소리 없이 스며들었지요, ...",
+    "voice_script": "어둠을 가르는 붉은 횃불과 날카로운 쇠붙이 소리가 산골로 좁혀오며... 조용하던 오두막 주변으로, 차가운 살기가 소리 없이 스며들었습니다.",
     "audio_path": "output/audio/slide_023.mp3",
-    "audio_duration": 14.349,
-    "subtitle_path": "output/subtitles/slide_023.srt"
+    "audio_duration": 13.98,
+    "subtitle_path": "output/subtitles/slide_023.srt",
+    "phonetic_script": "어둠을 가르는 붉은 홷뿔과 날카로운 쇠부치 쏘리가 산꼴로 좁혀오며, ... 조용하던 오두막 주변으로, 차가운 살기가 소리 없이 스며들었습니다."
   },
   {
     "slide_index": 24,
@@ -330,10 +353,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "공포",
     "slide_screen_text": "돌쇠야 바람 소리가 심상치 않구나. 마치 살기등등한 짐승이 울부짖는 듯해",
-    "voice_script": "창밖의 심상치 않은 바람 소리에 마님은 몸을 떨었고, ... 살기등등한 기운이 산을 타고 넘어오는 불길한 예감에 가슴을 졸였습니다, ...",
+    "voice_script": "창밖의 심상치 않은 바람 소리에 마님은 몸을 떨었고... 살기등등한 기운이 산을 타고 넘어오는 불길한 예감에, 가슴을 졸였습니다.",
     "audio_path": "output/audio/slide_024.mp3",
-    "audio_duration": 13.797,
-    "subtitle_path": "output/subtitles/slide_024.srt"
+    "audio_duration": 11.1,
+    "subtitle_path": "output/subtitles/slide_024.srt",
+    "phonetic_script": "창바께 심상치 않은 바람 소리에 마님은 몸을 떨었고, ... 살기등등한 기운이 산을 타고 넘어오는 불길한 예감에, 가슴을 졸였습니다."
   },
   {
     "slide_index": 25,
@@ -344,10 +368,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "비장",
     "slide_screen_text": "마님, 불빛이 골짜기를 넘어오고 있습니다. 지체할 시간이 없습니다. 어서 피하셔야 합니다.",
-    "voice_script": "돌쇠는 문밖을 에워싼 횃불들을 예리하게 쏘아보며, 김판서의 수하들이 이미 산골 오두막까지 들이닥쳤음을 직감했습니다.",
+    "voice_script": "돌쇠는 문밖을 에워싼 횃불들을 예리하게 쏘아보며... 김판서의 수하들이 이미 산골 오두막까지 들이닥쳤음을 직감했습니다.",
     "audio_path": "output/audio/slide_025.mp3",
-    "audio_duration": 12.237,
-    "subtitle_path": "output/subtitles/slide_025.srt"
+    "audio_duration": 11.18,
+    "subtitle_path": "output/subtitles/slide_025.srt",
+    "phonetic_script": "돌쇠는 문바끌 에워싼 홷뿔드를 예리하게 쏘아보며, ... 김판서에 수하들이 이미 산꼴 오두막까지 들이닥쳤음을 직깜했습니다."
   },
   {
     "slide_index": 26,
@@ -358,10 +383,11 @@
     "avatar_path": "",
     "emotion": "긴장감",
     "slide_screen_text": "몰아치는 밤바람을 뚫고 달아나는 두 발걸음. 쇠약해진 마님을 등에 업은 돌쇠. 가차 없이 등 뒤를 좁혀오는 추격의 그림자.",
-    "voice_script": "폭설이 몰아치는 칠흑 같은 어둠 속에서, ... 돌쇠는 마님을 등에 업고, 미끄러운 낭떠러지 바위산 길을 거침없이 내달렸지요, ...",
+    "voice_script": "폭설이 몰아치는 칠흑 같은 어둠 속에서... 돌쇠는 마님을 등에 업고, 미끄러운 낭떠러지 바위산 길을 거침없이 내달렸습니다.",
     "audio_path": "output/audio/slide_026.mp3",
-    "audio_duration": 13.869,
-    "subtitle_path": "output/subtitles/slide_026.srt"
+    "audio_duration": 11.14,
+    "subtitle_path": "output/subtitles/slide_026.srt",
+    "phonetic_script": "폭써리 몰아치는 칠흑 같은 어둠 속에서, ... 돌쇠는 마님을 등에 업꼬, 미끄러운 낭떠러지 바위산 낄을 거침없이 내달렸습니다."
   },
   {
     "slide_index": 27,
@@ -372,10 +398,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "긴박",
     "slide_screen_text": "돌쇠야, 날 내려놓고 혼자 도망치거라 나 때문에 너까지 무고한 목숨을 버릴 순 없다.",
-    "voice_script": "사병들의 거친 고함과 횃불이, 등 뒤 턱밑까지 바짝 쫓아왔고, ... 한 발만 헛디뎌도 천길 낭떠러지인 아찔한 도주가 이어졌습니다.",
+    "voice_script": "사병들의 거친 고함과 횃불이 등 뒤 턱밑까지 바짝 쫓아왔고... 한 발만 헛디뎌도 천길 낭떠러지인, 아찔한 도주가 이어졌습니다.",
     "audio_path": "output/audio/slide_027.mp3",
-    "audio_duration": 13.605,
-    "subtitle_path": "output/subtitles/slide_027.srt"
+    "audio_duration": 12.26,
+    "subtitle_path": "output/subtitles/slide_027.srt",
+    "phonetic_script": "사병들에 거친 고함과 홷뿌리 등 뒤 텅믿까지 바짝 쫓아왔고, ... 한 발만 헛디뎌도 천길 낭떠러지인, 아찔한 도주가 이어졌습니다."
   },
   {
     "slide_index": 28,
@@ -386,10 +413,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "충직",
     "slide_screen_text": "마님, 그런 야속한 말씀은 거두어 주십시오. 소인은 끝까지 마님을 지키기로 맹세했습니다.",
-    "voice_script": "가쁜 숨을 몰아쉬는 돌쇠를 보며 마님은, 자신을 두고 홀로 달아나라며 거듭 눈물로 만류했습니다.",
+    "voice_script": "가쁜 숨을 몰아쉬는 돌쇠를 보며 마님은... 자신을 두고 홀로 달아나라며, 거듭 눈물로 만류했습니다.",
     "audio_path": "output/audio/slide_028.mp3",
-    "audio_duration": 10.509,
-    "subtitle_path": "output/subtitles/slide_028.srt"
+    "audio_duration": 8.82,
+    "subtitle_path": "output/subtitles/slide_028.srt",
+    "phonetic_script": "가쁜 숨을 몰아쉬는 돌쇠를 보며 마님은, ... 자신을 두고 홀로 달아나라며, 거듭 눈물로 만류했습니다."
   },
   {
     "slide_index": 29,
@@ -400,10 +428,11 @@
     "avatar_path": "",
     "emotion": "긴장감",
     "slide_screen_text": "이 근처가 분명하다! 흔적을 찾아라! 어둠 속에서 갈라지는 추격자들의 고함. 숨조차 크게 쉬지 못하는 절대절명의 순간.",
-    "voice_script": "돌쇠는 절벽 아래 거센 여울목으로 몸을 던졌고, ... 차가운 얼음장 물살을 온몸으로 가르며 필사적으로 건너편 숲으로 달아났습니다.",
+    "voice_script": "돌쇠는 절벽 아래 거센 여울목으로 몸을 던졌고... 차가운 얼음장 물살을 온몸으로 가르며, 필사적으로 건너편 숲으로 달아났습니다.",
     "audio_path": "output/audio/slide_029.mp3",
-    "audio_duration": 14.253,
-    "subtitle_path": "output/subtitles/slide_029.srt"
+    "audio_duration": 11.7,
+    "subtitle_path": "output/subtitles/slide_029.srt",
+    "phonetic_script": "돌쇠는 절벽 아래 거쎈 여울목으로 몸을 던졌고, ... 차가운 어름짱 물싸를 온몸으로 가르며, 필사적으로 건너편 숲으로 달아났습니다."
   },
   {
     "slide_index": 30,
@@ -414,10 +443,11 @@
     "avatar_path": "",
     "emotion": "긴장감",
     "slide_screen_text": "갑자기 쏟아지는 폭우와 사나운 뇌우. 산길 모퉁이에서 새어 나오는 희미한 불빛. 벼랑 끝에서 발견한 외딴 산골 주막.",
-    "voice_script": "산허리를 돌아 눈밭을 헤치고 내려오자, ... 저 멀리 눈보라 속에 희미하게 등불을 밝힌 외딴 산골 주막 한 채가 눈에 들어왔습니다, ...",
+    "voice_script": "산허리를 돌아 눈밭을 헤치고 내려오자... 저 멀리 눈보라 속에 희미하게 등불을 밝힌, 외딴 산골 주막 한 채가 눈에 들어왔습니다.",
     "audio_path": "output/audio/slide_030.mp3",
-    "audio_duration": 13.653,
-    "subtitle_path": "output/subtitles/slide_030.srt"
+    "audio_duration": 12.3,
+    "subtitle_path": "output/subtitles/slide_030.srt",
+    "phonetic_script": "산허리를 돌아 눈밭을 헤치고 내려오자, ... 저 멀리 눈보라 속에 희미하게 등뿔을 밝힌, 외딴 산꼴 주막 한 채가 눈에 들어왔습니다."
   },
   {
     "slide_index": 31,
@@ -428,10 +458,11 @@
     "avatar_path": "assets/nopa_avatar.jpg",
     "emotion": "경계",
     "slide_screen_text": "아니, 이 장대비 속에 웬 손님들이 일단 어서 안으로 들어오시오! 어서!",
-    "voice_script": "돌쇠는 젖은 몸으로 주막 사립문을 두드렸고, ... 문을 열고 나온 주막 노파, 월이댁은 사색이 된 두 사람을 보고 깜짝 놀랐습니다.",
+    "voice_script": "돌쇠는 젖은 몸으로 주막 사립문을 두드렸고... 문을 열고 나온 주막 노파, 월이댁은 사색이 된 두 사람을 보고 깜짝 놀랐습니다.",
     "audio_path": "output/audio/slide_031.mp3",
-    "audio_duration": 14.661,
-    "subtitle_path": "output/subtitles/slide_031.srt"
+    "audio_duration": 11.5,
+    "subtitle_path": "output/subtitles/slide_031.srt",
+    "phonetic_script": "돌쇠는 젖은 몸으로 주막 사림무늘 두드렸고, ... 문을 열고 나온 주막 노파, 월이땍은 사색이 된 두 사람을 보고 깜짝 놀랐습니다."
   },
   {
     "slide_index": 32,
@@ -442,10 +473,11 @@
     "avatar_path": "",
     "emotion": "안도",
     "slide_screen_text": "따뜻한 방 안으로 스며드는 안도의 온기. 피로와 상처로 얼룩진 두 사람을 말없이 거두어 주는 주막 노파.",
-    "voice_script": "마님의 파리해진 얼굴을 알아본 노파, 월이댁은, 어찌 이런 누추한 산골 주막까지 쫓겨 오셨느냐며 소스라치게 놀라 두 사람을 맞이했습니다.",
+    "voice_script": "마님의 파리해진 얼굴을 알아본 노파, 월이댁은... 어찌 이런 누추한 산골 주막까지 쫓겨 오셨느냐며, 소스라치게 놀라 두 사람을 맞이했습니다.",
     "audio_path": "output/audio/slide_032.mp3",
-    "audio_duration": 14.349,
-    "subtitle_path": "output/subtitles/slide_032.srt"
+    "audio_duration": 11.98,
+    "subtitle_path": "output/subtitles/slide_032.srt",
+    "phonetic_script": "마님에 파리해진 얼굴을 알아본 노파, 월이땍은, ... 어찌 이런 누추한 산꼴 주막까지 쫓겨 오셨느냐며, 소스라치게 놀라 두 사람을 맞이했습니다."
   },
   {
     "slide_index": 33,
@@ -456,10 +488,11 @@
     "avatar_path": "assets/nopa_avatar.jpg",
     "emotion": "놀람",
     "slide_screen_text": "아이고 마님 혹시 한양 북촌의 윤씨 마님이 아니십니까? 이 험한 곳에 어찌",
-    "voice_script": "알고 보니 월이댁은 옛날 윤씨 대감댁의 도움으로 목숨을 건졌던 여인으로, ... 은혜를 잊지 않고 늘 마님을 마음에 품고 살았지요, ...",
+    "voice_script": "알고 보니 월이댁은, 옛날 윤씨 대감댁의 도움으로 목숨을 건졌던 여인으로... 은혜를 잊지 않고, 늘 마님을 마음에 품고 살았습니다.",
     "audio_path": "output/audio/slide_033.mp3",
-    "audio_duration": 14.325,
-    "subtitle_path": "output/subtitles/slide_033.srt"
+    "audio_duration": 12.58,
+    "subtitle_path": "output/subtitles/slide_033.srt",
+    "phonetic_script": "알고 보니 월이땍은, 옛날 윤씨 대감댁에 도움으로 목숨을 건졌던 여인으로, ... 은혜를 잊지 않고, 늘 마님을 마음에 품고 살았습니다."
   },
   {
     "slide_index": 34,
@@ -470,10 +503,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "경계",
     "slide_screen_text": "나를 아시는가? 이 깊은 산골의 노파가 어찌 내 이름을",
-    "voice_script": "월이댁은 따뜻한 장국밥과 마른 옷을 정성껏 내어주며, 비록 누추한 주막이나 몸을 녹이고 기운을 차리시라며 마님을 극진히 위로했습니다.",
+    "voice_script": "월이댁은 따뜻한 장국밥과 마른 옷을 정성껏 내어주며... 비록 누추한 주막이나 몸을 녹이고 기운을 차리시라며, 마님을 극진히 위로했습니다.",
     "audio_path": "output/audio/slide_034.mp3",
-    "audio_duration": 14.205,
-    "subtitle_path": "output/subtitles/slide_034.srt"
+    "audio_duration": 12.78,
+    "subtitle_path": "output/subtitles/slide_034.srt",
+    "phonetic_script": "월이땍은 따뜻한 장국밥과 마른 옷을 정성껏 내어주며, ... 비록 누추한 주막이나 몸을 녹이고 기운을 차리시라며, 마님을 극진히 위로했습니다."
   },
   {
     "slide_index": 35,
@@ -484,10 +518,11 @@
     "avatar_path": "assets/nopa_avatar.jpg",
     "emotion": "비밀",
     "slide_screen_text": "소인은 10년 전 대감마님 댁 근처의 월이댁입니다. 김판서 그 악독한 자가 벌인 짓을 알고 있소!",
-    "voice_script": "추위 속에 뜨거운 국물을 삼키며 마님은, 이 험한 산골에서 뜻밖의 은인을 만난 것에 깊이 감사하며 참았던 눈물을 훔쳤습니다.",
+    "voice_script": "추위 속에 뜨거운 국물을 삼키며, 마님은... 이 험한 산골에서 뜻밖의 은인을 만난 것에 깊이 감사하며, 참았던 눈물을 훔쳤습니다.",
     "audio_path": "output/audio/slide_035.mp3",
-    "audio_duration": 12.789,
-    "subtitle_path": "output/subtitles/slide_035.srt"
+    "audio_duration": 11.46,
+    "subtitle_path": "output/subtitles/slide_035.srt",
+    "phonetic_script": "추위 속에 뜨거운 국물을 삼키며, 마님은, ... 이 험한 산꼴에서 뜻밖에 은인을 만난 것에 깊이 감사하며, 참았던 눈물을 훔쳤습니다."
   },
   {
     "slide_index": 36,
@@ -498,10 +533,11 @@
     "avatar_path": "",
     "emotion": "놀람",
     "slide_screen_text": "10년 전 가문을 무너뜨린 음모의 목격자. 기적처럼 드러난 과거의 실마리와 윤씨 대감의 무죄를 증명할 마지막 증인.",
-    "voice_script": "하지만, 그 순간, 밖에서 사나운 사병들의 말발굽 소리와 거친 칼바람이 주막 마당 앞까지 들이닥쳤지요, ...",
+    "voice_script": "하지만, 그 순간... 밖에서 사나운 사병들의 말발굽 소리와 거친 칼바람이, 주막 마당 앞까지 들이닥쳤습니다.",
     "audio_path": "output/audio/slide_036.mp3",
-    "audio_duration": 11.205,
-    "subtitle_path": "output/subtitles/slide_036.srt"
+    "audio_duration": 11.74,
+    "subtitle_path": "output/subtitles/slide_036.srt",
+    "phonetic_script": "하지만, 그 순간, ... 바께서 사나운 사병들에 말발굽 쏘리와 거친 칼바람이, 주막 마당 앞까지 들이닥쳤습니다."
   },
   {
     "slide_index": 37,
@@ -512,10 +548,11 @@
     "avatar_path": "assets/gim_panseo_avatar.jpg",
     "emotion": "살기",
     "slide_screen_text": "저기 불빛이 보이는구나! 주막과 주변 가옥들을 모조리 수색해라!",
-    "voice_script": "김판서의 사병 대장이 주막 사립문을 거칠게 걷어차며, 도망친 자들을 숨겨준 것이냐며 험악하게 칼을 뽑아 들었습니다.",
+    "voice_script": "김판서의 사병 대장이 주막 사립문을 거칠게 걷어차며... 도망친 자들을 숨겨준 것이냐며, 험악하게 칼을 뽑아 들었습니다.",
     "audio_path": "output/audio/slide_037.mp3",
-    "audio_duration": 11.997,
-    "subtitle_path": "output/subtitles/slide_037.srt"
+    "audio_duration": 10.62,
+    "subtitle_path": "output/subtitles/slide_037.srt",
+    "phonetic_script": "김판서에 사병 대장이 주막 사림무늘 거칠게 걷어차며, ... 도망친 자들을 숨겨준 것이냐며, 험악하게 칼을 뽑아 들었습니다."
   },
   {
     "slide_index": 38,
@@ -526,10 +563,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "긴박",
     "slide_screen_text": "놈들이 벌써 주막 근처까지 도달했습니다. 노파님, 혹시 몸을 숨길 수 있는 은밀한 곳이 없소?",
-    "voice_script": "돌쇠는 긴장한 눈빛으로 문틈을 살피며, 마님을 안전하게 숨길 수 있는 비밀스러운 장소가 있는지 월이댁에게 다급히 물었습니다.",
+    "voice_script": "돌쇠는 긴장한 눈빛으로 문틈을 살피며... 마님을 안전하게 숨길 수 있는 비밀스러운 장소가 있는지, 월이댁에게 다급히 물었습니다.",
     "audio_path": "output/audio/slide_038.mp3",
-    "audio_duration": 12.837,
-    "subtitle_path": "output/subtitles/slide_038.srt"
+    "audio_duration": 11.5,
+    "subtitle_path": "output/subtitles/slide_038.srt",
+    "phonetic_script": "돌쇠는 긴장한 눈삐츠로 문트믈 살피며, ... 마님을 안전하게 숨길 수 있는 비밀스러운 장소가 있는지, 월이땍에게 다급히 물었습니다."
   },
   {
     "slide_index": 39,
@@ -540,10 +578,11 @@
     "avatar_path": "assets/nopa_avatar.jpg",
     "emotion": "긴박",
     "slide_screen_text": "주막 뒤편 대나무 숲길로 가시오. 그 끝에 숨겨진 동굴이 있으니 어서 피하시오!",
-    "voice_script": "월이댁은 침착하게 주막 뒷문을 가리키며, 대나무 숲 끝자락에 사람의 발길이 닿지 않는 바위 동굴이 있으니 어서 피하라 일렀습니다.",
+    "voice_script": "월이댁은 침착하게 주막 뒷문을 가리키며... 대나무 숲 끝자락에 사람의 발길이 닿지 않는 바위 동굴이 있으니, 어서 피하라 일렀습니다.",
     "audio_path": "output/audio/slide_039.mp3",
-    "audio_duration": 12.453,
-    "subtitle_path": "output/subtitles/slide_039.srt"
+    "audio_duration": 13.02,
+    "subtitle_path": "output/subtitles/slide_039.srt",
+    "phonetic_script": "월이땍은 침착하게 주막 뒷문을 가리키며, ... 대나무 숲 끝자락에 사람에 발끼리 닿지 않는 바위 동굴이 있으니, 어서 피하라 일렀습니다."
   },
   {
     "slide_index": 40,
@@ -554,10 +593,11 @@
     "avatar_path": "",
     "emotion": "희망",
     "slide_screen_text": "빗속을 뚫고 대나무 숲길로 달리는 발걸음. 진실을 품은 노파의 의로운 결단. 스릴 넘치는 추격전의 끝에서 피어나는 작은 희망.",
-    "voice_script": "빗속을 뚫고 대나무 숲길로 달리는 발걸음, ... 노파의 의로운 결단 덕분에 두 사람은 또 한 번 절체절명의 위기를 넘길 수 있었습니다, ...",
+    "voice_script": "빗속을 뚫고 대나무 숲길로 달리는 발걸음... 노파의 의로운 결단 덕분에, 두 사람은 또 한 번 절체절명의 위기를 넘길 수 있었습니다.",
     "audio_path": "output/audio/slide_040.mp3",
-    "audio_duration": 14.925,
-    "subtitle_path": "output/subtitles/slide_040.srt"
+    "audio_duration": 13.34,
+    "subtitle_path": "output/subtitles/slide_040.srt",
+    "phonetic_script": "빗속을 뚫고 대나무 숩낄로 달리는 발꺼름, ... 노파에 의로운 결단 덕분에, 두 사람은 또 한 번 절체절명에 위기를 넘길 수 있었습니다."
   },
   {
     "slide_index": 41,
@@ -568,10 +608,11 @@
     "avatar_path": "",
     "emotion": "적막",
     "slide_screen_text": "대나무 숲 끝자락, 바위 동굴 속의 은신처. 빗소리만이 동굴 안을 가득 채우다.",
-    "voice_script": "대나무 숲 끝자락에 숨겨진 차가운 바위 동굴 속, ... 밖에서는 거친 빗줄기와 사병들의 횃불이 숲을 샅샅이 훑고 있었습니다.",
+    "voice_script": "대나무 숲 끝자락에 숨겨진 차가운 바위 동굴 속... 밖에서는 거친 빗줄기와 사병들의 횃불이, 숲을 샅샅이 훑고 있었습니다.",
     "audio_path": "output/audio/slide_041.mp3",
-    "audio_duration": 13.029,
-    "subtitle_path": "output/subtitles/slide_041.srt"
+    "audio_duration": 12.02,
+    "subtitle_path": "output/subtitles/slide_041.srt",
+    "phonetic_script": "대나무 숲 끝자락에 숨겨진 차가운 바위 동굴 속, ... 밖에서는 거친 비쭐기와 사병들에 홷뿌리, 숲을 삳싸치 훑고 있었습니다."
   },
   {
     "slide_index": 42,
@@ -582,10 +623,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "애잔",
     "slide_screen_text": "돌쇠야, 젖은 옷을 입고 있으면 병이 날 터이니 불씨라도 조금 지펴야 하지 않겠느냐.",
-    "voice_script": "입술이 파랗게 질린 마님은, 온통 젖은 옷을 입고 떨고 있는 돌쇠를 보며 불이라도 피워야 하지 않겠느냐며 걱정스러운 눈빛을 보냈습니다.",
+    "voice_script": "입술이 파랗게 질린 마님은, 온통 젖은 옷을 입고 떨고 있는 돌쇠를 보며... 불이라도 피워야 하지 않겠느냐며, 걱정스러운 눈빛을 보냈습니다.",
     "audio_path": "output/audio/slide_042.mp3",
-    "audio_duration": 14.685,
-    "subtitle_path": "output/subtitles/slide_042.srt"
+    "audio_duration": 11.82,
+    "subtitle_path": "output/subtitles/slide_042.srt",
+    "phonetic_script": "입술이 파랗게 질린 마님은, 온통 젖은 옷을 입고 떨고 있는 돌쇠를 보며, ... 불이라도 피워야 하지 않겠느냐며, 걱정스러운 눈삐츨 보냈습니다."
   },
   {
     "slide_index": 43,
@@ -596,10 +638,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "우직",
     "slide_screen_text": "마님, 연기가 새어나가면 놈들에게 발각됩니다. 소인은 건장하니 아무 염려 마십시오.",
-    "voice_script": "돌쇠는 마른 나뭇잎을 모아 자리를 정돈해 드리며, 연기가 새어나가면 사병들에게 발각될 수 있으니 조금만 더 참아달라며 조심스럽게 안심시켰습니다.",
+    "voice_script": "돌쇠는 마른 나뭇잎을 모아 자리를 정돈해 드리며... 연기가 새어나가면 사병들에게 발각될 수 있으니, 조금만 더 참아달라며 조심스럽게 안심시켰습니다.",
     "audio_path": "output/audio/slide_043.mp3",
-    "audio_duration": 14.541,
-    "subtitle_path": "output/subtitles/slide_043.srt"
+    "audio_duration": 13.82,
+    "subtitle_path": "output/subtitles/slide_043.srt",
+    "phonetic_script": "돌쇠는 마른 나뭇잎을 모아 자리를 정돈해 드리며, ... 연기가 새어나가면 사병들에게 발각될 수 있으니, 조금만 더 참아달라며 조심스럽게 안심시켰습니다."
   },
   {
     "slide_index": 44,
@@ -610,10 +653,11 @@
     "avatar_path": "",
     "emotion": "의문",
     "slide_screen_text": "깊은 밤, 마님이 잠든 사이 희미한 달빛 아래 홀로 붓을 든 돌쇠.",
-    "voice_script": "깊은 밤, 마님이 잠든 사이 동굴 틈새로 달빛이 비쳐 들자, ... 돌쇠는 품속에서 하얀 비단 천과 붓 한 자루를 조심스레 꺼내 들었지요, ...",
+    "voice_script": "깊은 밤, 마님이 잠든 사이 동굴 틈새로 달빛이 비쳐 들자... 돌쇠는 품속에서 하얀 비단 천과 붓 한 자루를 조심스레 꺼내 들었습니다.",
     "audio_path": "output/audio/slide_044.mp3",
-    "audio_duration": 15.333,
-    "subtitle_path": "output/subtitles/slide_044.srt"
+    "audio_duration": 11.94,
+    "subtitle_path": "output/subtitles/slide_044.srt",
+    "phonetic_script": "깊은 밤, 마님이 잠든 사이 동굴 틈새로 달삣이 비쳐 들자, ... 돌쇠는 품속에서 하얀 비단 천과 붓 한 자루를 조심스레 꺼내 들었습니다."
   },
   {
     "slide_index": 45,
@@ -624,10 +668,11 @@
     "avatar_path": "",
     "emotion": "경이",
     "slide_screen_text": "일개 시골 머슴의 손놀림이라곤 믿을 수 없는 거침없고 유려한 명필의 묵향.",
-    "voice_script": "달빛 아래 거침없이 적어 내려가는 그의 문장은, ... 한양의 대제학조차 감탄할 수려한 명필이었고, 동굴 안에 그윽한 묵향이 번졌지요, ...",
+    "voice_script": "달빛 아래 거침없이 적어 내려가는 그의 문장은... 한양의 대제학조차 감탄할 수려한 명필이었고, 동굴 안에 그윽한 묵향이 번졌습니다.",
     "audio_path": "output/audio/slide_045.mp3",
-    "audio_duration": 14.973,
-    "subtitle_path": "output/subtitles/slide_045.srt"
+    "audio_duration": 13.82,
+    "subtitle_path": "output/subtitles/slide_045.srt",
+    "phonetic_script": "달삣 아래 거침없이 적어 내려가는 그에 문장은, ... 한양에 대제학조차 감탄할 수려한 명필이었고, 동굴 안에 그윽한 묵향이 번졌습니다."
   },
   {
     "slide_index": 46,
@@ -638,10 +683,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "놀람",
     "slide_screen_text": "돌쇠야 너는 대체 누구이더냐? 어찌 머슴의 손에서 이런 문장이 나온단 말이냐",
-    "voice_script": "깊은 밤, 잠에서 깬 마님은 등불 아래 거침없이 글을 써 내려가는 돌쇠의 모습을 보고 경악을 금치 못했습니다. 일자무식인 줄로만 알았던 머슴이 비범한 필체로 글을 적고 있는 광경에, 마님은 믿을 수 없다는 듯 넋을 잃고 바라보았습니다.",
+    "voice_script": "깊은 밤, 잠에서 깬 마님은 등불 아래 거침없이 글을 써 내려가는 돌쇠의 모습을 보고... 경악을 금치 못했습니다. 일자무식인 줄로만 알았던 머슴이, 비범한 필체로 글을 적고 있는 광경에... 마님은 믿을 수 없다는 듯, 넋을 잃고 바라보았습니다.",
     "audio_path": "output/audio/slide_046.mp3",
-    "audio_duration": 24.021,
-    "subtitle_path": "output/subtitles/slide_046.srt"
+    "audio_duration": 22.1,
+    "subtitle_path": "output/subtitles/slide_046.srt",
+    "phonetic_script": "깊은 밤, 잠에서 깬 마님은 등뿔 아래 거침없이 글을 써 내려가는 돌쇠에 모습을 보고, ... 경악을 금치 못했습니다. 일자무식인 줄로만 알았던 머슴이, 비범한 필체로 글을 적고 있는 광경에, ... 마님은 믿을 수 없다는 듯, 넉슬 잃고 바라보았습니다."
   },
   {
     "slide_index": 47,
@@ -652,10 +698,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "결심",
     "slide_screen_text": "마님 소인을 용서하십시오. 이제는 숨겨온 모든 진실을 고할 때가 되었습니다.",
-    "voice_script": "돌쇠는 붓을 정갈하게 내려놓고 무릎을 꿇으며, 그동안 신분을 숨길 수밖에 없었던 사연을 밝히고 마님께 머리를 조아려 용서를 구했습니다.",
+    "voice_script": "돌쇠는 붓을 정갈하게 내려놓고 무릎을 꿇으며... 그동안 신분을 숨길 수밖에 없었던 사연을 밝히고, 마님께 머리를 조아려 용서를 구했습니다.",
     "audio_path": "output/audio/slide_047.mp3",
-    "audio_duration": 14.373,
-    "subtitle_path": "output/subtitles/slide_047.srt"
+    "audio_duration": 13.26,
+    "subtitle_path": "output/subtitles/slide_047.srt",
+    "phonetic_script": "돌쇠는 붓을 정갈하게 내려놓고 무르플 꿇으며, ... 그동안 신분을 숨길 수밖에 없었던 사연을 밝히고, 마님께 머리를 조아려 용서를 구했습니다."
   },
   {
     "slide_index": 48,
@@ -666,10 +713,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "고백",
     "slide_screen_text": "소인의 본명은 이진우(李振宇). 10년 전 김판서의 간계로 멸문당한 무관 가문의 아들입니다.",
-    "voice_script": "그의 본명은 이진우, ... 10년 전 김판서의 간계로 억울하게 멸문당한 충직한 무관 가문의 마지막 핏줄이었습니다, ...",
+    "voice_script": "그의 본명은 이진우... 10년 전 김판서의 간계로 억울하게 멸문당한, 충직한 무관 가문의 마지막 핏줄이었습니다.",
     "audio_path": "output/audio/slide_048.mp3",
-    "audio_duration": 13.005,
-    "subtitle_path": "output/subtitles/slide_048.srt"
+    "audio_duration": 10.58,
+    "subtitle_path": "output/subtitles/slide_048.srt",
+    "phonetic_script": "그에 본명은 이진우, ... 심 년 전 김판서에 간계로 억울하게 멸문당한, 충직한 무관 가문에 마지막 피쭐이었습니다."
   },
   {
     "slide_index": 49,
@@ -680,10 +728,11 @@
     "avatar_path": "",
     "emotion": "회상",
     "slide_screen_text": "10년 전 참극의 날, 어린 이진우의 목숨을 구해준 유일한 은인.",
-    "voice_script": "가문이 몰락하던 날, 오직 한 사람만이 목숨을 걸고 변론을 올렸으니, ... 그 은인이 바로 윤씨 마님의 남편, 대감마님이셨답니다, ...",
+    "voice_script": "가문이 몰락하던 날, 오직 한 사람만이 목숨을 걸고 변론을 올렸으니... 그 은인이 바로 윤씨 마님의 남편, 대감마님이셨습니다.",
     "audio_path": "output/audio/slide_049.mp3",
-    "audio_duration": 14.565,
-    "subtitle_path": "output/subtitles/slide_049.srt"
+    "audio_duration": 12.22,
+    "subtitle_path": "output/subtitles/slide_049.srt",
+    "phonetic_script": "가문이 몰락하던 날, 오직 한 사람만이 목숨을 걸고 변론을 올렸으니, ... 그 은인이 바로 윤씨 마님에 남편, 대감마님이셨습니다."
   },
   {
     "slide_index": 50,
@@ -694,10 +743,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "충정",
     "slide_screen_text": "대감마님의 상소 덕에 어린 소인은 목숨을 건졌고, 그 은혜를 갚기 위해 머슴의 몸으로 들어왔습니다.",
-    "voice_script": "진우는 대감마님의 은혜로 목숨을 건진 뒤, 원수를 갚고 가문의 은혜를 갚기 위해 머슴의 몸으로 숨어 들어왔던 것이었지요, ...",
+    "voice_script": "진우는 대감마님의 은혜로 목숨을 건진 뒤... 원수를 갚고 가문의 은혜를 갚기 위해, 머슴의 몸으로 숨어 들어왔던 것이었습니다.",
     "audio_path": "output/audio/slide_050.mp3",
-    "audio_duration": 12.621,
-    "subtitle_path": "output/subtitles/slide_050.srt"
+    "audio_duration": 11.54,
+    "subtitle_path": "output/subtitles/slide_050.srt",
+    "phonetic_script": "진우는 대감마님에 은혜로 목숨을 건진 뒤, ... 원수를 갚고 가문에 은혜를 갚기 위해, 머슴에 몸으로 숨어 들어왔던 것이었습니다."
   },
   {
     "slide_index": 51,
@@ -708,10 +758,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "비통",
     "slide_screen_text": "아아 그런 피눈물 나는 사연이 있었더냐 그것도 모르고 너에게 온갖 궂은일을 시켰으니",
-    "voice_script": "그 우직한 머슴이 가문이 몰락한 무관 도령이었음을 알게 된 마님은, 어찌 자신 같은 죄인을 위해 비천한 머슴살이까지 감내했느냐며 가슴을 쥐어뜯었습니다.",
+    "voice_script": "그 우직한 머슴이 가문이 몰락한 무관 도령이었음을 알게 된 마님은... 어찌 자신 같은 죄인을 위해 비천한 머슴살이까지 감내했느냐며, 가슴을 쥐어뜯었습니다.",
     "audio_path": "output/audio/slide_051.mp3",
-    "audio_duration": 15.645,
-    "subtitle_path": "output/subtitles/slide_051.srt"
+    "audio_duration": 13.46,
+    "subtitle_path": "output/subtitles/slide_051.srt",
+    "phonetic_script": "그 우직한 머슴이 가문이 몰락한 무관 도령이었음을 알게 된 마님은, ... 어찌 자신 같은 죄인을 위해 비천한 머슴살이까지 감내했느냐며, 가슴을 쥐어뜯었습니다."
   },
   {
     "slide_index": 52,
@@ -722,10 +773,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "결연",
     "slide_screen_text": "빚이라니 당치 않사옵니다. 마님을 지키는 것이 소인 가문의 명예이자 삶의 이유입니다.",
-    "voice_script": "진우는 고개를 저으며, 마님을 끝까지 지키고 윤씨 대감의 억울한 누명을 벗기는 것만이 목숨을 바쳐 이뤄야 할 유일한 소명이라 답했습니다.",
+    "voice_script": "진우는 고개를 저으며... 마님을 끝까지 지키고 윤씨 대감의 억울한 누명을 벗기는 것만이, 목숨을 바쳐 이뤄야 할 유일한 소명이라 답했습니다.",
     "audio_path": "output/audio/slide_052.mp3",
-    "audio_duration": 13.893,
-    "subtitle_path": "output/subtitles/slide_052.srt"
+    "audio_duration": 13.34,
+    "subtitle_path": "output/subtitles/slide_052.srt",
+    "phonetic_script": "진우는 고개를 저으며, ... 마님을 끝까지 지키고 윤씨 대감에 억울한 누명을 벗기는 것만이, 목숨을 바쳐 이뤄야 할 유일한 소명이라 답했습니다."
   },
   {
     "slide_index": 53,
@@ -736,10 +788,11 @@
     "avatar_path": "",
     "emotion": "신뢰",
     "slide_screen_text": "신분의 벽을 넘어선 숭고한 충절과 신뢰. 동굴 안에는 새로운 운명의 빛이 차오르다.",
-    "voice_script": "신분의 벽을 넘어선 숭고한 충절과 신뢰 속에, ... 10년을 품어온 붉은 결의가 동굴 안을 숙연하게 채워나갔습니다, ...",
+    "voice_script": "신분의 벽을 넘어선 숭고한 충절과 신뢰 속에... 10년을 품어온 붉은 결의가, 동굴 안을 숙연하게 채워나갔습니다.",
     "audio_path": "output/audio/slide_053.mp3",
-    "audio_duration": 12.813,
-    "subtitle_path": "output/subtitles/slide_053.srt"
+    "audio_duration": 10.02,
+    "subtitle_path": "output/subtitles/slide_053.srt",
+    "phonetic_script": "신분에 벽을 넘어선 숭고한 충절과 신뢰 속에, ... 심 년을 품어온 붉은 결의가, 동굴 안을 숙연하게 채워나갔습니다."
   },
   {
     "slide_index": 54,
@@ -750,10 +803,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "작전",
     "slide_screen_text": "소인이 10년 동안 수집한 김판서의 뇌물 장부와 역모 조작 밀서가 이 비단 속에 적혀 있습니다.",
-    "voice_script": "진우는 비단 상소문을 펼쳐 보이며, 김판서가 군량미를 가로채고 역모를 꾸며 충신들을 함정에 빠뜨린 결정적인 증거를 확보했음을 알렸습니다.",
+    "voice_script": "진우는 비단 상소문을 펼쳐 보이며... 김판서가 군량미를 가로채고 역모를 꾸며 충신들을 함정에 빠뜨린, 결정적인 증거를 확보했음을 알렸습니다.",
     "audio_path": "output/audio/slide_054.mp3",
-    "audio_duration": 14.733,
-    "subtitle_path": "output/subtitles/slide_054.srt"
+    "audio_duration": 14.58,
+    "subtitle_path": "output/subtitles/slide_054.srt",
+    "phonetic_script": "진우는 비단 상소문을 펼쳐 보이며, ... 김판서가 군냥미를 가로채고 역모를 꾸며 충신들을 함정에 빠뜨린, 결정적인 증거를 확보했음을 알렸습니다."
   },
   {
     "slide_index": 55,
@@ -764,10 +818,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "근심",
     "slide_screen_text": "하지만 한양 도성은 김판서의 세력으로 가득한데, 이 상소를 어찌 어전에 전한단 말이냐",
-    "voice_script": "마님은 근심 어린 목소리로, '도성에 김판서의 수하들이 가득한데 이 상소를 어찌 전한단 말이냐'며 걱정하였습니다.",
+    "voice_script": "마님은 근심 어린 목소리로... '도성에 김판서의 수하들이 가득한데, 이 상소를 어찌 전한단 말이냐'며 걱정하였습니다.",
     "audio_path": "output/audio/slide_055.mp3",
-    "audio_duration": 12.045,
-    "subtitle_path": "output/subtitles/slide_055.srt"
+    "audio_duration": 10.9,
+    "subtitle_path": "output/subtitles/slide_055.srt",
+    "phonetic_script": "마님은 근심 어린 목쏘리로, ... '도성에 김판서에 수하들이 가득한데, 이 상소를 어찌 전한단 말이냐'며 걱정하였습니다."
   },
   {
     "slide_index": 56,
@@ -778,10 +833,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "확신",
     "slide_screen_text": "한양에는 아직 청렴결백한 어사 박문수 대감이 계십니다. 월이댁의 연줄로 어사 대감께 닿을 수 있습니다.",
-    "voice_script": "진우는, '청렴한 암행어사 박문수 대감께서 도성 근방에 계시니, 월이댁의 인맥을 통해 직접 전할 길이 있습니다'라며 안심시켰답니다, ...",
+    "voice_script": "진우는, '청렴한 암행어사 박문수 대감께서 도성 근방에 계시니... 월이댁의 인맥을 통해, 직접 전할 길이 있습니다'라며 안심시켰습니다.",
     "audio_path": "output/audio/slide_056.mp3",
-    "audio_duration": 13.701,
-    "subtitle_path": "output/subtitles/slide_056.srt"
+    "audio_duration": 12.54,
+    "subtitle_path": "output/subtitles/slide_056.srt",
+    "phonetic_script": "진우는, '청렴한 암행어사 박문수 대감께서 도성 근방에 계시니, ... 월이땍에 인맥을 통해, 직접 전할 길이 있습니다'라며 안심시켰습니다."
   },
   {
     "slide_index": 57,
@@ -792,10 +848,11 @@
     "avatar_path": "",
     "emotion": "긴장",
     "slide_screen_text": "동이 터오는 산마루, 결전의 날을 앞두고 다가오는 숙명의 시간.",
-    "voice_script": "동이 터오는 산마루를 바라보며, ... 10년간 갈고닦은 정의의 칼날을 뽑아 들어야 할, 결전의 시간이 마침내 다가왔습니다.",
+    "voice_script": "동이 터오는 산마루를 바라보며... 10년간 갈고닦은 정의의 칼날을 뽑아 들어야 할, 결전의 시간이 마침내 다가왔습니다.",
     "audio_path": "output/audio/slide_057.mp3",
-    "audio_duration": 12.765,
-    "subtitle_path": "output/subtitles/slide_057.srt"
+    "audio_duration": 10.74,
+    "subtitle_path": "output/subtitles/slide_057.srt",
+    "phonetic_script": "동이 터오는 산마루를 바라보며, ... 심 년간 갈고닦은 정의에 칼날을 뽑아 들어야 할, 결전에 시간이 마침내 다가왔습니다."
   },
   {
     "slide_index": 58,
@@ -806,10 +863,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "다짐",
     "slide_screen_text": "마님, 소인이 한양에 다녀올 동안 이 동굴에서 절대 밖으로 나오시면 아니 됩니다.",
-    "voice_script": "진우는 식량을 챙겨드리며, '소인이 한양에 다녀올 동안 이 동굴에서 절대 나오지 마시고 무탈히 기다려 주십시오'라며 당부하였습니다.",
+    "voice_script": "진우는 식량을 챙겨드리며... '소인이 한양에 다녀올 동안 이 동굴에서 절대 나오지 마시고, 무탈히 기다려 주십시오'라며 당부하였습니다.",
     "audio_path": "output/audio/slide_058.mp3",
-    "audio_duration": 13.293,
-    "subtitle_path": "output/subtitles/slide_058.srt"
+    "audio_duration": 12.5,
+    "subtitle_path": "output/subtitles/slide_058.srt",
+    "phonetic_script": "진우는 식량을 챙겨드리며, ... '소인이 한양에 다녀올 동안 이 동굴에서 절대 나오지 마시고, 무탈히 기다려 주십시오'라며 당부하였습니다."
   },
   {
     "slide_index": 59,
@@ -820,10 +878,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "애원",
     "slide_screen_text": "진우야 명예 따윈 없어도 좋으니, 부디 살아서 살아서만 돌아오너라.",
-    "voice_script": "마님은 품에 지니고 있던 소중한 은장도를 풀어 쥐여주며, 가문의 명예보다 오직 무사히 살아 돌아오기만을 눈물로 간절히 당부했습니다.",
+    "voice_script": "마님은 품에 지니고 있던 소중한 은장도를 풀어 쥐여주며... 가문의 명예보다 오직 무사히 살아 돌아오기만을, 눈물로 간절히 당부했습니다.",
     "audio_path": "output/audio/slide_059.mp3",
-    "audio_duration": 13.773,
-    "subtitle_path": "output/subtitles/slide_059.srt"
+    "audio_duration": 14.1,
+    "subtitle_path": "output/subtitles/slide_059.srt",
+    "phonetic_script": "마님은 품에 지니고 있던 소중한 은장도를 풀어 쥐여주며, ... 가문에 명예보다 오직 무사히 살아 돌아오기만을, 눈물로 간절히 당부했습니다."
   },
   {
     "slide_index": 60,
@@ -834,10 +893,11 @@
     "avatar_path": "",
     "emotion": "출정",
     "slide_screen_text": "비단 상소문을 품에 품고 안개 낀 산길을 나서는 돌쇠. 목숨을 건 역전의 승부수가 시작되다.",
-    "voice_script": "비단 상소문을 품에 품고 새벽안개 속으로 나서는 진우, 가문의 명예와 마님의 삶을 건 운명의 한양 길이 시작되었습니다.",
+    "voice_script": "비단 상소문을 품에 품고, 새벽안개 속으로 나서는 진우... 가문의 명예와 마님의 삶을 건, 운명의 한양 길이 시작되었습니다.",
     "audio_path": "output/audio/slide_060.mp3",
-    "audio_duration": 12.381,
-    "subtitle_path": "output/subtitles/slide_060.srt"
+    "audio_duration": 12.54,
+    "subtitle_path": "output/subtitles/slide_060.srt",
+    "phonetic_script": "비단 상소문을 품에 품고, 새벽안개 속으로 나서는 진우, ... 가문에 명예와 마님에 삶을 건, 운명에 한양 길이 시작되었습니다."
   },
   {
     "slide_index": 61,
@@ -848,10 +908,11 @@
     "avatar_path": "",
     "emotion": "긴박",
     "slide_screen_text": "도성으로 통하는 험준한 관문. 김판서 사병들의 삼엄한 검문검색.",
-    "voice_script": "한양으로 향하는 모든 나루터와 고갯길에는, ... 김판서가 푼 사병들이 삼엄한 검문검색을 펼치고 있었습니다.",
+    "voice_script": "한양으로 향하는 모든 나루터와 고갯길에는... 김판서가 푼 사병들이, 삼엄한 검문검색을 펼치고 있었습니다.",
     "audio_path": "output/audio/slide_061.mp3",
-    "audio_duration": 11.541,
-    "subtitle_path": "output/subtitles/slide_061.srt"
+    "audio_duration": 10.34,
+    "subtitle_path": "output/subtitles/slide_061.srt",
+    "phonetic_script": "한양으로 향하는 모든 나루터와 고갣낄에는, ... 김판서가 푼 사병들이, 삼엄한 검문검색을 펼치고 있었습니다."
   },
   {
     "slide_index": 62,
@@ -862,10 +923,11 @@
     "avatar_path": "assets/gim_panseo_avatar.jpg",
     "emotion": "음모",
     "slide_screen_text": "머슴 놈이 도성으로 향했을 가능성이 높다. 수상한 자는 문초 없이 그 자리에서 참살하라!",
-    "voice_script": "김판서는 '수상한 자는 문초 없이 그 자리에서 참살하라'며 한양으로 향하는 길목을 철통같이 틀어막았지요, ...",
+    "voice_script": "김판서는 '수상한 자는 문초 없이 그 자리에서 참살하라'며... 한양으로 향하는 길목을 철통같이 틀어막았습니다.",
     "audio_path": "output/audio/slide_062.mp3",
-    "audio_duration": 11.277,
-    "subtitle_path": "output/subtitles/slide_062.srt"
+    "audio_duration": 10.34,
+    "subtitle_path": "output/subtitles/slide_062.srt",
+    "phonetic_script": "김판서는 '수상한 자는 문초 없이 그 자리에서 참살하라'며, ... 한양으로 향하는 길목을 철통같이 틀어막았습니다."
   },
   {
     "slide_index": 63,
@@ -876,10 +938,11 @@
     "avatar_path": "",
     "emotion": "전투",
     "slide_screen_text": "나루터 갈대밭에서 벌어진 기습. 무관 출신 돌쇠의 숨겨진 무예가 폭발하다.",
-    "voice_script": "나루터 갈대밭을 건너려던 찰나, 매복해 있던 살수 다섯 명이 칼을 뽑아 들고 진우의 앞을 가로막아 섰지요, ...",
+    "voice_script": "나루터 갈대밭을 건너려던 찰나... 매복해 있던 살수 다섯 명이 칼을 뽑아 들고, 진우의 앞을 가로막아 섰습니다.",
     "audio_path": "output/audio/slide_063.mp3",
-    "audio_duration": 11.709,
-    "subtitle_path": "output/subtitles/slide_063.srt"
+    "audio_duration": 9.3,
+    "subtitle_path": "output/subtitles/slide_063.srt",
+    "phonetic_script": "나루터 갈때받츨 건너려던 찰나, ... 매복해 있던 살수 다섯 명이 칼을 뽑아 들고, 진우에 앞을 가로막아 섰습니다."
   },
   {
     "slide_index": 64,
@@ -890,10 +953,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "분노",
     "slide_screen_text": "10년 전 내 아버지를 모함했던 칼날이, 오늘 네놈들의 목을 벨 것이다!",
-    "voice_script": "머슴의 낡은 옷 아래 숨겨졌던 진우의 신기가 번뜩였고, ... 10년간 벼려온 무관의 검술로 단숨에 살수들을 제압해 버렸습니다.",
+    "voice_script": "머슴의 낡은 옷 아래 숨겨졌던 진우의 신기가 번뜩였고... 10년간 벼려온 무관의 검술로, 단숨에 살수들을 제압해 버렸습니다.",
     "audio_path": "output/audio/slide_064.mp3",
-    "audio_duration": 13.821,
-    "subtitle_path": "output/subtitles/slide_064.srt"
+    "audio_duration": 10.66,
+    "subtitle_path": "output/subtitles/slide_064.srt",
+    "phonetic_script": "머슴에 낡은 옷 아래 숨겨졌던 진우에 신기가 번뜩였고, ... 심 년간 벼려온 무관에 검술로, 단숨에 살수들을 제압해 버렸습니다."
   },
   {
     "slide_index": 65,
@@ -904,10 +968,11 @@
     "avatar_path": "",
     "emotion": "부상",
     "slide_screen_text": "어깨에 깊은 자상을 입고도 피 묻은 상소문을 품에 안고 달리는 돌쇠.",
-    "voice_script": "비록 어깨에 깊은 자상을 입었으나, ... 진우는 피 묻은 비단 상소문을 가슴에 꼭 품은 채 험준한 성벽을 넘어 도성으로 향했습니다.",
+    "voice_script": "비록 어깨에 깊은 자상을 입었으나... 진우는 피 묻은 비단 상소문을 가슴에 꼭 품은 채, 험준한 성벽을 넘어 도성으로 향했습니다.",
     "audio_path": "output/audio/slide_065.mp3",
-    "audio_duration": 14.349,
-    "subtitle_path": "output/subtitles/slide_065.srt"
+    "audio_duration": 12.94,
+    "subtitle_path": "output/subtitles/slide_065.srt",
+    "phonetic_script": "비록 어깨에 깊은 자상을 입었으나, ... 진우는 피 묻은 비단 상소문을 가슴에 꼭 품은 채, 험준한 성벽을 넘어 도성으로 향했습니다."
   },
   {
     "slide_index": 66,
@@ -918,10 +983,11 @@
     "avatar_path": "assets/nopa_avatar.jpg",
     "emotion": "조력",
     "slide_screen_text": "진우 도령! 이쪽이오! 어사 대감의 밀사가 저기 비밀 정자에서 기다리고 있소!",
-    "voice_script": "도성 안, 비밀 가옥에서 대기하던 월이댁은, ... 피투성이가 된 진우를 급히 숨겨주며, 어사 대감과의 접선을 주선해 주었습니다.",
+    "voice_script": "도성 안, 비밀 가옥에서 대기하던 월이댁은... 피투성이가 된 진우를 급히 숨겨주며, 어사 대감과의 접선을 주선해 주었습니다.",
     "audio_path": "output/audio/slide_066.mp3",
-    "audio_duration": 14.181,
-    "subtitle_path": "output/subtitles/slide_066.srt"
+    "audio_duration": 9.46,
+    "subtitle_path": "output/subtitles/slide_066.srt",
+    "phonetic_script": "도성 안, 비밀 가옥에서 대기하던 월이땍은, ... 피투성이가 된 진우를 급히 숨겨주며, 어사 대감과에 접선을 주선해 주었습니다."
   },
   {
     "slide_index": 67,
@@ -932,10 +998,11 @@
     "avatar_path": "",
     "emotion": "접선",
     "slide_screen_text": "달빛 아래 고요한 남산골 비밀 정자. 암행어사 박문수와의 역사적인 독대.",
-    "voice_script": "달빛 아래 고요한 남산골 비밀 정자에서, 마침내, 마주 선 박문수 어사, ... 진우는 무릎을 꿇고 떨리는 손으로 피 묻은 상소문과 뇌물 장부를 올렸습니다.",
+    "voice_script": "달빛 아래 고요한 남산골 비밀 정자에서, 마침내 마주 선 박문수 어사... 진우는 무릎을 꿇고, 떨리는 손으로 피 묻은 상소문과 뇌물 장부를 올렸습니다.",
     "audio_path": "output/audio/slide_067.mp3",
-    "audio_duration": 17.157,
-    "subtitle_path": "output/subtitles/slide_067.srt"
+    "audio_duration": 15.86,
+    "subtitle_path": "output/subtitles/slide_067.srt",
+    "phonetic_script": "달삣 아래 고요한 남산꼴 비밀 정자에서, 마침내 마주 선 박문수 어사, ... 진우는 무르플 꿀코, 떨리는 손으로 피 묻은 상소문과 뇌물 장부를 올렸습니다."
   },
   {
     "slide_index": 68,
@@ -946,10 +1013,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "간청",
     "slide_screen_text": "어사 대감, 10년 전 억울하게 죽은 제 아비와 모함을 받고 쫓겨난 윤씨 마님의 한을 풀어주십시오!",
-    "voice_script": "진우는, '10년 전 억울하게 죽은 아비와 모함을 받은 윤씨 마님의 한을 제발 풀어주십시오'라며 눈물로 간청하였습니다.",
+    "voice_script": "진우는, '10년 전 억울하게 죽은 아비와, 모함을 받은 윤씨 마님의 한을... 제발 풀어주십시오'라며 눈물로 간청하였습니다.",
     "audio_path": "output/audio/slide_068.mp3",
-    "audio_duration": 11.781,
-    "subtitle_path": "output/subtitles/slide_068.srt"
+    "audio_duration": 10.98,
+    "subtitle_path": "output/subtitles/slide_068.srt",
+    "phonetic_script": "진우는, '심 년 전 억울하게 죽은 아비와, 모함을 받은 윤씨 마님에 한을, ... 제발 풀어주십시오'라며 눈물로 간청하였습니다."
   },
   {
     "slide_index": 69,
@@ -960,10 +1028,11 @@
     "avatar_path": "",
     "emotion": "경악",
     "slide_screen_text": "비단 상소문을 읽어 내려가는 어사의 눈빛에 참을 수 없는 분노의 불길이 일다.",
-    "voice_script": "장부를 넘기던 박문수 어사의 눈빛에 분노의 불길이 일었고, ... 세도가의 추악한 역모 조작 전모가 낱낱이 드러났지요, ...",
+    "voice_script": "장부를 넘기던 박문수 어사의 눈빛에 분노의 불길이 일었고... 세도가의 추악한 역모 조작 전모가, 낱낱이 드러났습니다.",
     "audio_path": "output/audio/slide_069.mp3",
-    "audio_duration": 12.933,
-    "subtitle_path": "output/subtitles/slide_069.srt"
+    "audio_duration": 10.86,
+    "subtitle_path": "output/subtitles/slide_069.srt",
+    "phonetic_script": "장부를 넘기던 박문수 어사에 눈삐체 분노에 불길이 일었고, ... 세도가에 추악한 역모 조작 전모가, 낱낱이 드러났습니다."
   },
   {
     "slide_index": 70,
@@ -974,10 +1043,11 @@
     "avatar_path": "",
     "emotion": "결단",
     "slide_screen_text": "이토록 악랄한 조작이었단 말인가! 내 목숨을 걸고 오늘 밤 성상께 입궐하여 직간하겠노라!",
-    "voice_script": "어사는 진우의 어깨를 잡으며, '그대의 충절이 하늘을 울렸으니 내 목숨을 걸고 오늘 밤 성상께 직간하겠노라' 결단을 내렸습니다.",
+    "voice_script": "어사는 진우의 어깨를 잡으며... '그대의 충절이 하늘을 울렸으니, 내 목숨을 걸고 오늘 밤 성상께 직간하겠노라' 결단을 내렸습니다.",
     "audio_path": "output/audio/slide_070.mp3",
-    "audio_duration": 13.341,
-    "subtitle_path": "output/subtitles/slide_070.srt"
+    "audio_duration": 11.74,
+    "subtitle_path": "output/subtitles/slide_070.srt",
+    "phonetic_script": "어사는 진우에 어깨를 잡으며, ... '그대에 충절이 하늘을 울렸으니, 내 목숨을 걸고 오늘 밤 성상께 직간하겠노라' 결단을 내렸습니다."
   },
   {
     "slide_index": 71,
@@ -988,10 +1058,11 @@
     "avatar_path": "",
     "emotion": "비상",
     "slide_screen_text": "한밤중 울려 퍼진 대궐의 인정전 북소리. 임금 앞에 펼쳐진 피 묻은 비단 상소문.",
-    "voice_script": "한밤중 대궐 인정전에 울려 퍼진 긴급 상소, ... 임금 앞에 펼쳐진 피 묻은 비단 상소문에 조정 대신들은 사색이 되었지요, ...",
+    "voice_script": "한밤중 대궐 인정전에 울려 퍼진 긴급 상소... 임금 앞에 펼쳐진 피 묻은 비단 상소문에, 조정 대신들은 사색이 되었습니다.",
     "audio_path": "output/audio/slide_071.mp3",
-    "audio_duration": 13.581,
-    "subtitle_path": "output/subtitles/slide_071.srt"
+    "audio_duration": 11.26,
+    "subtitle_path": "output/subtitles/slide_071.srt",
+    "phonetic_script": "한밤중 대궐 인정전에 울려 퍼진 긴급 상소, ... 임금 앞에 펼쳐진 피 묻은 비단 상소문에, 조정 대신들은 사색이 되었습니다."
   },
   {
     "slide_index": 72,
@@ -1002,10 +1073,11 @@
     "avatar_path": "",
     "emotion": "진노",
     "slide_screen_text": "과인의 충신들을 모함하고 조정을 농락한 김판서 일당을 당장 의금부에 하옥하라!",
-    "voice_script": "상소를 직접 읽은 임금은 용상을 내리치며 대노하였고, 충신들을 도륙하고 조정을 농락한 김판서 일당을 당장 추포하여 국문하라 추상같은 어명을 내렸습니다.",
+    "voice_script": "상소를 직접 읽은 임금은 용상을 내리치며 대노하였고... 충신들을 도륙하고 조정을 농락한 김판서 일당을 당장 추포하여 국문하라, 추상같은 어명을 내렸습니다.",
     "audio_path": "output/audio/slide_072.mp3",
-    "audio_duration": 15.237,
-    "subtitle_path": "output/subtitles/slide_072.srt"
+    "audio_duration": 15.14,
+    "subtitle_path": "output/subtitles/slide_072.srt",
+    "phonetic_script": "상소를 직접 읽은 임금은 용상을 내리치며 대노하였고, ... 충신들을 도륙하고 조정을 농락한 김판서 일당을 당장 추포하여 국문하라, 추상같은 어명을 내렸습니다."
   },
   {
     "slide_index": 73,
@@ -1016,10 +1088,11 @@
     "avatar_path": "assets/gim_panseo_avatar.jpg",
     "emotion": "몰락",
     "slide_screen_text": "무엇이라? 어사가 상소를 올렸다고? 안 된다 내 가문이 이리 무너질 순 없다!",
-    "voice_script": "한밤중에 의금부 금군들이 들이닥치자, ... 부귀영화를 누리던 김판서는 넋이 나간 채 뒤뜰로 도망치다 붙잡히고 말았습니다.",
+    "voice_script": "한밤중에 의금부 금군들이 들이닥치자... 부귀영화를 누리던 김판서는 넋이 나간 채, 뒤뜰로 도망치다 붙잡히고 말았습니다.",
     "audio_path": "output/audio/slide_073.mp3",
-    "audio_duration": 13.365,
-    "subtitle_path": "output/subtitles/slide_073.srt"
+    "audio_duration": 11.14,
+    "subtitle_path": "output/subtitles/slide_073.srt",
+    "phonetic_script": "한밤중에 의금부 금군들이 들이닥치자, ... 부귀영화를 누리던 김판서는 넉시 나간 채, 뒤뜰로 도망치다 붙잡히고 말았습니다."
   },
   {
     "slide_index": 74,
@@ -1030,10 +1103,11 @@
     "avatar_path": "",
     "emotion": "체포",
     "slide_screen_text": "10년 권세의 비참한 종말. 포승줄에 묶여 끌려가는 김판서와 부패 관리들.",
-    "voice_script": "10년 세도의 덧없는 종말, ... 김판서와 부패 관리들은 포승줄에 굴비 엮이듯 묶여 의금부 지하 감옥으로 끌려갔지요, ...",
+    "voice_script": "10년 세도의 덧없는 종말... 김판서와 부패 관리들은 포승줄에 굴비 엮이듯 묶여, 의금부 지하 감옥으로 끌려갔습니다.",
     "audio_path": "output/audio/slide_074.mp3",
-    "audio_duration": 12.957,
-    "subtitle_path": "output/subtitles/slide_074.srt"
+    "audio_duration": 11.06,
+    "subtitle_path": "output/subtitles/slide_074.srt",
+    "phonetic_script": "심 년 세도에 덧없는 종말, ... 김판서와 부패 관리들은 포승줄에 굴비 엮이듯 묶여, 의금부 지하 감옥으로 끌려갔습니다."
   },
   {
     "slide_index": 75,
@@ -1044,10 +1118,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "안도",
     "slide_screen_text": "마님 마침내 해냈습니다 이제 마님을 모시러 갈 수 있습니다",
-    "voice_script": "의금부 문밖에서 이를 지켜본 진우는, ... 부상당한 어깨를 감싸 쥔 채, 동쪽 하늘을 바라보며 감격의 눈물을 쏟아냈지요, ...",
+    "voice_script": "의금부 문밖에서 이를 지켜본 진우는... 부상당한 어깨를 감싸 쥔 채, 동쪽 하늘을 바라보며 감격의 눈물을 쏟아냈습니다.",
     "audio_path": "output/audio/slide_075.mp3",
-    "audio_duration": 13.917,
-    "subtitle_path": "output/subtitles/slide_075.srt"
+    "audio_duration": 10.5,
+    "subtitle_path": "output/subtitles/slide_075.srt",
+    "phonetic_script": "의금부 문바께서 이를 지켜본 진우는, ... 부상당한 어깨를 감싸 쥔 채, 동쪽 하늘을 바라보며 감격에 눈물을 쏟아냈습니다."
   },
   {
     "slide_index": 76,
@@ -1058,10 +1133,11 @@
     "avatar_path": "",
     "emotion": "폭풍",
     "slide_screen_text": "같은 시각, 강원도 바위 동굴. 마지막 패잔병 살수들의 습격.",
-    "voice_script": "한편, 김판서의 몰락을 모른 채 강원도 동굴로 찾아든 패잔병 살수들이 칼을 뽑아 들고 마님을 위협하고 있었습니다.",
+    "voice_script": "한편, 김판서의 몰락을 모른 채 강원도 동굴로 찾아든 패잔병 살수들이... 칼을 뽑아 들고, 마님을 위협하고 있었습니다.",
     "audio_path": "output/audio/slide_076.mp3",
-    "audio_duration": 12.837,
-    "subtitle_path": "output/subtitles/slide_076.srt"
+    "audio_duration": 11.38,
+    "subtitle_path": "output/subtitles/slide_076.srt",
+    "phonetic_script": "한편, 김판서에 몰락을 모른 채 강원도 동굴로 찾아든 패잔병 살수들이, ... 칼을 뽑아 들고, 마님을 위협하고 있었습니다."
   },
   {
     "slide_index": 77,
@@ -1072,10 +1148,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "결기",
     "slide_screen_text": "역적의 졸개들아, 내 비록 연약한 여인이나 윤씨 가문의 명예를 더럽히진 않을 것이다!",
-    "voice_script": "동굴에 들이닥친 패잔병들을 마주한 마님은 은장도를 쥐고 맞서며, 비록 연약한 여인일지라도 가문의 명예를 더럽히며 비겁하게 굴복하지 않겠노라 결연히 버텼습니다.",
+    "voice_script": "동굴에 들이닥친 패잔병들을 마주한 마님은 은장도를 쥐고 맞서며... 비록 연약한 여인일지라도, 가문의 명예를 더럽히며 비겁하게 굴복하지 않겠노라, 결연히 버텼습니다.",
     "audio_path": "output/audio/slide_077.mp3",
-    "audio_duration": 15.237,
-    "subtitle_path": "output/subtitles/slide_077.srt"
+    "audio_duration": 16.42,
+    "subtitle_path": "output/subtitles/slide_077.srt",
+    "phonetic_script": "동굴에 들이닥친 패잔병들을 마주한 마님은 은장도를 쥐고 맞서며, ... 비록 연약한 여인일지라도, 가문에 명예를 더럽히며 비겁하게 굴복하지 않겠노라, 결연히 버텼습니다."
   },
   {
     "slide_index": 78,
@@ -1086,10 +1163,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "구원",
     "slide_screen_text": "어디 마님의 몸에 손을 대느냐!",
-    "voice_script": "절체절명의 순간, 밤새 말을 몰아 달려온 진우가 동굴 안으로 몸을 던져 번개 같은 칼끝으로 살수들을 단숨에 베어 넘겼답니다, ...",
+    "voice_script": "절체절명의 순간, 밤새 말을 몰아 달려온 진우가 동굴 안으로 몸을 던져... 번개 같은 칼끝으로 살수들을 단숨에 베어 넘겼습니다.",
     "audio_path": "output/audio/slide_078.mp3",
-    "audio_duration": 13.125,
-    "subtitle_path": "output/subtitles/slide_078.srt"
+    "audio_duration": 12.5,
+    "subtitle_path": "output/subtitles/slide_078.srt",
+    "phonetic_script": "절체절명에 순간, 밤새 말을 몰아 달려온 진우가 동굴 안으로 몸을 던져, ... 번개 같은 칼끝으로 살수들을 단숨에 베어 넘겼습니다."
   },
   {
     "slide_index": 79,
@@ -1100,10 +1178,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "오열",
     "slide_screen_text": "돌쇠야! 아니, 진우야! 정녕 살아서 돌아왔구나!",
-    "voice_script": "무사히 살아서 돌아온 진우의 모습을 본 마님은 쥐고 있던 은장도를 떨어뜨리며, 안도와 감격의 눈물을 왈칵 쏟아내었습니다.",
+    "voice_script": "무사히 살아서 돌아온 진우의 모습을 본 마님은... 쥐고 있던 은장도를 떨어뜨리며, 안도와 감격의 눈물을 왈칵 쏟아내었습니다.",
     "audio_path": "output/audio/slide_079.mp3",
-    "audio_duration": 12.525,
-    "subtitle_path": "output/subtitles/slide_079.srt"
+    "audio_duration": 11.26,
+    "subtitle_path": "output/subtitles/slide_079.srt",
+    "phonetic_script": "무사히 살아서 돌아온 진우에 모습을 본 마님은, ... 쥐고 있던 은장도를 떨어뜨리며, 안도와 감격에 눈물을 왈칵 쏟아내었습니다."
   },
   {
     "slide_index": 80,
@@ -1114,10 +1193,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "승리",
     "slide_screen_text": "마님, 누명이 모두 벗겨졌습니다. 이제 한양으로 돌아가실 시간입니다.",
-    "voice_script": "동굴 안으로 찬란한 아침 햇살이 비쳐 들고, ... 진우는 환한 미소로, '마님 누명이 벗겨졌으니 이제 한양으로 가실 시간입니다' 고했습니다, ...",
+    "voice_script": "동굴 안으로 찬란한 아침 햇살이 비쳐 들고... 진우는 환한 미소로, '마님 누명이 벗겨졌으니... 이제 한양으로 가실 시간입니다' 고했습니다.",
     "audio_path": "output/audio/slide_080.mp3",
-    "audio_duration": 14.565,
-    "subtitle_path": "output/subtitles/slide_080.srt"
+    "audio_duration": 13.78,
+    "subtitle_path": "output/subtitles/slide_080.srt",
+    "phonetic_script": "동굴 안으로 찬란한 아침 해싸리 비쳐 들고, ... 진우는 환한 미소로, '마님 누명이 벗겨졌으니, ... 이제 한양으로 가실 시간입니다' 고했습니다."
   },
   {
     "slide_index": 81,
@@ -1128,10 +1208,11 @@
     "avatar_path": "",
     "emotion": "장엄",
     "slide_screen_text": "의금부 국문장의 서슬 퍼런 추국. 만천하에 드러난 역모 조작의 전말.",
-    "voice_script": "의금부 뜰에서 열린 국문 끝에 김판서는 모든 죄를 자복했고, ... 10년간 묻혀있던 날조된 역모의 전모가 만천하에 밝혀졌습니다.",
+    "voice_script": "의금부 뜰에서 열린 국문 끝에 김판서는 모든 죄를 자복했고... 10년간 묻혀있던 날조된 역모의 전모가, 만천하에 밝혀졌습니다.",
     "audio_path": "output/audio/slide_081.mp3",
-    "audio_duration": 14.637,
-    "subtitle_path": "output/subtitles/slide_081.srt"
+    "audio_duration": 12.9,
+    "subtitle_path": "output/subtitles/slide_081.srt",
+    "phonetic_script": "의금부 뜰에서 열린 국문 끝에 김판서는 모든 죄를 자복했고, ... 심 년간 묻혀있던 날조된 역모에 전모가, 만천하에 밝혀졌습니다."
   },
   {
     "slide_index": 82,
@@ -1142,10 +1223,11 @@
     "avatar_path": "",
     "emotion": "교지",
     "slide_screen_text": "윤씨 가문의 억울한 죄를 모두 사면하고, 빼앗겼던 관직과 가산 전답을 온전히 돌려주라!",
-    "voice_script": "임금은 친히 교지를 내려 윤씨 대감의 명예를 영구히 복권하고, ... 빼앗겼던 북촌 본가와 가산을 온전히 돌려주도록 명했습니다.",
+    "voice_script": "임금은 친히 교지를 내려, 윤씨 대감의 명예를 영구히 복권하고... 빼앗겼던 북촌 본가와 가산을 온전히 돌려주도록 명했습니다.",
     "audio_path": "output/audio/slide_082.mp3",
-    "audio_duration": 14.349,
-    "subtitle_path": "output/subtitles/slide_082.srt"
+    "audio_duration": 11.26,
+    "subtitle_path": "output/subtitles/slide_082.srt",
+    "phonetic_script": "임금은 친히 교지를 내려, 윤씨 대감에 명예를 영구히 복권하고, ... 빼앗겼던 북촌 본가와 가산을 온전히 돌려주도록 명했습니다."
   },
   {
     "slide_index": 83,
@@ -1156,10 +1238,11 @@
     "avatar_path": "",
     "emotion": "봉작",
     "slide_screen_text": "충절을 지킨 안주인 윤씨에게 정경부인의 첩지를 내리고, 이진우에게는 훈련원 판관의 관직을 제수한다!",
-    "voice_script": "고난을 견뎌낸 마님에게 정경부인의 첩지가 내렸고, ... 목숨 바쳐 충절을 다한 이진우는 훈련원 판관으로 당당히 복직되었습니다, ...",
+    "voice_script": "고난을 견뎌낸 마님에게 정경부인의 첩지가 내렸고... 목숨 바쳐 충절을 다한 이진우는, 훈련원 판관으로 당당히 복직되었습니다.",
     "audio_path": "output/audio/slide_083.mp3",
-    "audio_duration": 14.397,
-    "subtitle_path": "output/subtitles/slide_083.srt"
+    "audio_duration": 11.42,
+    "subtitle_path": "output/subtitles/slide_083.srt",
+    "phonetic_script": "고난을 견뎌낸 마님에게 정경부인에 첩지가 내렸고, ... 목숨 바쳐 충절을 다한 이진우는, 훈련원 판관으로 당당히 복직되었습니다."
   },
   {
     "slide_index": 84,
@@ -1170,10 +1253,11 @@
     "avatar_path": "",
     "emotion": "행렬",
     "slide_screen_text": "강원도 산골 주막으로 향하는 화려한 비단 어가와 호위 무사 행렬.",
-    "voice_script": "조정에서 보낸 비단 어가와 수십 명의 호위 행렬이 강원도 주막에 당도하자, ... 온 산골 마을이 기쁨의 축제로 들썩였습니다.",
+    "voice_script": "조정에서 보낸 비단 어가와 수십 명의 호위 행렬이 강원도 주막에 당도하자... 온 산골 마을이 기쁨의 축제로 들썩였습니다.",
     "audio_path": "output/audio/slide_084.mp3",
-    "audio_duration": 13.581,
-    "subtitle_path": "output/subtitles/slide_084.srt"
+    "audio_duration": 11.34,
+    "subtitle_path": "output/subtitles/slide_084.srt",
+    "phonetic_script": "조정에서 보낸 비단 어가와 수십 명의 호위 행렬이 강원도 주막에 당도하자, ... 온 산꼴 마을이 기쁨에 축제로 들썩였습니다."
   },
   {
     "slide_index": 85,
@@ -1184,10 +1268,11 @@
     "avatar_path": "assets/nopa_avatar.jpg",
     "emotion": "환희",
     "slide_screen_text": "마님! 경사 났습니다! 대궐에서 어명이 내려왔습니다! 이제 당당히 가마를 타십시오!",
-    "voice_script": "월이댁은 덩실덩실 춤을 추며 눈물을 훔쳤고, ... 10년의 서러운 한이 마침내, 봄눈 녹듯 깨끗이 사라진 순간이었지요, ...",
+    "voice_script": "월이댁은 덩실덩실 춤을 추며 눈물을 훔쳤고... 10년의 서러운 한이 마침내, 봄눈 녹듯 깨끗이 사라진 순간이었습니다.",
     "audio_path": "output/audio/slide_085.mp3",
-    "audio_duration": 13.533,
-    "subtitle_path": "output/subtitles/slide_085.srt"
+    "audio_duration": 12.1,
+    "subtitle_path": "output/subtitles/slide_085.srt",
+    "phonetic_script": "월이땍은 덩실덩실 춤을 추며 눈물을 훔쳤고, ... 심 년의 서러운 한이 마침내, 봄눈 녹듯 깨끗이 사라진 순간이었습니다."
   },
   {
     "slide_index": 86,
@@ -1198,10 +1283,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "품격",
     "slide_screen_text": "누더기 옷을 벗고 정경부인의 고귀한 당의를 입은 마님. 그러나 그녀의 눈빛은 오직 한 사람만을 향하다.",
-    "voice_script": "고귀한 정경부인의 당의를 차려입은 마님은 눈부시게 아름다웠으나, ... 가마에 오르기 전 오직 진우만을 애타게 찾았지요, ...",
+    "voice_script": "고귀한 정경부인의 당의를 차려입은 마님은 눈부시게 아름다웠으나... 가마에 오르기 전, 오직 진우만을 애타게 찾았습니다.",
     "audio_path": "output/audio/slide_086.mp3",
-    "audio_duration": 12.813,
-    "subtitle_path": "output/subtitles/slide_086.srt"
+    "audio_duration": 10.74,
+    "subtitle_path": "output/subtitles/slide_086.srt",
+    "phonetic_script": "고귀한 정경부인에 당의를 차려입은 마님은 눈부시게 아름다웠으나, ... 가마에 오르기 전, 오직 진우만을 애타게 찾았습니다."
   },
   {
     "slide_index": 87,
@@ -1212,10 +1298,11 @@
     "avatar_path": "",
     "emotion": "등장",
     "slide_screen_text": "검은 융복에 붉은 깃을 단 무관의 자태. 늠름하게 말을 타고 나타난 이진우 판관.",
-    "voice_script": "그때, 늠름한 무관의 관복을 입고 백마를 탄 이진우 판관이, ... 늠름하고 헌앙한 자태로 마님 앞에 나타났답니다, ...",
+    "voice_script": "그때, 늠름한 무관의 관복을 입고 백마를 탄 이진우 판관이... 헌앙한 자태로 마님 앞에 나타났습니다.",
     "audio_path": "output/audio/slide_087.mp3",
-    "audio_duration": 13.317,
-    "subtitle_path": "output/subtitles/slide_087.srt"
+    "audio_duration": 9.82,
+    "subtitle_path": "output/subtitles/slide_087.srt",
+    "phonetic_script": "그때, 늠름한 무관에 관복을 입고 백마를 탄 이진우 판관이, ... 헌앙한 자태로 마님 앞에 나타났습니다."
   },
   {
     "slide_index": 88,
@@ -1226,10 +1313,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "예우",
     "slide_screen_text": "정경부인 마님, 소인 이진우가 마님을 한양 본가로 호위하여 모시겠사옵니다.",
-    "voice_script": "늠름한 관복을 차려입었음에도 진우는 마님 앞에 먼저 무릎을 꿇으며, 목숨을 바쳐 마님을 지키겠다는 옛 약속을 지켜내었음을 고했습니다.",
+    "voice_script": "늠름한 관복을 차려입었음에도, 진우는 마님 앞에 먼저 무릎을 꿇으며... 목숨을 바쳐 마님을 지키겠다는 옛 약속을 지켜내었음을 고했습니다.",
     "audio_path": "output/audio/slide_088.mp3",
-    "audio_duration": 13.941,
-    "subtitle_path": "output/subtitles/slide_088.srt"
+    "audio_duration": 11.62,
+    "subtitle_path": "output/subtitles/slide_088.srt",
+    "phonetic_script": "늠름한 관복을 차려입었음에도, 진우는 마님 앞에 먼저 무르플 꿇으며, ... 목숨을 바쳐 마님을 지키겠다는 옛 약속을 지켜내었음을 고했습니다."
   },
   {
     "slide_index": 89,
@@ -1240,10 +1328,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "감동",
     "slide_screen_text": "판관 나으리, 이제 무릎을 꿇지 마십시오. 그대는 나의 은인이자 이 나라의 충신입니다.",
-    "voice_script": "마님은 손을 뻗어 진우를 부축해 일으키며, 이제는 머슴이 아닌 당당한 조력자이니 결코 무릎을 꿇지 말라며 환한 미소를 건넸습니다.",
+    "voice_script": "마님은 손을 뻗어 진우를 부축해 일으키며... 이제는 머슴이 아닌 당당한 조력자이니, 결코 무릎을 꿇지 말라며 환한 미소를 건넸습니다.",
     "audio_path": "output/audio/slide_089.mp3",
-    "audio_duration": 13.509,
-    "subtitle_path": "output/subtitles/slide_089.srt"
+    "audio_duration": 13.18,
+    "subtitle_path": "output/subtitles/slide_089.srt",
+    "phonetic_script": "마님은 손을 뻗어 진우를 부축해 일으키며, ... 이제는 머슴이 아닌 당당한 조력자이니, 결코 무르플 꿇지 말라며 환한 미소를 건넸습니다."
   },
   {
     "slide_index": 90,
@@ -1254,10 +1343,11 @@
     "avatar_path": "",
     "emotion": "환향",
     "slide_screen_text": "북촌 대저택으로 향하는 금의환향 가마 행렬. 온 백성이 길가에 나와 충신과 마님을 칭송하다.",
-    "voice_script": "북촌 대저택으로 향하는 금의환향 가마 행렬을 보며, ... 수천 명의 한양 백성들이 거리로 나와 충신과 마님을 열렬히 칭송했습니다.",
+    "voice_script": "북촌 대저택으로 향하는 금의환향 가마 행렬을 보며... 수천 명의 한양 백성들이 거리로 나와, 충신과 마님을 열렬히 칭송했습니다.",
     "audio_path": "output/audio/slide_090.mp3",
-    "audio_duration": 14.133,
-    "subtitle_path": "output/subtitles/slide_090.srt"
+    "audio_duration": 11.54,
+    "subtitle_path": "output/subtitles/slide_090.srt",
+    "phonetic_script": "북촌 대저택으로 향하는 금의환향 가마 행렬을 보며, ... 수천 명의 한양 백성들이 거리로 나와, 충신과 마님을 열렬히 칭송했습니다."
   },
   {
     "slide_index": 91,
@@ -1268,10 +1358,11 @@
     "avatar_path": "",
     "emotion": "대문",
     "slide_screen_text": "굳게 닫혔던 북촌 대감댁 솟을대문이 활짝 열리고 가문의 옛 영광이 다시 피어나다.",
-    "voice_script": "10년 만에 굳게 닫혔던 솟을대문이 활짝 열리고, ... 마침내, 본가 대청마루에 앉은 마님의 저택에 따스한 등불이 밝혀졌지요, ...",
+    "voice_script": "10년 만에 굳게 닫혔던 솟을대문이 활짝 열리고... 마침내, 본가 대청마루에 앉은 마님의 저택에 따스한 등불이 밝혀졌습니다.",
     "audio_path": "output/audio/slide_091.mp3",
-    "audio_duration": 13.845,
-    "subtitle_path": "output/subtitles/slide_091.srt"
+    "audio_duration": 13.58,
+    "subtitle_path": "output/subtitles/slide_091.srt",
+    "phonetic_script": "심 년 만에 굳게 닫혔던 솟을대문이 활짝 열리고, ... 마침내, 본가 대청마루에 앉은 마님에 저택에 따스한 등뿔이 밝혀졌습니다."
   },
   {
     "slide_index": 92,
@@ -1282,10 +1373,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "추모",
     "slide_screen_text": "사당에 분향하며 대감마님의 위패 앞에 올리는 눈물의 고별.",
-    "voice_script": "사당에 분향을 올린 마님은, 옛날 대감께서 목숨을 구해주었던 어린 소년이 마침내 장성하여 가문의 명예를 되찾아주었다며 돌아가신 대감의 넋을 기렸습니다.",
+    "voice_script": "사당에 분향을 올린 마님은... 옛날 대감께서 목숨을 구해주었던 어린 소년이 마침내 장성하여 가문의 명예를 되찾아주었다며, 돌아가신 대감의 넋을 기렸습니다.",
     "audio_path": "output/audio/slide_092.mp3",
-    "audio_duration": 16.101,
-    "subtitle_path": "output/subtitles/slide_092.srt"
+    "audio_duration": 15.74,
+    "subtitle_path": "output/subtitles/slide_092.srt",
+    "phonetic_script": "사당에 분향을 올린 마님은, ... 옛날 대감께서 목숨을 구해주었던 어린 소년이 마침내 장성하여 가문에 명예를 되찾아주었다며, 돌아가신 대감에 넉슬 기렸습니다."
   },
   {
     "slide_index": 93,
@@ -1296,10 +1388,11 @@
     "avatar_path": "",
     "emotion": "보답",
     "slide_screen_text": "주막 노파 월이댁에게 큰 상금을 내리고 평생의 은신처를 마련해 준 마님의 은혜.",
-    "voice_script": "마님은 위기마다 목숨을 걸고 도와준 월이댁에게, ... 비옥한 전답과 기와집을 내리며 평생 편히 살 수 있도록 보답하였습니다.",
+    "voice_script": "마님은 위기마다 목숨을 걸고 도와준 월이댁에게... 비옥한 전답과 기와집을 내리며, 평생 편히 살 수 있도록 보답하였습니다.",
     "audio_path": "output/audio/slide_093.mp3",
-    "audio_duration": 13.869,
-    "subtitle_path": "output/subtitles/slide_093.srt"
+    "audio_duration": 10.9,
+    "subtitle_path": "output/subtitles/slide_093.srt",
+    "phonetic_script": "마님은 위기마다 목숨을 걸고 도와준 월이땍에게, ... 비옥한 전답과 기와찌블 내리며, 평생 편히 살 수 있도록 보답하였습니다."
   },
   {
     "slide_index": 94,
@@ -1310,10 +1403,11 @@
     "avatar_path": "assets/nopa_avatar.jpg",
     "emotion": "감사",
     "slide_screen_text": "마님의 하해와 같은 은혜에 몸 둘 바를 모르겠습니다. 진실은 반드시 승리하는 법입니다!",
-    "voice_script": "큰절을 올린 월이댁은, 진실은 반드시 승리하는 법이니 두 분 앞날에 오직 태평성대와 행복만이 가득하기를 축원했습니다.",
+    "voice_script": "큰절을 올린 월이댁은... 진실은 반드시 승리하는 법이니, 두 분 앞날에 오직 태평성대와 행복만이 가득하기를 축원했습니다.",
     "audio_path": "output/audio/slide_094.mp3",
-    "audio_duration": 12.861,
-    "subtitle_path": "output/subtitles/slide_094.srt"
+    "audio_duration": 12.34,
+    "subtitle_path": "output/subtitles/slide_094.srt",
+    "phonetic_script": "큰절을 올린 월이땍은, ... 진실은 반드시 승리하는 법이니, 두 분 앞날에 오직 태평성대와 행복만이 가득하기를 축원했습니다."
   },
   {
     "slide_index": 95,
@@ -1324,10 +1418,11 @@
     "avatar_path": "",
     "emotion": "달밤",
     "slide_screen_text": "꽃잎 흩날리는 북촌 후원의 달밤. 두 사람만이 마주 선 고요한 시간.",
-    "voice_script": "모든 잔치가 끝나고 꽃잎이 흩날리는 북촌 후원의 달밤, ... 마님과 진우는 정자에 마주 앉아 고요한 시간을 나누었답니다, ...",
+    "voice_script": "모든 잔치가 끝나고 꽃잎이 흩날리는 북촌 후원의 달밤... 마님과 진우는 정자에 마주 앉아 고요한 시간을 나누었습니다.",
     "audio_path": "output/audio/slide_095.mp3",
-    "audio_duration": 13.701,
-    "subtitle_path": "output/subtitles/slide_095.srt"
+    "audio_duration": 11.34,
+    "subtitle_path": "output/subtitles/slide_095.srt",
+    "phonetic_script": "모든 잔치가 끝나고 꽃잎이 흩날리는 북촌 후원에 달밤, ... 마님과 진우는 정자에 마주 앉아 고요한 시간을 나누었습니다."
   },
   {
     "slide_index": 96,
@@ -1338,10 +1433,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "진심",
     "slide_screen_text": "진우야 낡은 오두막에서 아궁이 불을 지피던 그 겨울밤이 아직도 꿈만 같구나.",
-    "voice_script": "조용히 차를 따르던 마님은, 화려한 비단옷을 입은 지금보다 눈보라 치는 오두막에서 서로를 의지하던 그 시절의 진심이 더욱 소중했노라 담담히 털어놓았습니다.",
+    "voice_script": "조용히 차를 따르던 마님은... 화려한 비단옷을 입은 지금보다, 눈보라 치는 오두막에서 서로를 의지하던 그 시절의 진심이 더욱 소중했노라... 담담히 털어놓았습니다.",
     "audio_path": "output/audio/slide_096.mp3",
-    "audio_duration": 15.405,
-    "subtitle_path": "output/subtitles/slide_096.srt"
+    "audio_duration": 15.02,
+    "subtitle_path": "output/subtitles/slide_096.srt",
+    "phonetic_script": "조용히 차를 따르던 마님은, ... 화려한 비단오슬 입은 지금보다, 눈보라 치는 오두막에서 서로를 의지하던 그 시절에 진심이 더욱 소중했노라, ... 담담히 털어놓았습니다."
   },
   {
     "slide_index": 97,
@@ -1352,10 +1448,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "애틋",
     "slide_screen_text": "소인 역시 마님과 함께했던 그 혹독한 겨울이 제 인생에서 가장 소중한 시간이었사옵니다.",
-    "voice_script": "진우 역시 그윽한 눈빛으로 마님을 바라보며, 마님을 모셨던 그 험난한 고난의 시간이야말로 생애 가장 고귀하고 뜻깊은 순간이었노라 화답했습니다.",
+    "voice_script": "진우 역시 그윽한 눈빛으로 마님을 바라보며... 마님을 모셨던 그 험난한 고난의 시간이야말로, 생애 가장 고귀하고 뜻깊은 순간이었노라 화답했습니다.",
     "audio_path": "output/audio/slide_097.mp3",
-    "audio_duration": 15.069,
-    "subtitle_path": "output/subtitles/slide_097.srt"
+    "audio_duration": 15.18,
+    "subtitle_path": "output/subtitles/slide_097.srt",
+    "phonetic_script": "진우 역시 그윽한 눈삐츠로 마님을 바라보며, ... 마님을 모셨던 그 험난한 고난에 시간이야말로, 생애 가장 고귀하고 뜻깊은 순간이었노라 화답했습니다."
   },
   {
     "slide_index": 98,
@@ -1366,10 +1463,11 @@
     "avatar_path": "",
     "emotion": "조정",
     "slide_screen_text": "임금의 두터운 신임을 받으며 국경 수비의 총책임자로 임명되는 이진우.",
-    "voice_script": "진우의 뛰어난 지략과 무예를 높이 산 조정에서는, ... 그를 북방 국경을 수호하는 절도사로 임명하라는 어명을 내렸습니다.",
+    "voice_script": "진우의 뛰어난 지략과 무예를 높이 산 조정에서는... 그를 북방 국경을 수호하는 절도사로 임명하라는, 어명을 내렸습니다.",
     "audio_path": "output/audio/slide_098.mp3",
-    "audio_duration": 13.053,
-    "subtitle_path": "output/subtitles/slide_098.srt"
+    "audio_duration": 11.9,
+    "subtitle_path": "output/subtitles/slide_098.srt",
+    "phonetic_script": "진우에 뛰어난 지략과 무예를 높이 산 조정에서는, ... 그를 북방 국경을 수호하는 절도사로 임명하라는, 어명을 내렸습니다."
   },
   {
     "slide_index": 99,
@@ -1380,10 +1478,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "갈등",
     "slide_screen_text": "국경으로 떠나면 마님 곁을 지킬 수 없는데 내 어찌 마님을 홀로 두고 떠난단 말인가.",
-    "voice_script": "높은 벼슬보다 마님 곁을 지키고 싶었던 진우는, ... 홀로 깊은 고뇌에 빠져 밤하늘을 올려다보았지요, ...",
+    "voice_script": "높은 벼슬보다 마님 곁을 지키고 싶었던 진우는... 홀로 깊은 고뇌에 빠져 밤하늘을 올려다보았습니다.",
     "audio_path": "output/audio/slide_099.mp3",
-    "audio_duration": 11.709,
-    "subtitle_path": "output/subtitles/slide_099.srt"
+    "audio_duration": 10.06,
+    "subtitle_path": "output/subtitles/slide_099.srt",
+    "phonetic_script": "높은 벼슬보다 마님 곁을 지키고 싶었던 진우는, ... 홀로 깊은 고뇌에 빠져 밤하늘을 올려다보았습니다."
   },
   {
     "slide_index": 100,
@@ -1394,10 +1493,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "응원",
     "slide_screen_text": "진우야, 나라를 위해 그대의 큰 뜻을 펼치거라. 나는 언제나 이곳에서 그대를 기다릴 것이다.",
-    "voice_script": "마님은 진우의 거친 손을 꼭 쥐며, 더 이상 머슴이 아니니 자신의 곁에서 평생을 함께할 동반자가 되어달라 마음을 전했습니다.",
+    "voice_script": "마님은 진우의 거친 손을 꼭 쥐며... 더 이상 머슴이 아니니, 자신의 곁에서 평생을 함께할 동반자가 되어달라, 마음을 전했습니다.",
     "audio_path": "output/audio/slide_100.mp3",
-    "audio_duration": 12.813,
-    "subtitle_path": "output/subtitles/slide_100.srt"
+    "audio_duration": 13.46,
+    "subtitle_path": "output/subtitles/slide_100.srt",
+    "phonetic_script": "마님은 진우에 거친 손을 꼭 쥐며, ... 더 이상 머슴이 아니니, 자신에 곁에서 평생을 함께할 동반자가 되어달라, 마음을 전했습니다."
   },
   {
     "slide_index": 101,
@@ -1408,10 +1508,11 @@
     "avatar_path": "",
     "emotion": "출정",
     "slide_screen_text": "북방 국경으로 출정하는 날 아침. 마님이 손수 지어준 비단 두루마기.",
-    "voice_script": "북풍이 부는 국경으로 출정하는 날 아침, ... 마님은 밤새 정성껏 바느질한 따뜻한 비단 두루마기를 진우 장군에게 입혀주었답니다, ...",
+    "voice_script": "북풍이 부는 국경으로 출정하는 날 아침... 마님은 밤새 정성껏 바느질한 따뜻한 비단 두루마기를, 진우 장군에게 입혀주었습니다.",
     "audio_path": "output/audio/slide_101.mp3",
-    "audio_duration": 14.301,
-    "subtitle_path": "output/subtitles/slide_101.srt"
+    "audio_duration": 10.34,
+    "subtitle_path": "output/subtitles/slide_101.srt",
+    "phonetic_script": "북풍이 부는 국경으로 출정하는 날 아침, ... 마님은 밤새 정성껏 바느질한 따뜻한 비단 두루마기를, 진우 장군에게 입혀주었습니다."
   },
   {
     "slide_index": 102,
@@ -1422,10 +1523,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "기원",
     "slide_screen_text": "부디 몸조심하시고, 변방의 칼바람을 이겨내소서. 이 옷이 그대의 갑옷이 되어줄 것입니다.",
-    "voice_script": "마님은 출정하는 진우의 옷깃을 여며주며, 변방의 매서운 칼바람을 이겨내고 봄날 무탈하게 개선하기를 간절히 빌어주었습니다.",
+    "voice_script": "마님은 출정하는 진우의 옷깃을 여며주며... 변방의 매서운 칼바람을 이겨내고, 봄날 무탈하게 개선하기를 간절히 빌어주었습니다.",
     "audio_path": "output/audio/slide_102.mp3",
-    "audio_duration": 13.053,
-    "subtitle_path": "output/subtitles/slide_102.srt"
+    "audio_duration": 10.5,
+    "subtitle_path": "output/subtitles/slide_102.srt",
+    "phonetic_script": "마님은 출정하는 진우에 옷깃을 여며주며, ... 변방에 매서운 칼바람을 이겨내고, 봄날 무탈하게 개선하기를 간절히 빌어주었습니다."
   },
   {
     "slide_index": 103,
@@ -1436,10 +1538,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "맹세",
     "slide_screen_text": "마님께서 계신 한양을 향해 매일 절을 올리겠습니다. 소인의 심장은 오직 마님 곁에 머물러 있습니다.",
-    "voice_script": "진우는 손등에 이마를 대며, 천 리 밖 변방에 머물더라도 마음은 늘 북촌 댁 마님 곁에 머물러 있을 것이라 다짐했습니다.",
+    "voice_script": "진우는 손등에 이마를 대며... 천 리 밖 변방에 머물더라도, 마음은 늘 북촌 댁 마님 곁에 머물러 있을 것이라 다짐했습니다.",
     "audio_path": "output/audio/slide_103.mp3",
-    "audio_duration": 12.909,
-    "subtitle_path": "output/subtitles/slide_103.srt"
+    "audio_duration": 11.7,
+    "subtitle_path": "output/subtitles/slide_103.srt",
+    "phonetic_script": "진우는 손뜽에 이마를 대며, ... 천 리 밖 변방에 머물더라도, 마음은 늘 북촌 댁 마님 곁에 머물러 있을 것이라 다짐했습니다."
   },
   {
     "slide_index": 104,
@@ -1450,10 +1553,11 @@
     "avatar_path": "",
     "emotion": "세월",
     "slide_screen_text": "북방의 오랑캐를 물리치고 백성을 구한 명장 이진우. 그의 명성이 삼남 지방까지 자자하다.",
-    "voice_script": "북방으로 떠난 진우 장군은 탁월한 무예와 덕망으로 국경을 굳건히 지켜냈고, ... 백성들은 그를 명장이라 칭송했습니다.",
+    "voice_script": "북방으로 떠난 진우 장군은 탁월한 무예와 덕망으로 국경을 굳건히 지켜냈고... 백성들은 그를 명장이라 칭송했습니다.",
     "audio_path": "output/audio/slide_104.mp3",
-    "audio_duration": 13.221,
-    "subtitle_path": "output/subtitles/slide_104.srt"
+    "audio_duration": 12.66,
+    "subtitle_path": "output/subtitles/slide_104.srt",
+    "phonetic_script": "북방으로 떠난 진우 장군은 탁월한 무예와 덕망으로 국경을 굳건히 지켜냈고, ... 백성들은 그를 명장이라 칭송했습니다."
   },
   {
     "slide_index": 105,
@@ -1464,10 +1568,11 @@
     "avatar_path": "",
     "emotion": "서신",
     "slide_screen_text": "천 리 길을 오가는 애틋한 서신들. 달빛 아래 서로의 안부를 묻는 밤마다의 그리움.",
-    "voice_script": "계절이 바뀔 때마다 천 리 길을 오가는 애틋한 서신들, ... 두 사람은 달빛 아래 서로의 안부를 물으며 깊은 그리움을 달랬지요, ...",
+    "voice_script": "계절이 바뀔 때마다 천 리 길을 오가는 애틋한 서신들... 두 사람은 달빛 아래 서로의 안부를 물으며, 깊은 그리움을 달랬습니다.",
     "audio_path": "output/audio/slide_105.mp3",
-    "audio_duration": 14.013,
-    "subtitle_path": "output/subtitles/slide_105.srt"
+    "audio_duration": 11.1,
+    "subtitle_path": "output/subtitles/slide_105.srt",
+    "phonetic_script": "계절이 바뀔 때마다 천 리 길을 오가는 애틋한 서신들, ... 두 사람은 달삣 아래 서로에 안부를 물으며, 깊은 그리움을 달랬습니다."
   },
   {
     "slide_index": 106,
@@ -1478,10 +1583,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "그리움",
     "slide_screen_text": "그대가 지켜낸 평화로운 강산 아래서, 나는 그대가 돌아올 봄날만을 기다립니다.",
-    "voice_script": "마님은 변방에서 온 편지를 가슴에 품으며, 진우가 굳건히 지켜낸 평화로운 강산 아래서 언제까지나 그를 기다리겠노라 읊조렸습니다.",
+    "voice_script": "마님은 변방에서 온 편지를 가슴에 품으며... 진우가 굳건히 지켜낸 평화로운 강산 아래서, 언제까지나 그를 기다리겠노라 읊조렸습니다.",
     "audio_path": "output/audio/slide_106.mp3",
-    "audio_duration": 13.533,
-    "subtitle_path": "output/subtitles/slide_106.srt"
+    "audio_duration": 11.78,
+    "subtitle_path": "output/subtitles/slide_106.srt",
+    "phonetic_script": "마님은 변방에서 온 편지를 가슴에 품으며, ... 진우가 굳건히 지켜낸 평화로운 강산 아래서, 언제까지나 그를 기다리겠노라 읊조렸습니다."
   },
   {
     "slide_index": 107,
@@ -1492,10 +1598,11 @@
     "avatar_path": "",
     "emotion": "귀환",
     "slide_screen_text": "3년 후의 봄날, 국경의 임무를 완수하고 개선하는 이진우 장군.",
-    "voice_script": "3년의 세월이 흘러 국경의 임무를 완수한 진우 장군이 개선하자, ... 임금은 정이품 판서 관직을 제수하려 하였습니다.",
+    "voice_script": "3년의 세월이 흘러 국경의 임무를 완수한 진우 장군이 개선하자... 임금은 정이품 판서 관직을 제수하려 하였습니다.",
     "audio_path": "output/audio/slide_107.mp3",
-    "audio_duration": 12.813,
-    "subtitle_path": "output/subtitles/slide_107.srt"
+    "audio_duration": 10.22,
+    "subtitle_path": "output/subtitles/slide_107.srt",
+    "phonetic_script": "3년의 세월이 흘러 국경에 임무를 완수한 진우 장군이 개선하자, ... 임금은 정이품 판서 관직을 제수하려 하였습니다."
   },
   {
     "slide_index": 108,
@@ -1506,10 +1613,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "청원",
     "slide_screen_text": "전하, 소인은 더 이상의 벼슬을 원치 않사옵니다. 다만 북촌 마님의 곁에서 평생을 보내게 해주소서.",
-    "voice_script": "하지만, 진우는 엎드려 아뢰기를, 높은 벼슬을 탐하지 않으니 오직 북촌 저택으로 돌아가 마님을 평생 모시며 여생을 보내고 싶노라 간청했습니다.",
+    "voice_script": "하지만, 진우는 엎드려 아뢰기를... 높은 벼슬을 탐하지 않으니, 오직 북촌 저택으로 돌아가 마님을 평생 모시며 여생을 보내고 싶노라 간청했습니다.",
     "audio_path": "output/audio/slide_108.mp3",
-    "audio_duration": 14.493,
-    "subtitle_path": "output/subtitles/slide_108.srt"
+    "audio_duration": 14.62,
+    "subtitle_path": "output/subtitles/slide_108.srt",
+    "phonetic_script": "하지만, 진우는 엎드려 아뢰기를, ... 높은 벼슬을 탐하지 않으니, 오직 북촌 저택으로 돌아가 마님을 평생 모시며 여생을 보내고 싶노라 간청했습니다."
   },
   {
     "slide_index": 109,
@@ -1520,10 +1628,11 @@
     "avatar_path": "",
     "emotion": "재회",
     "slide_screen_text": "봄꽃이 만발한 북촌 저택 마당. 마침내 다시 마주 선 두 사람.",
-    "voice_script": "봄꽃이 흐드러지게 핀 북촌 저택 마당으로, ... 소박한 무명 도포를 입은 진우가 환한 미소를 지으며 대문을 열고 들어섰지요, ...",
+    "voice_script": "봄꽃이 흐드러지게 핀 북촌 저택 마당으로... 소박한 무명 도포를 입은 진우가, 환한 미소를 지으며 대문을 열고 들어섰습니다.",
     "audio_path": "output/audio/slide_109.mp3",
-    "audio_duration": 13.437,
-    "subtitle_path": "output/subtitles/slide_109.srt"
+    "audio_duration": 11.98,
+    "subtitle_path": "output/subtitles/slide_109.srt",
+    "phonetic_script": "봄꽃이 흐드러지게 핀 북촌 저택 마당으로, ... 소박한 무명 도포를 입은 진우가, 환한 미소를 지으며 대문을 열고 들어섰습니다."
   },
   {
     "slide_index": 110,
@@ -1534,10 +1643,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "귀환인사",
     "slide_screen_text": "마님, 소인 돌쇠가 이제 마님의 곁으로 완전히 돌아왔사옵니다.",
-    "voice_script": "마님 앞에 다시 무릎을 꿇은 진우는, 충직한 돌쇠가 모든 임무를 마치고 이제 마님의 곁으로 영원히 돌아왔노라 고했습니다.",
+    "voice_script": "마님 앞에 다시 무릎을 꿇은 진우는... 충직한 돌쇠가 모든 임무를 마치고, 이제 마님의 곁으로 영원히 돌아왔노라 고했습니다.",
     "audio_path": "output/audio/slide_110.mp3",
-    "audio_duration": 12.909,
-    "subtitle_path": "output/subtitles/slide_110.srt"
+    "audio_duration": 11.7,
+    "subtitle_path": "output/subtitles/slide_110.srt",
+    "phonetic_script": "마님 앞에 다시 무르플 꿇은 진우는, ... 충직한 돌쇠가 모든 임무를 마치고, 이제 마님에 곁으로 영원히 돌아왔노라 고했습니다."
   },
   {
     "slide_index": 111,
@@ -1548,10 +1658,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "포옹",
     "slide_screen_text": "돌쇠야 아니 나의 하늘이여 고맙구나, 무탈히 돌아와 주어서",
-    "voice_script": "마님은 찻잔을 내려놓고 달려와 그의 품에 안겼고, ... 온갖 풍파를 이겨낸 두 사람의 심장이 따뜻하게 하나로 뛰었지요, ...",
+    "voice_script": "마님은 찻잔을 내려놓고 달려와 그의 품에 안겼고... 온갖 풍파를 이겨낸 두 사람의 심장이, 따뜻하게 하나로 뛰었습니다.",
     "audio_path": "output/audio/slide_111.mp3",
-    "audio_duration": 12.909,
-    "subtitle_path": "output/subtitles/slide_111.srt"
+    "audio_duration": 9.86,
+    "subtitle_path": "output/subtitles/slide_111.srt",
+    "phonetic_script": "마님은 차짜늘 내려놓고 달려와 그에 품에 안겼고, ... 온갖 풍파를 이겨낸 두 사람에 심장이, 따뜻하게 하나로 뛰었습니다."
   },
   {
     "slide_index": 112,
@@ -1562,10 +1673,11 @@
     "avatar_path": "",
     "emotion": "결합",
     "slide_screen_text": "조선 사회의 엄격한 신분제를 뛰어넘어 영원한 삶의 반려자가 된 두 사람.",
-    "voice_script": "엄격한 신분제의 벽을 뛰어넘은 두 사람은, ... 가문의 재산을 가난한 이웃과 나누며 평생 서로를 아끼는 반려자가 되었습니다, ...",
+    "voice_script": "엄격한 신분제의 벽을 뛰어넘은 두 사람은... 가문의 재산을 가난한 이웃과 나누며, 평생 서로를 아끼는 반려자가 되었습니다.",
     "audio_path": "output/audio/slide_112.mp3",
-    "audio_duration": 13.317,
-    "subtitle_path": "output/subtitles/slide_112.srt"
+    "audio_duration": 10.38,
+    "subtitle_path": "output/subtitles/slide_112.srt",
+    "phonetic_script": "엄격한 신분제에 벽을 뛰어넘은 두 사람은, ... 가문에 재산을 가난한 이웃과 나누며, 평생 서로를 아끼는 반려자가 되었습니다."
   },
   {
     "slide_index": 113,
@@ -1576,10 +1688,11 @@
     "avatar_path": "",
     "emotion": "선행",
     "slide_screen_text": "가난한 백성들을 구휼하고 학당을 세워 의로운 인재를 길러내는 두 사람의 아름다운 만년.",
-    "voice_script": "북촌 저택에 무료 서당을 열어 아이들을 가르치고, ... 흉년마다 곳간을 활짝 열어 수많은 백성의 목숨을 구해주었답니다, ...",
+    "voice_script": "북촌 저택에 무료 서당을 열어 아이들을 가르치고... 흉년마다 곳간을 활짝 열어, 수많은 백성의 목숨을 구해주었습니다.",
     "audio_path": "output/audio/slide_113.mp3",
-    "audio_duration": 13.269,
-    "subtitle_path": "output/subtitles/slide_113.srt"
+    "audio_duration": 10.5,
+    "subtitle_path": "output/subtitles/slide_113.srt",
+    "phonetic_script": "북촌 저택에 무료 서당을 열어 아이들을 가르치고, ... 흉년마다 곳간을 활짝 열어, 수많은 백성에 목숨을 구해주었습니다."
   },
   {
     "slide_index": 114,
@@ -1590,10 +1703,11 @@
     "avatar_path": "",
     "emotion": "노을",
     "slide_screen_text": "노을빛이 아름답게 물드는 남산 언덕에서 손을 잡고 걸어가는 노년의 두 사람.",
-    "voice_script": "세월이 흘러 백발이 성성해진 두 사람은, ... 노을빛 물드는 남산 언덕에서 손을 잡고 지난날의 고난을 미소로 회상하였습니다.",
+    "voice_script": "세월이 흘러 백발이 성성해진 두 사람은... 노을빛 물드는 남산 언덕에서 손을 잡고, 지난날의 고난을 미소로 회상하였습니다.",
     "audio_path": "output/audio/slide_114.mp3",
-    "audio_duration": 13.797,
-    "subtitle_path": "output/subtitles/slide_114.srt"
+    "audio_duration": 10.9,
+    "subtitle_path": "output/subtitles/slide_114.srt",
+    "phonetic_script": "세월이 흘러 백발이 성성해진 두 사람은, ... 노을빛 물드는 남산 언덕에서 손을 잡고, 지난날에 고난을 미소로 회상하였습니다."
   },
   {
     "slide_index": 115,
@@ -1604,10 +1718,11 @@
     "avatar_path": "assets/lady_yoon_avatar.jpg",
     "emotion": "감회",
     "slide_screen_text": "돌쇠야, 네가 내 곁에 없었더라면 나는 그 차가운 진흙 바닥에서 이미 죽었을 것이다.",
-    "voice_script": "마님은 진우의 거친 손을 따스하게 어루만지며, 자신의 생애 가장 큰 축복은 바로 변함없이 곁을 지켜준 돌쇠와의 만남이었음을 고백했습니다.",
+    "voice_script": "마님은 진우의 거친 손을 따스하게 어루만지며... 자신의 생애 가장 큰 축복은, 바로 변함없이 곁을 지켜준 돌쇠와의 만남이었음을 고백했습니다.",
     "audio_path": "output/audio/slide_115.mp3",
-    "audio_duration": 14.613,
-    "subtitle_path": "output/subtitles/slide_115.srt"
+    "audio_duration": 12.82,
+    "subtitle_path": "output/subtitles/slide_115.srt",
+    "phonetic_script": "마님은 진우에 거친 손을 따스하게 어루만지며, ... 자신에 생애 가장 큰 축복은, 바로 변함없이 곁을 지켜준 돌쇠와에 만남이었음을 고백했습니다."
   },
   {
     "slide_index": 116,
@@ -1618,10 +1733,11 @@
     "avatar_path": "assets/dolsoe_avatar.jpg",
     "emotion": "영원",
     "slide_screen_text": "마님, 다음 생이 있다 해도 소인은 기꺼이 마님의 머슴이 되어 곁을 지킬 것입니다.",
-    "voice_script": "진우는 온화한 미소를 지으며, 다음 생이 다시 주어진다 해도 기꺼이 마님을 모시는 충직한 머슴으로 태어나 곁을 지키겠노라 화답했습니다.",
+    "voice_script": "진우는 온화한 미소를 지으며... 다음 생이 다시 주어진다 해도, 기꺼이 마님을 모시는 충직한 머슴으로 태어나 곁을 지키겠노라 화답했습니다.",
     "audio_path": "output/audio/slide_116.mp3",
-    "audio_duration": 13.845,
-    "subtitle_path": "output/subtitles/slide_116.srt"
+    "audio_duration": 13.18,
+    "subtitle_path": "output/subtitles/slide_116.srt",
+    "phonetic_script": "진우는 온화한 미소를 지으며, ... 다음 생이 다시 주어진다 해도, 기꺼이 마님을 모시는 충직한 머슴으로 태어나 곁을 지키겠노라 화답했습니다."
   },
   {
     "slide_index": 117,
@@ -1632,10 +1748,11 @@
     "avatar_path": "",
     "emotion": "교훈",
     "slide_screen_text": "은혜를 잊지 않는 충직한 마음과 인간에 대한 숭고한 사랑이 남긴 불멸의 교훈.",
-    "voice_script": "절망 속에서도 서로를 향한 믿음을 잃지 않았던 두 사람의 이야기는, ... 조선 팔도 민초들의 입을 통해 아름다운 전설로 전해졌지요, ...",
+    "voice_script": "절망 속에서도 서로를 향한 믿음을 잃지 않았던 두 사람의 이야기는... 조선 팔도 민초들의 입을 통해, 아름다운 전설로 전해졌습니다.",
     "audio_path": "output/audio/slide_117.mp3",
-    "audio_duration": 14.109,
-    "subtitle_path": "output/subtitles/slide_117.srt"
+    "audio_duration": 11.7,
+    "subtitle_path": "output/subtitles/slide_117.srt",
+    "phonetic_script": "절망 속에서도 서로를 향한 믿음을 잃지 않았던 두 사람에 이야기는, ... 조선 팔도 민초들에 입을 통해, 아름다운 전설로 전해졌습니다."
   },
   {
     "slide_index": 118,
@@ -1646,10 +1763,11 @@
     "avatar_path": "",
     "emotion": "야담",
     "slide_screen_text": "수백 년 세월을 건너 오늘날 우리에게 진정한 사랑과 충절의 의미를 일깨우다.",
-    "voice_script": "권세와 재물은 흩어지지만, 한 사람을 위해 목숨을 바친 순수한 충심과 사랑은, ... 천 년이 흘러도 바래지 않는 황금처럼 빛납니다, ...",
+    "voice_script": "권세와 재물은 흩어지지만... 한 사람을 위해 목숨을 바친 순수한 충심과 사랑은, 천 년이 흘러도 바래지 않는 황금처럼 빛납니다.",
     "audio_path": "output/audio/slide_118.mp3",
-    "audio_duration": 14.349,
-    "subtitle_path": "output/subtitles/slide_118.srt"
+    "audio_duration": 12.3,
+    "subtitle_path": "output/subtitles/slide_118.srt",
+    "phonetic_script": "권세와 재물은 흩어지지만, ... 한 사람을 위해 목숨을 바친 순수한 충심과 사랑은, 천 년이 흘러도 바래지 않는 황금처럼 빛납니다."
   },
   {
     "slide_index": 119,
@@ -1660,10 +1778,11 @@
     "avatar_path": "",
     "emotion": "에필로그",
     "slide_screen_text": "버려진 오두막의 작은 아궁이 불씨처럼 어둠을 밝히는 영원한 희망의 등불.",
-    "voice_script": "살을 에는 눈보라 속에서도 꺼지지 않던 오두막 불씨처럼, ... 여러분의 삶에도 시련을 이겨낼 진실한 사랑과 온기가 가득하길 기원합니다, ...",
+    "voice_script": "살을 에는 눈보라 속에서도 꺼지지 않던 오두막 불씨처럼... 여러분의 삶에도 시련을 이겨낼, 진실한 사랑과 온기가 가득하길 기원합니다.",
     "audio_path": "output/audio/slide_119.mp3",
-    "audio_duration": 14.781,
-    "subtitle_path": "output/subtitles/slide_119.srt"
+    "audio_duration": 13.74,
+    "subtitle_path": "output/subtitles/slide_119.srt",
+    "phonetic_script": "살을 에는 눈보라 속에서도 꺼지지 않던 오두막 불씨처럼, ... 여러분에 삶에도 시련을 이겨낼, 진실한 사랑과 온기가 가득하길 기원합니다."
   },
   {
     "slide_index": 120,
@@ -1674,9 +1793,10 @@
     "avatar_path": "",
     "emotion": "종막",
     "slide_screen_text": "조선 야담 실화 극장 • 은혜 갚은 머슴 - 완결 (完) -",
-    "voice_script": "지금까지 '소박맞은 마님을 끝까지 모신 머슴, 돌쇠의 숨겨진 반전 실화'를 경청해 주셔서 대단히 감사합니다, ... 구독과 좋아요는 큰 힘이 됩니다, ...",
+    "voice_script": "지금까지 '소박맞은 마님을 끝까지 모신 머슴, 돌쇠의 숨겨진 반전 실화'를 경청해 주셔서 대단히 감사합니다. 구독과 좋아요는 큰 힘이 됩니다.",
     "audio_path": "output/audio/slide_120.mp3",
-    "audio_duration": 16.101,
-    "subtitle_path": "output/subtitles/slide_120.srt"
+    "audio_duration": 14.38,
+    "subtitle_path": "output/subtitles/slide_120.srt",
+    "phonetic_script": "지금까지 '소박맞은 마님을 끝까지 모신 머슴, 돌쇠에 숨겨진 반전 실화'를 경청해 주셔서 대단히 감사합니다. 구독과 좋아요는 큰 힘이 됩니다."
   }
 ]

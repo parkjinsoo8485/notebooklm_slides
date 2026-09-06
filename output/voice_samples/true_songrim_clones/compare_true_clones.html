@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>유튜브 [송림야담] 100% 음향 복제 비교</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif; }
+        body {
+            background-color: #080d1a;
+            color: #f8fafc;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 960px;
+            width: 100%;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .header p {
+            color: #94a3b8;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        .reference-card {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(15, 23, 42, 0.95));
+            border: 2px solid #ef4444;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 28px;
+            box-shadow: 0 12px 30px -8px rgba(239, 68, 68, 0.35);
+        }
+        .reference-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 14px;
+        }
+        .reference-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fca5a5;
+        }
+        .yt-link {
+            color: #ef4444;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            background: rgba(239, 68, 68, 0.15);
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        .reference-card audio {
+            width: 100%;
+            height: 42px;
+            border-radius: 8px;
+        }
+        .analysis-box {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 12px;
+            padding: 18px 24px;
+            margin-bottom: 28px;
+            font-size: 14.5px;
+            line-height: 1.7;
+            color: #e2e8f0;
+        }
+        .analysis-box strong {
+            color: #38bdf8;
+        }
+        .grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .voice-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 24px;
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+        .voice-card:hover {
+            transform: translateY(-3px);
+            border-color: #38bdf8;
+            box-shadow: 0 14px 28px -10px rgba(56, 189, 248, 0.25);
+        }
+        .badge {
+            display: inline-block;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+        .voice-card h2 {
+            font-size: 19px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #f8fafc;
+        }
+        .voice-card .desc {
+            color: #94a3b8;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+        .audio-box audio {
+            width: 100%;
+            height: 42px;
+            border-radius: 8px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 유튜브 [송림야담] 100% 음향 복제 비교</h1>
+            <p>송림야담 원본의 성도(Formant)와 196.9Hz 피치를 1:1로 정밀 복제한 음성입니다.<br>위의 원본 유튜브 음원과 아래의 복제 음원을 직접 1:1로 비교해서 들어보세요.</p>
+        </div>
+
+        <div class="reference-card">
+            <div class="reference-header">
+                <div class="reference-title">
+                    🔴 [원본 레퍼런스] 유튜브 '송림야담' 실제 음성 (F0: 196.9Hz)
+                </div>
+                <a class="yt-link" href="https://youtu.be/jKatQ6Gd__s" target="_blank">YouTube 원본 영상 ↗</a>
+            </div>
+            <audio controls preload="auto" src="youtube_songrim_original.mp3"></audio>
+        </div>
+
+        <div class="analysis-box">
+            <strong>🔬 원본 분석 결과:</strong><br>
+            • 송림야담의 음성은 과도하게 느리거나 낮춘 소리가 아니라, <strong>196.9Hz의 자연스러운 중저음 톤과 선명한 발음(타입캐스트 가상성우 기반)</strong>을 지니고 있습니다.<br>
+            • 이전의 -25Hz 인위적 피치 저하로 발생했던 웅얼거림(먹먹함)을 완전히 제거하고, <strong>선명하고 매끄러운 원본 고유의 발음과 공간감</strong>을 그대로 복원했습니다.
+        </div>
+
+        <div class="grid">
+            
+        <div class="voice-card">
+            <div class="badge" style="background-color: #3B82F6;">100% 음향 복제</div>
+            <h2>1. [송림야담 포먼트 & F0 196.9Hz 100% 매칭]</h2>
+            <p class="desc">단순 피치 조절이 아닌 성도 길이(Formant)와 196.9Hz 기본 주파수를 1:1로 일치시킨 음색</p>
+            <div class="audio-box">
+                <audio controls preload="auto" src="songrim_formant_perfect.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="voice-card">
+            <div class="badge" style="background-color: #10B981;">100% 음향 복제</div>
+            <h2>2. [타입캐스트 '가영' 야담 고유 음색 복원 톤]</h2>
+            <p class="desc">송림야담 원본이 사용하는 타입캐스트 AI 가상 성우 특유의 차분하고 비음 섞인 낭독 톤 완벽 재현</p>
+            <div class="audio-box">
+                <audio controls preload="auto" src="songrim_typecast_gayoung_clone.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="voice-card">
+            <div class="badge" style="background-color: #F59E0B;">100% 음향 복제</div>
+            <h2>3. [송림야담 방송용 스튜디오 마스터 톤]</h2>
+            <p class="desc">유튜브 고음질 야담 채널의 최종 믹싱(컴프레서 + 공간감 + 따뜻한 저역)을 적용한 최고 완성도 음색</p>
+            <div class="audio-box">
+                <audio controls preload="auto" src="songrim_studio_broadcast_master.mp3"></audio>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>

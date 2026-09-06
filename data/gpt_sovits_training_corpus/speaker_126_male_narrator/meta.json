@@ -1,0 +1,14 @@
+{
+  "speaker_id": "126",
+  "profile": {
+    "folder": "speaker_126_male_narrator",
+    "name": "차분한 남성 나레이터 #126",
+    "gender": "male",
+    "license": "CC BY 4.0 (저작권 완전 무료)",
+    "source": "Zeroth-Korean (OpenSLR 40)",
+    "style": "차분하고 담담한 문학 서사 톤"
+  },
+  "sample_count": 39,
+  "total_duration_sec": 406.3,
+  "train_list": "C:\\My_Project\\src\\notebooklm_slides\\data\\gpt_sovits_training_corpus\\speaker_126_male_narrator\\train.list"
+}

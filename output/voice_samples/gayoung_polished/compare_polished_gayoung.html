@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>타입캐스트 '가영' 음색 미세 개선 비교</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif; }
+        body {
+            background-color: #0b1120;
+            color: #f8fafc;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #f59e0b, #10b981, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
+        }
+        .header p {
+            color: #94a3b8;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        .grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .voice-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 24px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .voice-card:hover {
+            transform: translateY(-3px);
+            border-color: #f59e0b;
+        }
+        .badge {
+            display: inline-block;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+        .voice-card h2 {
+            font-size: 19px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #f8fafc;
+        }
+        .voice-card .desc {
+            color: #94a3b8;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+        .audio-box audio {
+            width: 100%;
+            height: 42px;
+            border-radius: 8px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>✨ 가영 복원 톤 - 음색 미세 개선 3종 비교</h1>
+            <p>기존 가영 복원 톤의 장점을 살리면서, 음색의 질감(따뜻함 / 선명함 / 공명감)을 한층 더 고급스럽게 조율한 버전입니다.</p>
+        </div>
+
+        <div class="grid">
+            
+        <div class="voice-card">
+            <div class="badge" style="background-color: #D97706;">음색 미세 개선</div>
+            <h2>1. [진공관 웜톤 - 따뜻하고 편안한 서사]</h2>
+            <p class="desc">기계적 치찰음(3~5kHz)을 더욱 부드럽게 다듬고 저역 온기를 더해, 장시간 들어도 귀가 편안한 음색</p>
+            <div class="audio-box">
+                <audio controls preload="auto" src="gayoung_v2_warm_tube.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="voice-card">
+            <div class="badge" style="background-color: #2563EB;">음색 미세 개선</div>
+            <h2>2. [드라이 클리어 - 귀 옆에서 속삭이듯 또렷한 톤]</h2>
+            <p class="desc">울림(리버브)을 완전히 빼고 자음 발음의 전달력을 극대화하여 실제 성우가 녹음실 마이크 앞에서 말하는 듯한 명료한 톤</p>
+            <div class="audio-box">
+                <audio controls preload="auto" src="gayoung_v2_dry_crisp.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="voice-card">
+            <div class="badge" style="background-color: #10B981;">음색 미세 개선</div>
+            <h2>3. [스튜디오 럭셔리 마스터 - 풍부한 공명감]</h2>
+            <p class="desc">고급 오디오북 스튜디오 믹싱을 적용하여 저음의 묵직함과 여성 서사 목소리의 섬세한 감정선을 모두 살린 완성형</p>
+            <div class="audio-box">
+                <audio controls preload="auto" src="gayoung_v2_studio_luxury.mp3"></audio>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>

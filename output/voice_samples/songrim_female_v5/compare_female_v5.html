@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>송림야담 여성 나레이터 v5 — Formant 기반 깊은 음색 복원</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #060b18;
+            --surface: #0f1a2e;
+            --surface2: #162238;
+            --border: #1e3352;
+            --gold: #c9a84c;
+            --gold-dim: #6b521f;
+            --blue: #38bdf8;
+            --green: #10b981;
+            --amber: #f59e0b;
+            --text: #e2e8f0;
+            --muted: #64748b;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            padding: 40px 20px 80px;
+            display: flex;
+            justify-content: center;
+            background-image:
+                radial-gradient(ellipse at 20% 0%, rgba(56,189,248,0.04) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 100%, rgba(201,168,76,0.04) 0%, transparent 50%);
+        }
+        .container { max-width: 960px; width: 100%; }
+
+        /* ── HEADER ── */
+        .header { text-align: center; margin-bottom: 40px; padding: 40px 20px; }
+        .ver-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #c9a84c22, #38bdf822);
+            border: 1px solid var(--gold-dim);
+            color: var(--gold);
+            font-size: 12px; font-weight: 700;
+            padding: 4px 14px; border-radius: 20px;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+        }
+        .header h1 {
+            font-family: 'Noto Serif KR', serif;
+            font-size: 30px; font-weight: 700;
+            background: linear-gradient(135deg, #c9a84c, #e8d5a0, #38bdf8);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            margin-bottom: 14px;
+            line-height: 1.35;
+        }
+        .header p { color: var(--muted); font-size: 14px; line-height: 1.7; max-width: 600px; margin: 0 auto; }
+        .insight-box {
+            background: linear-gradient(135deg, rgba(201,168,76,0.08), rgba(56,189,248,0.06));
+            border: 1px solid var(--gold-dim);
+            border-radius: 12px; padding: 18px 24px;
+            margin: 20px 0 0; text-align: left;
+            font-size: 13px; line-height: 1.8; color: #94a3b8;
+        }
+        .insight-box strong { color: var(--gold); }
+
+        /* ── NARRATION TEXT ── */
+        .narration-box {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--gold);
+            border-radius: 12px; padding: 20px 24px;
+            margin-bottom: 30px;
+            font-family: 'Noto Serif KR', serif;
+            font-size: 16px; line-height: 1.85;
+            color: #d1d5db;
+            font-style: italic;
+        }
+
+        /* ── TARGET ── */
+        .target-bar {
+            display: flex; gap: 12px; flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+        .target-chip {
+            background: rgba(16,185,129,0.1);
+            border: 1px solid rgba(16,185,129,0.3);
+            color: #34d399; font-size: 13px; font-weight: 600;
+            padding: 6px 14px; border-radius: 8px;
+        }
+
+        /* ── ORIG CARD ── */
+        .orig-card {
+            background: linear-gradient(135deg, rgba(239,68,68,0.08), rgba(15,26,46,0.98));
+            border: 2px solid #ef444440;
+            border-radius: 16px; padding: 20px 24px;
+            margin-bottom: 32px;
+        }
+        .orig-header {
+            font-size: 15px; font-weight: 700;
+            color: #fca5a5; margin-bottom: 12px;
+            display: flex; flex-wrap: wrap; align-items: center; gap: 16px;
+        }
+        .orig-metrics {
+            font-size: 12px; font-weight: 500;
+            color: #94a3b8; background: #0f1a2e;
+            padding: 4px 10px; border-radius: 6px;
+        }
+
+        /* ── SECTION LABEL ── */
+        .section-label {
+            font-size: 12px; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.12em;
+            color: var(--muted); margin-bottom: 16px;
+            padding-left: 4px;
+        }
+
+        /* ── VOICE CARDS ── */
+        .grid { display: flex; flex-direction: column; gap: 14px; }
+        .voice-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px; padding: 20px 24px;
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+        .voice-card:hover {
+            transform: translateY(-2px);
+            border-color: #2563eb50;
+            box-shadow: 0 12px 28px -8px rgba(37,99,235,0.2);
+        }
+        .best-card {
+            border-color: var(--gold-dim) !important;
+            background: linear-gradient(135deg, rgba(201,168,76,0.06), var(--surface));
+            box-shadow: 0 0 0 1px var(--gold-dim), 0 16px 32px -10px rgba(201,168,76,0.2);
+        }
+        .best-card:hover { border-color: var(--gold) !important; }
+        .card-top {
+            display: flex; align-items: flex-start;
+            justify-content: space-between; gap: 12px;
+            margin-bottom: 12px;
+        }
+        .vid {
+            font-size: 20px; font-weight: 800;
+            color: var(--blue); margin-right: 10px;
+            font-family: 'Inter', monospace;
+        }
+        .desc-text { font-size: 13px; color: var(--muted); line-height: 1.5; }
+        .badge {
+            font-size: 11px; font-weight: 700;
+            padding: 3px 10px; border-radius: 20px;
+            white-space: nowrap; flex-shrink: 0;
+        }
+        .metrics {
+            display: flex; flex-wrap: wrap; gap: 8px;
+            margin-bottom: 14px;
+        }
+        .metric {
+            font-size: 12px; font-weight: 500;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--muted);
+            padding: 3px 10px; border-radius: 6px;
+        }
+        .metric.hit {
+            background: rgba(16,185,129,0.1);
+            border-color: rgba(16,185,129,0.3);
+            color: #34d399;
+        }
+        .metric.param {
+            background: rgba(56,189,248,0.06);
+            border-color: rgba(56,189,248,0.2);
+            color: #7dd3fc;
+            font-family: monospace;
+        }
+        audio {
+            width: 100%;
+            height: 44px;
+            border-radius: 10px;
+        }
+
+        /* ── SUMMARY TABLE ── */
+        .summary-box {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px; padding: 20px 24px;
+            margin-top: 32px;
+        }
+        .summary-box h3 {
+            font-size: 14px; font-weight: 700;
+            color: var(--gold); margin-bottom: 16px;
+        }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        th { color: var(--muted); font-weight: 600; text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border); }
+        td { padding: 8px 10px; border-bottom: 1px solid #0f1a2e; }
+        tr.best-row td { color: var(--gold); }
+        tr:last-child td { border-bottom: none; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="ver-badge">🎙️ SONGRIM YADAM — NARRATOR v5</div>
+        <h1>깊고 사려깊은 이야기꾼<br>Formant Shifting 기반 음색 복원</h1>
+        <p>EQ로는 불가능한 성도(Formant) 공명 자체를 조절하는 방식으로,<br>
+        원본의 "깊고 이야기에 빠져드는" 느낌을 추구합니다.</p>
+        <div class="insight-box">
+            <strong>v5 핵심 전략:</strong><br>
+            기존 방식(EQ)은 주파수 에너지만 조절 → 음색의 "질감/깊이/공명"은 바꾸지 못합니다.<br>
+            <strong>asetrate + atempo</strong>으로 성도(vocal tract) 길이를 시뮬레이션하면<br>
+            포먼트(F1/F2/F3) 공명 패턴 자체가 바뀌어, 훨씬 더 깊고 사려깊은 음색이 만들어집니다.
+        </div>
+    </div>
+
+    <div class="narration-box">
+        "빈 소달구지 하나로, 어린 딸을 키우던 가난한 농부에게... 누군가 찾아와, 그리 속삭였습니다. 새벽 장터길, 쫓기던 여인을 달구지 안에 숨겨 준... 바로 다음 날이었지요."
+    </div>
+
+    <div class="target-bar">
+        <span class="target-chip">🎯 목표 F0: 195.8 Hz</span>
+        <span class="target-chip">🎯 목표 Centroid: 1632 Hz</span>
+        <span class="target-chip">🎯 목표 ZCR: 0.049</span>
+    </div>
+
+    
+        <div class="orig-card">
+            <div class="orig-header">
+                🎯 원본 레퍼런스 (YouTube 송림야담)
+                <span class="orig-metrics">F0: 190.3Hz | Cent: 2031 | ZCR: 0.0492</span>
+            </div>
+            <audio controls preload="metadata" src="../../songrim_100pct_replica/01_youtube_actual_original.mp3"></audio>
+        </div>
+        
+
+    <div class="section-label">▼ v5 비교 샘플 (8종) — Formant Shifting 기반</div>
+    <div class="grid">
+        
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">D1</span>
+                    <span class="desc-text">Formant 0.93 + 가슴공명 + 약한 룸감</span>
+                </div>
+                <span class="badge" style="background:#64748b20;color:#64748b;border:1px solid #64748b60">WARN</span>
+            </div>
+            <div class="metrics">
+                <span class="metric ">F0: 305.5Hz (+109.7)</span>
+                <span class="metric ">Cent: 3836 (+2204)</span>
+                <span class="metric">ZCR: 0.1023</span>
+                <span class="metric param">rate=-4% pitch=-20Hz formant=0.93</span>
+            </div>
+            <audio controls preload="metadata" src="d1.mp3"></audio>
+        </div>
+        
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">D2</span>
+                    <span class="desc-text">Formant 0.92 + 극저음 강화 (가장 깊음)</span>
+                </div>
+                <span class="badge" style="background:#64748b20;color:#64748b;border:1px solid #64748b60">WARN</span>
+            </div>
+            <div class="metrics">
+                <span class="metric ">F0: 305.5Hz (+109.7)</span>
+                <span class="metric ">Cent: 3897 (+2265)</span>
+                <span class="metric">ZCR: 0.1006</span>
+                <span class="metric param">rate=-4% pitch=-15Hz formant=0.92</span>
+            </div>
+            <audio controls preload="metadata" src="d2.mp3"></audio>
+        </div>
+        
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">D3</span>
+                    <span class="desc-text">Formant 0.93 + 방송용 스튜디오 마스터</span>
+                </div>
+                <span class="badge" style="background:#64748b20;color:#64748b;border:1px solid #64748b60">WARN</span>
+            </div>
+            <div class="metrics">
+                <span class="metric ">F0: 303.8Hz (+108.0)</span>
+                <span class="metric ">Cent: 3742 (+2110)</span>
+                <span class="metric">ZCR: 0.1003</span>
+                <span class="metric param">rate=-5% pitch=-20Hz formant=0.93</span>
+            </div>
+            <audio controls preload="metadata" src="d3.mp3"></audio>
+        </div>
+        
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">D4</span>
+                    <span class="desc-text">Formant 0.94 + 야담 감성 EQ</span>
+                </div>
+                <span class="badge" style="background:#64748b20;color:#64748b;border:1px solid #64748b60">WARN</span>
+            </div>
+            <div class="metrics">
+                <span class="metric ">F0: 305.5Hz (+109.7)</span>
+                <span class="metric ">Cent: 3717 (+2085)</span>
+                <span class="metric">ZCR: 0.1021</span>
+                <span class="metric param">rate=-4% pitch=-22Hz formant=0.94</span>
+            </div>
+            <audio controls preload="metadata" src="d4.mp3"></audio>
+        </div>
+        
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">D5</span>
+                    <span class="desc-text">Formant 0.93 + 온기/자연스러움 (에코 없음)</span>
+                </div>
+                <span class="badge" style="background:#64748b20;color:#64748b;border:1px solid #64748b60">WARN</span>
+            </div>
+            <div class="metrics">
+                <span class="metric ">F0: 303.8Hz (+108.0)</span>
+                <span class="metric ">Cent: 3754 (+2122)</span>
+                <span class="metric">ZCR: 0.1028</span>
+                <span class="metric param">rate=-4% pitch=-20Hz formant=0.93</span>
+            </div>
+            <audio controls preload="metadata" src="d5.mp3"></audio>
+        </div>
+        
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">D6</span>
+                    <span class="desc-text">Formant 0.91 + 실험적 극심화 (에코 강함)</span>
+                </div>
+                <span class="badge" style="background:#64748b20;color:#64748b;border:1px solid #64748b60">WARN</span>
+            </div>
+            <div class="metrics">
+                <span class="metric ">F0: 293.4Hz (+97.6)</span>
+                <span class="metric ">Cent: 3653 (+2021)</span>
+                <span class="metric">ZCR: 0.0933</span>
+                <span class="metric param">rate=-5% pitch=-12Hz formant=0.91</span>
+            </div>
+            <audio controls preload="metadata" src="d6.mp3"></audio>
+        </div>
+        
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">D7</span>
+                    <span class="desc-text">Formant 0.93 + 판소리 아니리 (느린 구연)</span>
+                </div>
+                <span class="badge" style="background:#64748b20;color:#64748b;border:1px solid #64748b60">WARN</span>
+            </div>
+            <div class="metrics">
+                <span class="metric ">F0: 300.3Hz (+104.5)</span>
+                <span class="metric ">Cent: 4169 (+2537)</span>
+                <span class="metric">ZCR: 0.1138</span>
+                <span class="metric param">rate=-7% pitch=-20Hz formant=0.93</span>
+            </div>
+            <audio controls preload="metadata" src="d7.mp3"></audio>
+        </div>
+        
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">D8</span>
+                    <span class="desc-text">Formant 0.93 + 균형 마스터 (최적화)</span>
+                </div>
+                <span class="badge" style="background:#64748b20;color:#64748b;border:1px solid #64748b60">WARN</span>
+            </div>
+            <div class="metrics">
+                <span class="metric ">F0: 305.5Hz (+109.7)</span>
+                <span class="metric ">Cent: 3682 (+2050)</span>
+                <span class="metric">ZCR: 0.0996</span>
+                <span class="metric param">rate=-4% pitch=-20Hz formant=0.93</span>
+            </div>
+            <audio controls preload="metadata" src="d8.mp3"></audio>
+        </div>
+        
+    </div>
+
+    <div class="summary-box">
+        <h3>📊 측정값 요약</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>F0 (목표 195.8)</th>
+                    <th>Centroid (목표 1632)</th>
+                    <th>ZCR</th>
+                    <th>Formant</th>
+                    <th>판정</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class=""><td><strong>D1</strong></td><td>305.5 (+109.7)</td><td>3836 (+2204)</td><td>0.1023</td><td>0.93</td><td>—</td></tr><tr class=""><td><strong>D2</strong></td><td>305.5 (+109.7)</td><td>3897 (+2265)</td><td>0.1006</td><td>0.92</td><td>—</td></tr><tr class=""><td><strong>D3</strong></td><td>303.8 (+108.0)</td><td>3742 (+2110)</td><td>0.1003</td><td>0.93</td><td>—</td></tr><tr class=""><td><strong>D4</strong></td><td>305.5 (+109.7)</td><td>3717 (+2085)</td><td>0.1021</td><td>0.94</td><td>—</td></tr><tr class=""><td><strong>D5</strong></td><td>303.8 (+108.0)</td><td>3754 (+2122)</td><td>0.1028</td><td>0.93</td><td>—</td></tr><tr class=""><td><strong>D6</strong></td><td>293.4 (+97.6)</td><td>3653 (+2021)</td><td>0.0933</td><td>0.91</td><td>—</td></tr><tr class=""><td><strong>D7</strong></td><td>300.3 (+104.5)</td><td>4169 (+2537)</td><td>0.1138</td><td>0.93</td><td>—</td></tr><tr class=""><td><strong>D8</strong></td><td>305.5 (+109.7)</td><td>3682 (+2050)</td><td>0.0996</td><td>0.93</td><td>—</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

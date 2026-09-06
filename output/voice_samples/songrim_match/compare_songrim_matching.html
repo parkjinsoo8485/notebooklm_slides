@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>유튜브 [송림야담] 음성 1:1 정밀 매칭 비교</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif; }
+        body {
+            background-color: #0b1120;
+            color: #f8fafc;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 960px;
+            width: 100%;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .header p {
+            color: #94a3b8;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        .reference-card {
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.95));
+            border: 2px solid #ef4444;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 32px;
+            box-shadow: 0 12px 30px -8px rgba(239, 68, 68, 0.3);
+        }
+        .reference-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 14px;
+        }
+        .reference-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fca5a5;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .yt-link {
+            color: #ef4444;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            background: rgba(239, 68, 68, 0.15);
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        .yt-link:hover { text-decoration: underline; }
+        .reference-card audio {
+            width: 100%;
+            height: 42px;
+            border-radius: 8px;
+        }
+        .script-box {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 12px;
+            padding: 18px 24px;
+            margin-bottom: 30px;
+            font-size: 15px;
+            line-height: 1.7;
+            color: #e2e8f0;
+        }
+        .script-box strong {
+            color: #38bdf8;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        @media (max-width: 768px) {
+            .grid { grid-template-columns: 1fr; }
+        }
+        .voice-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+        .voice-card:hover {
+            transform: translateY(-4px);
+            border-color: #38bdf8;
+            box-shadow: 0 14px 28px -10px rgba(56, 189, 248, 0.3);
+        }
+        .badge {
+            align-self: flex-start;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+        }
+        .voice-card h2 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #f8fafc;
+        }
+        .voice-card .desc {
+            color: #94a3b8;
+            font-size: 13.5px;
+            line-height: 1.5;
+            margin-bottom: 16px;
+            flex-grow: 1;
+        }
+        .param-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .tag {
+            background: #0f172a;
+            color: #38bdf8;
+            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-family: monospace;
+        }
+        .tag-eq {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.4);
+            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+        .audio-box audio {
+            width: 100%;
+            height: 40px;
+            border-radius: 8px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎙️ 유튜브 [송림야담] 음성 1:1 정밀 매칭</h1>
+            <p>제공해주신 유튜브 영상 속 실제 여성 나레이터 음성과<br>가장 흡사하게 조율된 4가지 음색을 1:1로 직접 비교 청음해보세요.</p>
+        </div>
+
+        <div class="reference-card">
+            <div class="reference-header">
+                <div class="reference-title">
+                    🔴 [원본 레퍼런스] 유튜브 '송림야담' 실제 음성
+                </div>
+                <a class="yt-link" href="https://youtu.be/jKatQ6Gd__s" target="_blank">YouTube 원본 보기 ↗</a>
+            </div>
+            <audio controls preload="auto" src="youtube_songrim_reference.mp3"></audio>
+        </div>
+
+        <div class="script-box">
+            <strong>📖 동일 낭독 지문 테스트:</strong><br>
+            "옛날 어느 깊은 산골 마을에, 쫓기던 과부를 소달구지 속에 숨겨준 우직한 농부가 살고 있었지요... 눈보라는 살을 에는 듯 매섭게 휘몰아쳤지만, 농부는 아무런 대가도 바라지 않고 마님의 얼어붙은 손을 꼭 잡아주었답니다. 그날 밤의 작은 자비가, 훗날 그의 운명을 송두리째 뒤바꾸어 놓을 줄은 꿈에도 몰랐던 것이지요..."
+        </div>
+
+        <div class="grid">
+            
+        <div class="voice-card">
+            <div class="badge" style="background-color: #3B82F6;">매칭 프리셋</div>
+            <h2>1. [송림야담 표준 매칭 - 차분한 서사 낭독]</h2>
+            <p class="desc">송림야담의 대표적인 기본 속도와 피치를 완벽 재현한 맑고 정갈한 서사형 야담 음색</p>
+            <div class="param-tags">
+                <span class="tag">Rate: -22%</span>
+                <span class="tag">Pitch: -16Hz</span>
+                
+            </div>
+            <div class="audio-box">
+                <audio controls preload="auto" src="match_songrim_standard.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="voice-card">
+            <div class="badge" style="background-color: #D97706;">매칭 프리셋</div>
+            <h2>2. [송림야담 심화 매칭 - 구수한 중년 이야기꾼]</h2>
+            <p class="desc">조금 더 깊은 저음과 여운 있는 호흡으로 몰입감을 극대화한 전래 설화/야담 특화 톤</p>
+            <div class="param-tags">
+                <span class="tag">Rate: -26%</span>
+                <span class="tag">Pitch: -22Hz</span>
+                
+            </div>
+            <div class="audio-box">
+                <audio controls preload="auto" src="match_songrim_deep_yadam.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="voice-card">
+            <div class="badge" style="background-color: #10B981;">매칭 프리셋</div>
+            <h2>3. [송림야담 스튜디오 마스터 - 아날로그 웜톤 EQ]</h2>
+            <p class="desc">디지털 치찰음을 다듬고 저음역 공명감을 보강하여 유튜브 전문 야담 채널의 방송용 마이크 질감 완성</p>
+            <div class="param-tags">
+                <span class="tag">Rate: -24%</span>
+                <span class="tag">Pitch: -19Hz</span>
+                <span class='tag-eq'>🎛️ 웜톤 EQ</span>
+            </div>
+            <div class="audio-box">
+                <audio controls preload="auto" src="match_songrim_analog_warm.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="voice-card">
+            <div class="badge" style="background-color: #8B5CF6;">매칭 프리셋</div>
+            <h2>4. [송림야담 수면동화/심야 설화 톤]</h2>
+            <p class="desc">가장 부드럽고 느긋한 호흡으로 듣는 이를 편안하게 감싸주는 심야 수면 야담 톤</p>
+            <div class="param-tags">
+                <span class="tag">Rate: -29%</span>
+                <span class="tag">Pitch: -25Hz</span>
+                
+            </div>
+            <div class="audio-box">
+                <audio controls preload="auto" src="match_songrim_sleep_story.mp3"></audio>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CosyVoice2 고전 설화(Classic Folklore) 음성 청취 플레이어</title>
+    <style>
+        :root {
+            --bg: #0b0f19;
+            --card-bg: #141d2f;
+            --border: #23314d;
+            --gold: #f59e0b;
+            --gold-light: #fef3c7;
+            --blue: #38bdf8;
+            --green: #10b981;
+            --text-main: #f8fafc;
+            --text-sub: #94a3b8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Noto Sans KR', sans-serif;
+            background: var(--bg);
+            color: var(--text-main);
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 820px;
+            width: 100%;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 26px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+        }
+        .header h1 {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--gold);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .header p {
+            color: var(--text-sub);
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .section-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--blue);
+            margin: 24px 0 12px 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 20px;
+            margin-bottom: 16px;
+            transition: all 0.2s ease;
+        }
+        .card:hover {
+            border-color: var(--gold);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(245, 158, 11, 0.12);
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .card-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .badge {
+            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+        .badge-ref { background: rgba(56, 189, 248, 0.15); color: var(--blue); border: 1px solid rgba(56, 189, 248, 0.3); }
+        .badge-gen { background: rgba(245, 158, 11, 0.15); color: var(--gold); border: 1px solid rgba(245, 158, 11, 0.3); }
+        .badge-dur { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+        .text-box {
+            background: #090e17;
+            border-left: 3px solid var(--gold);
+            padding: 12px 14px;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #e2e8f0;
+            margin-bottom: 14px;
+            line-height: 1.6;
+        }
+        audio {
+            width: 100%;
+            height: 40px;
+            border-radius: 8px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎙️ CosyVoice2 고전 설화(Classic Folklore) 낭독</h1>
+            <p><strong>프롬프트 원본:</strong> sample3_classic_folklore_4.8s (양주 땅 만석 농부 고전 설화 톤)</p>
+            <p><strong>합성 엔진:</strong> CosyVoice2-0.5B Zero-Shot Flow Matching Neural TTS (24,000Hz)</p>
+        </div>
+
+        <div class="section-title">📌 1. 기준 프롬프트 목소리 (Reference)</div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">기준 원본: Sample 3 고전 설화 낭독</div>
+                <span class="badge badge-ref">Reference Prompt (4.8s)</span>
+            </div>
+            <div class="text-box">
+                "옛날 옛적 한양에서 그리 멀지 않은 양주 땅 변두리에 만석이라는 농부가 살았습니다."
+            </div>
+            <audio controls preload="auto" src="cosyvoice2_pristine_samples/sample3_classic_folklore_4.8s.mp3"></audio>
+        </div>
+
+        <div class="section-title">✨ 2. 변환된 이야기 음성 (Synthesized Story Audio)</div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">이야기 본문 발단 낭독 (CosyVoice2 생성)</div>
+                <span class="badge badge-gen">Generated Audio (32.8s)</span>
+            </div>
+            <div class="text-box">
+                "달빛마저 차갑게 식어버린 어느 늦가을 밤, 포졸들이 대문을 박차고 들이닥쳤습니다."
+            </div>
+            <audio controls preload="auto" src="test_sample3_gen.mp3"></audio>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">슬라이드 #001: 명문가의 몰락과 비극</div>
+                <span class="badge badge-dur">Slide #001</span>
+            </div>
+            <div class="text-box">
+                "옛날 옛적... 한양 북촌 명문가의 어질고 고왔던 윤씨 마님이, 하루아침에 억울한 역모의 누명을 쓰고... 첩첩산중 깊은 산골로 내쫓기고 말았더랬지요... 차가운 달빛조차 서럽게 얼어붙던... 어느 쓸쓸한 늦가을 밤의 비극이었답니다..."
+            </div>
+            <audio controls preload="none" src="audio/audio_001.mp3"></audio>
+        </div>
+    </div>
+</body>
+</html>

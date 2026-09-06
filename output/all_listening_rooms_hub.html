@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[송림야담] 공식 음성 청음실 통합 포털 허브</title>
+<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700;900&family=Noto+Serif+KR:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+    --bg: #060911;
+    --card: rgba(15, 23, 42, 0.95);
+    --accent: #38bdf8;
+    --gold: #f59e0b;
+    --emerald: #10b981;
+    --purple: #a855f7;
+    --text: #f8fafc;
+    --muted: #94a3b8;
+    --border: rgba(255, 255, 255, 0.1);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    background: radial-gradient(ellipse at 50% 0%, #0d233a 0%, #080f1d 45%, var(--bg) 100%);
+    color: var(--text);
+    font-family: 'Pretendard', sans-serif;
+    min-height: 100vh;
+    padding: 50px 20px 100px 20px;
+    display: flex;
+    justify-content: center;
+}
+.container { max-width: 1100px; width: 100%; }
+.header { text-align: center; margin-bottom: 44px; }
+.badge {
+    display: inline-block;
+    padding: 8px 22px;
+    background: rgba(56, 189, 248, 0.15);
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #7dd3fc;
+    margin-bottom: 18px;
+}
+h1 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, #fff 0%, #7dd3fc 40%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.4;
+}
+.sub { color: var(--muted); font-size: 16px; line-height: 1.8; }
+.category-title {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--gold);
+    letter-spacing: 1.5px;
+    margin: 32px 0 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 20px; }
+.hub-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+.hub-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+    box-shadow: 0 14px 36px rgba(56, 189, 248, 0.2);
+}
+.card-tag {
+    align-self: flex-start;
+    font-size: 11.5px;
+    font-weight: 800;
+    padding: 5px 12px;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+.tag-gold { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+.tag-blue { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
+.tag-green { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+.tag-purple { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+.card-title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+.card-desc {
+    font-size: 13.5px;
+    color: var(--muted);
+    line-height: 1.65;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    font-size: 12px;
+    color: #94a3b8;
+}
+.btn-open {
+    color: var(--accent);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="badge">SONGRIM YADAM LISTENING ROOMS HUB</div>
+        <h1>[송림야담] 공식 음성 청음실 통합 포털</h1>
+        <p class="sub">
+            120개 전편 통합 완독실부터 실제 육성 복제 쇼케이스, 음성학적 노인 변환실까지<br>
+            원하시는 청음실 카드를 클릭하시면 브라우저에서 즉시 청음하실 수 있습니다.
+        </p>
+    </div>
+
+    <div class="category-title">👑 공식 마스터 및 통합 완독실</div>
+    <div class="grid">
+        <a class="hub-card" href="full_story_player.html" target="_blank">
+            <div>
+                <span class="card-tag tag-gold">전체 120개 슬라이드 전편</span>
+                <div class="card-title">[송림야담] 120개 슬라이드 한국어 표준 연음 마스터 통합실</div>
+                <div class="card-desc">
+                    1번부터 120번까지 전 슬라이드 완독! 보완된 쉼표/마침표/말줄임표 호흡과 국립국어원 표준 연음이 적용된 메인 통합 플레이어입니다.
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>⏱️ 총 30분 이상 완독</span>
+                <span class="btn-open">청음실 열기 ➔</span>
+            </div>
+        </a>
+
+        <a class="hub-card" href="public_voices_slide01/public_voice_slide01_showcase.html" target="_blank">
+            <div>
+                <span class="card-tag tag-blue">저작권 무료 6종 비교</span>
+                <div class="card-title">저작권 무료 실제 육성 6종 슬라이드 1번 쇼케이스</div>
+                <div class="card-desc">
+                    표준어 남/여 성우, 전통 야담 구연가, 실제 할아버지, 할머니 등 저작권 걱정 없는 무반향 실제 원음과 GPT-SoVITS 생성본을 1:1로 비교 청음할 수 있습니다.
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>🎙️ 6개 실제 육성 트랙</span>
+                <span class="btn-open">쇼케이스 열기 ➔</span>
+            </div>
+        </a>
+
+        <a class="hub-card" href="voice_actors_player.html" target="_blank">
+            <div>
+                <span class="card-tag tag-blue">성우 음원 보관소</span>
+                <div class="card-title">저작권 무료 스튜디오 전문 성우 원음 보관소 & 청음실</div>
+                <div class="card-desc">
+                    Hugging Face 스튜디오 전문 성우 및 Zeroth-Korean 정통 성우 원음(CC BY 4.0). 잡음과 울림이 전혀 없는 스튜디오 원음 발화들을 감상하고 훈련용으로 활용할 수 있습니다.
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>🎙️ 전문 성우 고음질 원음</span>
+                <span class="btn-open">보관소 열기 ➔</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="category-title">👴👵 실제 노인 육성 & 딥러닝 Zero-Shot 청음실</div>
+    <div class="grid">
+        <a class="hub-card" href="slide01_creative_elderly/slide01_creative_elderly_player.html" target="_blank">
+            <div>
+                <span class="card-tag tag-green">에코 제거 완료</span>
+                <div class="card-title">GPT-SoVITS 실제 육성 Zero-Shot 마스터 청음실</div>
+                <div class="card-desc">
+                    아이 목소리 간섭과 마이크 에코를 100% 제거한 깨끗한 할머니 육성과, 70대 연륜이 묻어나는 실제 할아버지 야담 음성을 비교 청음합니다.
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>👵👴 할머니 & 할아버지</span>
+                <span class="btn-open">청음실 열기 ➔</span>
+            </div>
+        </a>
+
+        <a class="hub-card" href="korean_storyteller_3to5s_samples/player_storyteller.html" target="_blank">
+            <div>
+                <span class="card-tag tag-purple">전통 설화 구술</span>
+                <div class="card-title">전통 야담 구연가 4.4초 원음 레퍼런스 청음실</div>
+                <div class="card-desc">
+                    한국구비문학대계 아카이브에서 추출한 구수한 사투리와 판소리 완급 조절이 살아있는 실제 야담 구연 원음 클립들입니다.
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>📜 구비문학 설화 원음</span>
+                <span class="btn-open">청음실 열기 ➔</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="category-title">🧪 음성학적 노인 변환 (Praat PSOLA) 청음실</div>
+    <div class="grid">
+        <a class="hub-card" href="slide01_praat_grandmother_player.html" target="_blank">
+            <div>
+                <span class="card-tag tag-purple">Praat 80~90대</span>
+                <div class="card-title">Praat PSOLA 노년 여성(할머니) 음색 4종 청음실</div>
+                <div class="card-desc">
+                    여성 성우 음원에 성대 이완, 구강 포먼트 변환, 미세 떨림(Jitter)을 주입하여 만든 4가지 세대별 할머니 구연 톤입니다.
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>👵 4종 할머니 프리셋</span>
+                <span class="btn-open">청음실 열기 ➔</span>
+            </div>
+        </a>
+
+        <a class="hub-card" href="neural_yadam_player.html" target="_blank">
+            <div>
+                <span class="card-tag tag-blue">성우 마스터</span>
+                <div class="card-title">정통 뉴럴 야담 전문 성우 청음실</div>
+                <div class="card-desc">
+                    방송 다큐멘터리 전문 성우(인준, 현수, 선희)의 아날로그 스튜디오 마스터링 음향을 감상할 수 있습니다.
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>🎧 스튜디오 마스터링</span>
+                <span class="btn-open">청음실 열기 ➔</span>
+            </div>
+        </a>
+    </div>
+</div>
+</body>
+</html>

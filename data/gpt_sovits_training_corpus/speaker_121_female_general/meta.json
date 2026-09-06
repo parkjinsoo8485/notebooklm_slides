@@ -1,0 +1,14 @@
+{
+  "speaker_id": "121",
+  "profile": {
+    "folder": "speaker_121_female_general",
+    "name": "표준어 일반 여성 #121",
+    "gender": "female",
+    "license": "CC BY 4.0 (저작권 완전 무료)",
+    "source": "Zeroth-Korean (OpenSLR 40)",
+    "style": "친근하고 편안한 서술 톤"
+  },
+  "sample_count": 58,
+  "total_duration_sec": 481.9,
+  "train_list": "C:\\My_Project\\src\\notebooklm_slides\\data\\gpt_sovits_training_corpus\\speaker_121_female_general\\train.list"
+}

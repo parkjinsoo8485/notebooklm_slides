@@ -17,9 +17,10 @@ models/
 *.safetensors
 *.zip
 *.tar.gz
+*.parquet
 third_party/
 
-# Output - Exclude heavy generated media
+# Output & Heavy Media
 output/audio/
 output/slides_images/
 output/studio_deck/
@@ -29,9 +30,32 @@ output/audio_*/
 output/temp_*/
 output/storyteller_*/
 output/video/
+output/**/*.wav
+output/**/*.mp4
+*.mp4
+test_*.mp3
+test_*.wav
+
+# Data & Training Corpus Heavy Audio
+data/**/*.parquet
+data/**/*.zip
+data/**/*.wav
+data/**/*.mp3
+data/clean_public_voices/
+data/gpt_sovits_training_corpus/*/wavs/
+data/clean_voice_actors/*/wavs/
+scratch/
+processed/
+output/**/*.mp3
+output/**/*.wav
+output/**/*.png
+output/**/*.jpg
+output/**/*.webp
+
 
 # IDE / OS
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+

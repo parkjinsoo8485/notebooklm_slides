@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>순수 한국어 전용 신경망(VITS Korean) 나레이터 비교</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *{box-sizing:border-box;margin:0;padding:0;}
+        body{font-family:'Inter',sans-serif;background:#050811;color:#dde6f0;padding:48px 20px 100px;display:flex;justify-content:center;}
+        .container{max-width:960px;width:100%;}
+        .header{text-align:center;margin-bottom:36px;}
+        .ver-badge{display:inline-block;background:linear-gradient(135deg,#c9a84c22,#38bdf822);border:1px solid #6b521f;color:#c9a84c;font-size:11px;font-weight:700;padding:4px 14px;border-radius:20px;letter-spacing:.1em;margin-bottom:14px;}
+        .header h1{font-family:'Noto Serif KR',serif;font-size:32px;font-weight:700;background:linear-gradient(135deg,#d4aa60,#f0dca0,#60c0f8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:14px;}
+        .header p{color:#6b8aaa;font-size:14.5px;line-height:1.7;}
+        .tech-box{background:linear-gradient(135deg,rgba(16,185,129,0.1),rgba(56,189,248,0.06));border:1px solid rgba(16,185,129,0.4);border-radius:14px;padding:22px 26px;margin-bottom:30px;font-size:14px;line-height:1.85;color:#94a3b8;}
+        .tech-box strong{color:#34d399;}
+        .orig-card{background:linear-gradient(135deg,rgba(239,68,68,0.12),rgba(13,22,37,0.98));border:2px solid rgba(239,68,68,0.4);border-radius:16px;padding:24px;margin-bottom:30px;}
+        .orig-header{font-size:16px;font-weight:700;color:#fca5a5;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;}
+        .voice-card{background:#0d1625;border:1px solid #1e3352;border-radius:16px;padding:24px;margin-bottom:20px;transition:all .2s ease;}
+        .voice-card:hover{transform:translateY(-2px);border-color:#38bdf8;box-shadow:0 14px 28px -8px rgba(56,189,248,0.25);}
+        .card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;}
+        .vid{font-size:22px;font-weight:800;color:#38bdf8;margin-right:10px;}
+        .vname{font-size:17px;font-weight:700;color:#f8fafc;}
+        .desc{font-size:13.5px;color:#94a3b8;margin-bottom:12px;line-height:1.6;}
+        .text-quote{background:#080d18;border-left:3px solid #38bdf8;padding:12px 16px;border-radius:8px;font-family:'Noto Serif KR',serif;font-style:italic;font-size:15px;color:#cbd5e1;line-height:1.7;margin-bottom:16px;}
+        .badge{font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;background:rgba(56,189,248,0.15);border:1px solid rgba(56,189,248,0.4);color:#7dd3fc;}
+        audio{width:100%;height:46px;border-radius:10px;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="ver-badge">🇰🇷 NATIVE KOREAN NEURAL VITS</div>
+        <h1>🎙️ 순수 한국어 전용 신경망 나레이터</h1>
+        <p>외국어 다국어 모델의 발음 왜곡을 완전히 배제하고,<br>한국어 전용 VITS 신경망으로 또렷한 성우 발음과 야담 서사 톤을 구현했습니다.</p>
+    </div>
+
+    <div class="tech-box">
+        <strong>💡 발음 정상화:</strong><br>
+        • 영어/중국어 기반 다국어 모델이 유발했던 외계어/비한국어 발음 현상을 완전히 해결했습니다.<br>
+        • <strong>한국어 전용 음향 모델</strong>로 한 글자 한 자 또렷하고 명료한 한국어 구연 발음을 생성합니다.
+    </div>
+
+    <div class="orig-card">
+        <div class="orig-header">
+            <span>🔴 [비교 원본] 유튜브 '송림야담' 실제 음성</span>
+        </div>
+        <audio controls src="../../songrim_100pct_replica/01_youtube_actual_original.mp3"></audio>
+    </div>
+
+    <div class="grid">
+        
+        <div class="voice-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">K1_VITS_BENCHMARK</span>
+                    <span class="vname">1. [순수 한국어 VITS 신경망 - 원본 대본]</span>
+                </div>
+                <span class="badge">🇰🇷 순수 한국어 신경망</span>
+            </div>
+            <p class="desc">한국어 전용 VITS 신경망으로 원본 대본을 한 자 한 자 또렷하고 자연스럽게 합성한 기본 톤</p>
+            <div class="text-quote">"빈 소달구지 하나로 어린 딸을 키우던 가난한 농부에게 누군가 찾아와 그리 속삭였습니다. 새벽 장터길 쫓기던 여인을 달구지 안에 숨겨 준 바로 다음 날이었지요."</div>
+            <audio controls preload="metadata" src="k1_vits_benchmark.mp3"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">K2_VITS_SLIDE1</span>
+                    <span class="vname">2. [순수 한국어 VITS 신경망 - 1번 슬라이드 본문]</span>
+                </div>
+                <span class="badge">🇰🇷 순수 한국어 신경망</span>
+            </div>
+            <p class="desc">1번 슬라이드 전체 본문을 정확한 한국어 표준 발음과 성우 톤으로 합성한 음색</p>
+            <div class="text-quote">"소박맞아 쫓겨난 윤씨 마님은 눈보라 치는 산길을 헤매며 깊은 절망에 빠졌습니다. 그때 어둠 속에서 묵묵히 마님의 뒤를 따르는 우직한 그림자가 있었습니다."</div>
+            <audio controls preload="metadata" src="k2_vits_slide1.mp3"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">K3_VITS_YADAM_MASTER</span>
+                    <span class="vname">3. [순수 한국어 VITS 신경망 - 심야 야담 마스터]</span>
+                </div>
+                <span class="badge">🇰🇷 순수 한국어 신경망</span>
+            </div>
+            <p class="desc">깊은 흉성 공명과 따뜻한 스튜디오 잔향을 더해, 사려깊고 몰입감 넘치는 야담 이야기꾼으로 마스터링한 완성형</p>
+            <div class="text-quote">"소박맞아 쫓겨난 윤씨 마님은 눈보라 치는 산길을 헤매며 깊은 절망에 빠졌습니다. 그때 어둠 속에서 묵묵히 마님의 뒤를 따르는 우직한 그림자가 있었습니다."</div>
+            <audio controls preload="metadata" src="k3_vits_yadam_master.mp3"></audio>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>

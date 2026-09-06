@@ -1,0 +1,14 @@
+{
+  "speaker_id": "137",
+  "profile": {
+    "folder": "speaker_137_studio",
+    "name": "스튜디오 화자 #137",
+    "gender": "unknown",
+    "license": "CC BY 4.0",
+    "source": "Zeroth-Korean",
+    "style": "스튜디오 표준 원음"
+  },
+  "sample_count": 23,
+  "total_duration_sec": 208.0,
+  "train_list": "C:\\My_Project\\src\\notebooklm_slides\\data\\gpt_sovits_training_corpus\\speaker_137_studio\\train.list"
+}

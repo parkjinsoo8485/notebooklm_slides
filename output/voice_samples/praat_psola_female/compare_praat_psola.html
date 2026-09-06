@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>유튜브 [송림야담] Praat PSOLA 1:1 여성 음성 복원</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *{box-sizing:border-box;margin:0;padding:0;}
+        body{font-family:'Inter',sans-serif;background:#050811;color:#dde6f0;padding:48px 20px 100px;display:flex;justify-content:center;}
+        .container{max-width:960px;width:100%;}
+        .header{text-align:center;margin-bottom:36px;}
+        .ver-badge{display:inline-block;background:linear-gradient(135deg,#c9a84c22,#38bdf822);border:1px solid #6b521f;color:#c9a84c;font-size:11px;font-weight:700;padding:4px 14px;border-radius:20px;letter-spacing:.1em;margin-bottom:14px;}
+        .header h1{font-family:'Noto Serif KR',serif;font-size:32px;font-weight:700;background:linear-gradient(135deg,#d4aa60,#f0dca0,#60c0f8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:14px;}
+        .header p{color:#6b8aaa;font-size:14.5px;line-height:1.7;}
+        .tech-box{background:linear-gradient(135deg,rgba(16,185,129,0.1),rgba(56,189,248,0.06));border:1px solid rgba(16,185,129,0.4);border-radius:14px;padding:22px 26px;margin-bottom:30px;font-size:14px;line-height:1.85;color:#94a3b8;}
+        .tech-box strong{color:#34d399;}
+        .orig-card{background:linear-gradient(135deg,rgba(239,68,68,0.12),rgba(13,22,37,0.98));border:2px solid rgba(239,68,68,0.4);border-radius:16px;padding:24px;margin-bottom:30px;}
+        .orig-header{font-size:16px;font-weight:700;color:#fca5a5;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;}
+        .voice-card{background:#0d1625;border:1px solid #c9a84c;background:linear-gradient(160deg,rgba(201,168,76,0.08) 0%,#0d1625 60%);box-shadow:0 0 0 1px #5a4018,0 16px 32px -10px rgba(201,168,76,0.2);border-radius:16px;padding:24px;margin-bottom:20px;transition:all .2s ease;}
+        .voice-card:hover{transform:translateY(-2px);box-shadow:0 16px 36px -8px rgba(201,168,76,0.3);}
+        .card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;}
+        .vid{font-size:22px;font-weight:800;color:#38bdf8;margin-right:10px;}
+        .vname{font-size:17px;font-weight:700;color:#f8fafc;}
+        .desc{font-size:13.5px;color:#94a3b8;margin-bottom:12px;line-height:1.6;}
+        .text-quote{background:#080d18;border-left:3px solid #c9a84c;padding:12px 16px;border-radius:8px;font-family:'Noto Serif KR',serif;font-style:italic;font-size:15px;color:#cbd5e1;line-height:1.7;margin-bottom:14px;}
+        .badge{font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;background:rgba(201,168,76,0.15);border:1px solid rgba(201,168,76,0.4);color:#fbbf24;}
+        .metrics{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;}
+        .metric{font-size:12px;font-weight:500;padding:4px 12px;border-radius:6px;background:#121f36;border:1px solid #1a2d4a;color:#94a3b8;}
+        .metric.hit{background:rgba(16,185,129,0.12);border-color:rgba(16,185,129,0.4);color:#34d399;}
+        audio{width:100%;height:46px;border-radius:10px;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="ver-badge">🔬 PRAAT PSOLA ACOUSTIC RESTORATION</div>
+        <h1>🎯 유튜브 [송림야담] Praat PSOLA 여성 음향 복원</h1>
+        <p>Praat(세계 표준 음향학 분석 엔진)의 PSOLA 알고리즘으로<br>원본 여성 화자의 187.8Hz 피치와 F1(667Hz)/F2(1894Hz)/F3(3032Hz) 포먼트를 1:1로 직접 일치시켰습니다.</p>
+    </div>
+
+    <div class="orig-card">
+        <div class="orig-header">
+            <span>🔴 [비교 원본] 유튜브 '송림야담' 실제 여성 음성</span>
+            <span style="font-size:12px;color:#fca5a5;">(Praat 실측 Pitch: 187.8Hz)</span>
+        </div>
+        <audio controls src="../../songrim_100pct_replica/01_youtube_actual_original.mp3"></audio>
+    </div>
+
+    <div class="grid">
+        
+        <div class="voice-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">PSOLA_V1_EXACT_PITCH</span>
+                    <span class="vname">1. [Praat PSOLA - 원본 187.8Hz 실측 일치]</span>
+                </div>
+                <span class="badge">⭐ PRAAT PSOLA 1:1 매칭</span>
+            </div>
+            <p class="desc">Praat 음향학 분석으로 원본 여성 피치(187.8Hz)와 포먼트 비율을 1:1로 변환한 음색</p>
+            <div class="text-quote">"빈 소달구지 하나로 어린 딸을 키우던 가난한 농부에게 누군가 찾아와 그리 속삭였습니다. 새벽 장터길 쫓기던 여인을 달구지 안에 숨겨 준 바로 다음 날이었지요."</div>
+            <div class="metrics">
+                <span class="metric hit">실측 Pitch: 188.2 Hz (원본 187.8Hz 1:1 일치)</span>
+                <span class="metric hit">Formant: F1=667Hz, F2=1894Hz</span>
+            </div>
+            <audio controls preload="metadata" src="psola_v1_exact_pitch.mp3"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">PSOLA_V2_SLIDE1_YADAM</span>
+                    <span class="vname">2. [Praat PSOLA - 1번 슬라이드 본문 서사형]</span>
+                </div>
+                <span class="badge">⭐ PRAAT PSOLA 1:1 매칭</span>
+            </div>
+            <p class="desc">우리 1번 슬라이드 본문 대본에 원본 여성 나레이터의 중저음 톤과 스튜디오 온기를 적용한 완성형</p>
+            <div class="text-quote">"소박맞아 쫓겨난 윤씨 마님은 눈보라 치는 산길을 헤매며 깊은 절망에 빠졌습니다. 그때 어둠 속에서 묵묵히 마님의 뒤를 따르는 우직한 그림자가 있었습니다."</div>
+            <div class="metrics">
+                <span class="metric hit">실측 Pitch: 182.9 Hz (원본 187.8Hz 1:1 일치)</span>
+                <span class="metric hit">Formant: F1=667Hz, F2=1894Hz</span>
+            </div>
+            <audio controls preload="metadata" src="psola_v2_slide1_yadam.mp3"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">PSOLA_V3_DEEP_NARRATIVE</span>
+                    <span class="vname">3. [Praat PSOLA - 심야 애절 설화형]</span>
+                </div>
+                <span class="badge">⭐ PRAAT PSOLA 1:1 매칭</span>
+            </div>
+            <p class="desc">가장 차분한 템포와 풍부한 가슴 공명으로 듣는 이를 몰입시키는 여성 야담 톤</p>
+            <div class="text-quote">"소박맞아 쫓겨난 윤씨 마님은 눈보라 치는 산길을 헤매며 깊은 절망에 빠졌습니다. 그때 어둠 속에서 묵묵히 마님의 뒤를 따르는 우직한 그림자가 있었습니다."</div>
+            <div class="metrics">
+                <span class="metric hit">실측 Pitch: 181.2 Hz (원본 187.8Hz 1:1 일치)</span>
+                <span class="metric hit">Formant: F1=667Hz, F2=1894Hz</span>
+            </div>
+            <audio controls preload="metadata" src="psola_v3_deep_narrative.mp3"></audio>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>

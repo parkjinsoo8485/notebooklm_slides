@@ -1,0 +1,14 @@
+{
+  "speaker_id": "149",
+  "profile": {
+    "folder": "speaker_149_studio",
+    "name": "스튜디오 화자 #149",
+    "gender": "unknown",
+    "license": "CC BY 4.0",
+    "source": "Zeroth-Korean",
+    "style": "스튜디오 표준 원음"
+  },
+  "sample_count": 28,
+  "total_duration_sec": 209.6,
+  "train_list": "C:\\My_Project\\src\\notebooklm_slides\\data\\gpt_sovits_training_corpus\\speaker_149_studio\\train.list"
+}

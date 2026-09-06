@@ -1,0 +1,14 @@
+{
+  "speaker_id": "105",
+  "profile": {
+    "folder": "speaker_105_female_studio",
+    "name": "표준어 정통 여성 성우 #105",
+    "gender": "female",
+    "license": "CC BY 4.0 (저작권 완전 무료)",
+    "source": "Zeroth-Korean (OpenSLR 40)",
+    "style": "맑고 또렷한 표준어 여성 낭독 톤"
+  },
+  "sample_count": 40,
+  "total_duration_sec": 444.2,
+  "train_list": "C:\\My_Project\\src\\notebooklm_slides\\data\\gpt_sovits_training_corpus\\speaker_105_female_studio\\train.list"
+}

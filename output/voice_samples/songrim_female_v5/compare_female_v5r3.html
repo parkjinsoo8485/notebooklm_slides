@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>송림야담 나레이터 v5 Rev3 — 깊고 사려깊은 이야기꾼</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *{box-sizing:border-box;margin:0;padding:0;}
+        :root{
+            --bg:#06090f;--surface:#0d1625;--surface2:#121f36;
+            --border:#1a2d4a;--gold:#c9a84c;--gold-dim:#5a4018;
+            --blue:#38bdf8;--green:#10b981;--amber:#f59e0b;
+            --text:#dde6f0;--muted:#5a7490;
+        }
+        body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);
+            padding:48px 20px 100px;display:flex;justify-content:center;
+            background-image:
+                radial-gradient(ellipse at 20% 5%,rgba(56,189,248,0.04) 0%,transparent 50%),
+                radial-gradient(ellipse at 80% 95%,rgba(201,168,76,0.04) 0%,transparent 50%);
+        }
+        .container{max-width:980px;width:100%;}
+
+        /* Header */
+        .header{text-align:center;margin-bottom:40px;}
+        .ver-badge{display:inline-flex;align-items:center;gap:8px;
+            background:linear-gradient(135deg,rgba(201,168,76,0.15),rgba(56,189,248,0.08));
+            border:1px solid var(--gold-dim);color:var(--gold);
+            font-size:11px;font-weight:700;padding:5px 16px;border-radius:20px;
+            letter-spacing:.1em;margin-bottom:20px;}
+        .header h1{font-family:'Noto Serif KR',serif;font-size:32px;font-weight:700;
+            background:linear-gradient(135deg,#d4aa60,#f0dca0,#60c0f8);
+            -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+            margin-bottom:16px;line-height:1.35;}
+        .header .subtitle{color:#6b8aaa;font-size:14px;line-height:1.8;max-width:640px;margin:0 auto 20px;}
+
+        /* Insight box */
+        .insight-box{
+            background:linear-gradient(135deg,rgba(16,185,129,0.06),rgba(56,189,248,0.04));
+            border:1px solid rgba(16,185,129,0.25);
+            border-radius:14px;padding:18px 22px;margin-bottom:28px;
+            font-size:13px;line-height:1.85;color:#8ab0c8;
+        }
+        .insight-box strong{color:#34d399;}
+        .insight-box code{background:#0d1625;border:1px solid #1a2d4a;
+            color:#7dd3fc;padding:1px 6px;border-radius:4px;font-size:12px;}
+
+        /* Narration */
+        .narration-box{
+            background:var(--surface);border:1px solid var(--border);
+            border-left:4px solid var(--gold);border-radius:14px;
+            padding:22px 26px;margin-bottom:26px;
+            font-family:'Noto Serif KR',serif;font-size:17px;line-height:1.95;
+            color:#c8d8e8;font-style:italic;
+            text-shadow:0 0 30px rgba(201,168,76,0.05);
+        }
+
+        /* Target bar */
+        .target-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px;}
+        .chip{font-size:12px;font-weight:600;padding:5px 13px;border-radius:8px;}
+        .chip.target{background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.3);color:#34d399;}
+        .chip.orig{background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.3);color:#7dd3fc;}
+
+        /* Original card */
+        .orig-card{
+            background:linear-gradient(135deg,rgba(239,68,68,0.07),rgba(13,22,37,0.98));
+            border:2px solid rgba(239,68,68,0.25);border-radius:16px;
+            padding:20px 24px;margin-bottom:30px;
+        }
+        .orig-header{font-size:14px;font-weight:700;color:#fca5a5;margin-bottom:12px;
+            display:flex;flex-wrap:wrap;align-items:center;gap:14px;}
+        .orig-metrics{font-size:11px;color:#6b8aaa;background:#0d1625;
+            padding:4px 10px;border-radius:6px;}
+
+        /* Section label */
+        .section-label{font-size:11px;font-weight:700;text-transform:uppercase;
+            letter-spacing:.12em;color:var(--muted);margin-bottom:16px;padding-left:2px;}
+
+        /* Grid */
+        .grid{display:flex;flex-direction:column;gap:12px;margin-bottom:30px;}
+        .voice-card{
+            background:var(--surface);border:1px solid var(--border);
+            border-radius:16px;padding:18px 22px;
+            transition:transform .2s ease,border-color .25s ease,box-shadow .25s ease;
+        }
+        .voice-card:hover{
+            transform:translateY(-2px);border-color:#2563eb40;
+            box-shadow:0 14px 30px -10px rgba(37,99,235,.18);
+        }
+        .best-card{
+            border-color:var(--gold-dim)!important;
+            background:linear-gradient(160deg,rgba(201,168,76,.06) 0%,var(--surface) 60%);
+            box-shadow:0 0 0 1px var(--gold-dim),0 18px 36px -12px rgba(201,168,76,.18);
+        }
+        .best-card:hover{border-color:var(--gold)!important;
+            box-shadow:0 0 0 1px var(--gold),0 18px 36px -12px rgba(201,168,76,.28);}
+        .card-top{display:flex;align-items:flex-start;justify-content:space-between;
+            gap:12px;margin-bottom:10px;}
+        .vid{font-size:22px;font-weight:800;color:var(--blue);margin-right:8px;
+            font-variant-numeric:tabular-nums;}
+        .desc-text{font-size:12.5px;color:var(--muted);line-height:1.5;}
+        .badge{font-size:11px;font-weight:700;padding:3px 10px;
+            border-radius:20px;white-space:nowrap;flex-shrink:0;}
+        .metrics{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:13px;}
+        .metric{font-size:11.5px;font-weight:500;padding:3px 9px;border-radius:6px;
+            background:var(--surface2);border:1px solid var(--border);color:var(--muted);}
+        .metric.hit{background:rgba(16,185,129,.1);border-color:rgba(16,185,129,.3);color:#34d399;}
+        .metric.near{background:rgba(245,158,11,.07);border-color:rgba(245,158,11,.25);color:#fbbf24;}
+        .metric.param{background:rgba(56,189,248,.06);border-color:rgba(56,189,248,.2);
+            color:#7dd3fc;font-family:monospace;font-size:11px;}
+        audio{width:100%;height:44px;border-radius:10px;}
+
+        /* Summary */
+        .summary-box{background:var(--surface);border:1px solid var(--border);
+            border-radius:14px;padding:22px 24px;}
+        .summary-box h3{font-size:13px;font-weight:700;color:var(--gold);
+            margin-bottom:16px;letter-spacing:.05em;}
+        table{width:100%;border-collapse:collapse;font-size:12.5px;}
+        th{color:var(--muted);font-weight:600;text-align:left;padding:7px 10px;
+            border-bottom:1px solid var(--border);font-size:11px;text-transform:uppercase;letter-spacing:.06em;}
+        td{padding:8px 10px;border-bottom:1px solid rgba(26,45,74,.5);}
+        tr.best-row td{color:var(--gold);font-weight:600;}
+        tr:last-child td{border-bottom:none;}
+        td:nth-child(2),td:nth-child(3){font-family:monospace;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="ver-badge">🎙️ NARRATOR v5 REV3 — DEEP THOUGHTFUL STORYTELLER</div>
+        <h1>깊고 사려깊은 이야기꾼<br>검증된 방향으로의 정밀 탐색</h1>
+        <p class="subtitle">
+            v5r2에서 Formant Shift 방식은 폐기하고,<br>
+            <strong>검증된 EQ + 압축 + 약한 룸감</strong> 방식으로 pitch/rate 정밀 스캔
+        </p>
+    </div>
+
+    <div class="insight-box">
+        <strong>🔬 v5r2 핵심 발견 → v5r3 전략:</strong><br>
+        • Formant Shift(<code>asetrate</code>): pyin이 오탐하여 폐기 → 순수 EQ 방식으로 복귀<br>
+        • d7(no-formant, rate=-8%, pitch=-27Hz): F0=182.7Hz, Cent=2068 → 원본(190.3/2031)에 가장 근접<br>
+        • <strong>원본 Centroid 재확인: 2031Hz</strong> (이전 목표 1632보다 +400 높음 → 목표 수정)<br>
+        • 이번 실험: pitch -28~-32Hz / rate -4~-8% 정밀 스캔으로 최적값 탐색
+    </div>
+
+    <div class="narration-box">
+        "빈 소달구지 하나로, 어린 딸을 키우던 가난한 농부에게... 누군가 찾아와, 그리 속삭였습니다. 새벽 장터길, 쫓기던 여인을 달구지 안에 숨겨 준... 바로 다음 날이었지요."
+    </div>
+
+    <div class="target-bar">
+        <span class="chip target">🎯 목표 F0: 190.3 Hz (원본 실측)</span>
+        <span class="chip target">🎯 목표 Cent: 2031 Hz (원본 실측)</span>
+        <span class="chip target">🎯 목표 ZCR: 0.0492</span>
+        <span class="chip orig">📊 원본 F0: 192.7 Hz</span>
+        <span class="chip orig">📊 원본 Cent: 2031 Hz</span>
+        <span class="chip orig">📊 원본 ZCR: 0.0492</span>
+    </div>
+
+    <div class="orig-card">
+        <div class="orig-header">
+            🔴 원본 레퍼런스 (YouTube 송림야담)
+            <span class="orig-metrics">F0: 192.7Hz | Cent: 2031 | ZCR: 0.0492</span>
+        </div>
+        <audio controls preload="metadata" src="../../songrim_100pct_replica/01_youtube_actual_original.mp3"></audio>
+    </div>
+
+    <div class="section-label">▼ v5 Rev3 — pitch / rate 정밀 스캔 (8종)</div>
+    <div class="grid">
+        <div class="voice-card best-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">E1</span>
+                    <span class="desc-text">pitch -28Hz / rate -6% / 야담 균형 EQ</span>
+                </div>
+                <span class="badge" style="background:#10b98120;color:#10b981;border:1px solid #10b98160">⭐ BEST</span>
+            </div>
+            <div class="metrics">
+                <span class="metric hit">F0: 188.3Hz (-2.0)</span>
+                <span class="metric hit">Cent: 1916 (-115)</span>
+                <span class="metric">ZCR: 0.0562</span>
+                <span class="metric param">-6% / -28Hz</span>
+            </div>
+            <audio controls preload="metadata" src="e1.mp3"></audio>
+        </div>
+        <div class="voice-card best-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">E2</span>
+                    <span class="desc-text">pitch -30Hz / rate -6% / 야담 균형 EQ</span>
+                </div>
+                <span class="badge" style="background:#10b98120;color:#10b981;border:1px solid #10b98160">⭐ BEST</span>
+            </div>
+            <div class="metrics">
+                <span class="metric hit">F0: 180.8Hz (-9.5)</span>
+                <span class="metric hit">Cent: 1873 (-158)</span>
+                <span class="metric">ZCR: 0.0535</span>
+                <span class="metric param">-6% / -30Hz</span>
+            </div>
+            <audio controls preload="metadata" src="e2.mp3"></audio>
+        </div>
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">E3</span>
+                    <span class="desc-text">pitch -32Hz / rate -6% / 야담 균형 EQ</span>
+                </div>
+                <span class="badge" style="background:#f59e0b20;color:#f59e0b;border:1px solid #f59e0b60">✅ GOOD</span>
+            </div>
+            <div class="metrics">
+                <span class="metric near">F0: 178.8Hz (-11.5)</span>
+                <span class="metric hit">Cent: 1885 (-146)</span>
+                <span class="metric">ZCR: 0.0542</span>
+                <span class="metric param">-6% / -32Hz</span>
+            </div>
+            <audio controls preload="metadata" src="e3.mp3"></audio>
+        </div>
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">E4</span>
+                    <span class="desc-text">pitch -30Hz / rate -4% / 야담 균형 EQ</span>
+                </div>
+                <span class="badge" style="background:#f59e0b20;color:#f59e0b;border:1px solid #f59e0b60">✅ GOOD</span>
+            </div>
+            <div class="metrics">
+                <span class="metric hit">F0: 181.9Hz (-8.4)</span>
+                <span class="metric near">Cent: 1797 (-234)</span>
+                <span class="metric">ZCR: 0.0505</span>
+                <span class="metric param">-4% / -30Hz</span>
+            </div>
+            <audio controls preload="metadata" src="e4.mp3"></audio>
+        </div>
+        <div class="voice-card best-card">
+            <div class="card-top">
+                <div>
+                    <span class="vid">E5</span>
+                    <span class="desc-text">pitch -30Hz / rate -8% / 야담 균형 EQ</span>
+                </div>
+                <span class="badge" style="background:#10b98120;color:#10b981;border:1px solid #10b98160">⭐ BEST</span>
+            </div>
+            <div class="metrics">
+                <span class="metric hit">F0: 184.0Hz (-6.3)</span>
+                <span class="metric hit">Cent: 1993 (-38)</span>
+                <span class="metric">ZCR: 0.0588</span>
+                <span class="metric param">-8% / -30Hz</span>
+            </div>
+            <audio controls preload="metadata" src="e5.mp3"></audio>
+        </div>
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">E6</span>
+                    <span class="desc-text">pitch -30Hz / rate -6% / 깊은 저역 + 에코 (사려깊음)</span>
+                </div>
+                <span class="badge" style="background:#f59e0b20;color:#f59e0b;border:1px solid #f59e0b60">✅ GOOD</span>
+            </div>
+            <div class="metrics">
+                <span class="metric near">F0: 179.8Hz (-10.5)</span>
+                <span class="metric near">Cent: 1734 (-297)</span>
+                <span class="metric">ZCR: 0.0480</span>
+                <span class="metric param">-6% / -30Hz</span>
+            </div>
+            <audio controls preload="metadata" src="e6.mp3"></audio>
+        </div>
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">E7</span>
+                    <span class="desc-text">pitch -30Hz / rate -6% / 방송용 마스터 + 에코</span>
+                </div>
+                <span class="badge" style="background:#f59e0b20;color:#f59e0b;border:1px solid #f59e0b60">✅ GOOD</span>
+            </div>
+            <div class="metrics">
+                <span class="metric hit">F0: 181.9Hz (-8.4)</span>
+                <span class="metric near">Cent: 1676 (-355)</span>
+                <span class="metric">ZCR: 0.0442</span>
+                <span class="metric param">-6% / -30Hz</span>
+            </div>
+            <audio controls preload="metadata" src="e7.mp3"></audio>
+        </div>
+        <div class="voice-card ">
+            <div class="card-top">
+                <div>
+                    <span class="vid">E8</span>
+                    <span class="desc-text">pitch -30Hz / rate -6% / 자연+온기 (에코 없음, 가장 자연스러운)</span>
+                </div>
+                <span class="badge" style="background:#f59e0b20;color:#f59e0b;border:1px solid #f59e0b60">✅ GOOD</span>
+            </div>
+            <div class="metrics">
+                <span class="metric hit">F0: 181.9Hz (-8.4)</span>
+                <span class="metric near">Cent: 1696 (-335)</span>
+                <span class="metric">ZCR: 0.0467</span>
+                <span class="metric param">-6% / -30Hz</span>
+            </div>
+            <audio controls preload="metadata" src="e8.mp3"></audio>
+        </div></div>
+
+    <div class="summary-box">
+        <h3>📊 측정값 요약 — 목표: F0=190.3 / Cent=2031</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>F0 (목표 190.3)</th>
+                    <th>Centroid (목표 2031)</th>
+                    <th>ZCR</th>
+                    <th>파라미터</th>
+                    <th>판정</th>
+                </tr>
+            </thead>
+            <tbody><tr class="best-row"><td><strong>E1</strong></td><td>188.3 (-2.0)</td><td>1916 (-115)</td><td>0.0562</td><td>-6% / -28Hz</td><td>⭐ BEST</td></tr><tr class="best-row"><td><strong>E2</strong></td><td>180.8 (-9.5)</td><td>1873 (-158)</td><td>0.0535</td><td>-6% / -30Hz</td><td>⭐ BEST</td></tr><tr class=""><td><strong>E3</strong></td><td>178.8 (-11.5)</td><td>1885 (-146)</td><td>0.0542</td><td>-6% / -32Hz</td><td>✅ GOOD</td></tr><tr class=""><td><strong>E4</strong></td><td>181.9 (-8.4)</td><td>1797 (-234)</td><td>0.0505</td><td>-4% / -30Hz</td><td>✅ GOOD</td></tr><tr class="best-row"><td><strong>E5</strong></td><td>184.0 (-6.3)</td><td>1993 (-38)</td><td>0.0588</td><td>-8% / -30Hz</td><td>⭐ BEST</td></tr><tr class=""><td><strong>E6</strong></td><td>179.8 (-10.5)</td><td>1734 (-297)</td><td>0.0480</td><td>-6% / -30Hz</td><td>✅ GOOD</td></tr><tr class=""><td><strong>E7</strong></td><td>181.9 (-8.4)</td><td>1676 (-355)</td><td>0.0442</td><td>-6% / -30Hz</td><td>✅ GOOD</td></tr><tr class=""><td><strong>E8</strong></td><td>181.9 (-8.4)</td><td>1696 (-335)</td><td>0.0467</td><td>-6% / -30Hz</td><td>✅ GOOD</td></tr></tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

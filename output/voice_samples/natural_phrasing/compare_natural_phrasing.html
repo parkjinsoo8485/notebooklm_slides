@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>한국어 띄어읽기 & 연결어 자연스러움 개선 비교</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif; }
+        body {
+            background-color: #0b1120;
+            color: #f8fafc;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
+        }
+        .header p {
+            color: #94a3b8;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        .test-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 22px;
+            transition: transform 0.2s, border-color 0.2s;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+        }
+        .test-card:hover {
+            transform: translateY(-3px);
+            border-color: #38bdf8;
+        }
+        .test-card h2 {
+            font-size: 19px;
+            font-weight: 700;
+            color: #f8fafc;
+            margin-bottom: 8px;
+        }
+        .test-card .desc {
+            color: #94a3b8;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 14px;
+        }
+        .text-box {
+            background: rgba(15, 23, 42, 0.7);
+            border-left: 4px solid #38bdf8;
+            padding: 16px 20px;
+            border-radius: 0 10px 10px 0;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #f1f5f9;
+            margin-bottom: 16px;
+        }
+        .text-box strong {
+            color: #38bdf8;
+        }
+        .audio-wrap audio {
+            width: 100%;
+            height: 42px;
+            border-radius: 8px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌊 한국어 띄어읽기 & 연결어 자연스러움 개선 비교</h1>
+            <p>기계적으로 끊기던 연결어(그리고, 그래서 등)와 띄어읽기 호흡을<br>이야기꾼 구술체(레가토 & 구술 연결어)로 개선한 3가지 비교 샘플입니다.</p>
+        </div>
+
+        
+        <div class="test-card">
+            <h2>1. [수정 전 - 인위적 쉼표 & 끊어지는 연결어]</h2>
+            <p class="desc">연결어 뒤마다 쉼표가 붙어 뚝뚝 끊기고, 조사 앞에 기계적으로 쉼표가 들어간 기존 방식</p>
+            <div class="text-box">
+                <strong>📖 적용 텍스트:</strong><br>
+                "한양 북촌, 명문가의 어진 안주인이었던 윤씨 마님은... 하루아침에 억울한 역모의 누명을 쓰고, 깊은 산골로 쫓겨나고 말았습니다... 그리고, 비바람이 들이치는 낡은 흙바닥에, 주저앉아 피눈물을 흘렸습니다... 하지만, 어둠 속에서 거친 숨을 몰아쉬며 돌쇠가 달려왔습니다... 그래서, 돌쇠는 자신의 저고리를 벗어 마님을 감싸 안았지요..."
+            </div>
+            <div class="audio-wrap">
+                <audio controls preload="auto" src="phrasing_before_awkward.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="test-card">
+            <h2>2. [수정 후 - 자연스러운 띄어읽기 & 레가토 연결어]</h2>
+            <p class="desc">연결어(그리고, 하지만, 그래서) 뒤의 쉼표를 없애 물 흐르듯 이어지게 하고, 의미 덩어리(주어+서술어) 단위로 띄어 읽는 방식</p>
+            <div class="text-box">
+                <strong>📖 적용 텍스트:</strong><br>
+                "한양 북촌 명문가의 어질고 고왔던 윤씨 마님은, 하루아침에 억울한 역모의 누명을 쓰고 첩첩산중 깊은 산골로 쫓겨나고 말았더랬지요... 그리고 비바람이 들이치는 낡은 흙바닥에 주저앉아 하염없이 피눈물을 흘렸답니다. 하지만 어둠을 뚫고 거친 숨을 몰아쉬며 우직한 돌쇠가 달려왔지요... 그래서 돌쇠는 아무 말 없이 제 낡은 저고리를 벗어 마님의 여윈 어깨를 꼭 감싸 안았답니다..."
+            </div>
+            <div class="audio-wrap">
+                <audio controls preload="auto" src="phrasing_natural_legato.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="test-card">
+            <h2>3. [야담가 맞춤형 - 구술 연결어 & 완급 조절 호흡 마스터] ⭐ (강력 추천)</h2>
+            <p class="desc">딱딱한 교과서식 '그리고/그래서' 대신 이야기꾼 특유의 '그리하여/그러자/하오나/바로 그때'로 교체하여 완벽한 말맛을 살린 최고 완성도</p>
+            <div class="text-box">
+                <strong>📖 적용 텍스트:</strong><br>
+                "한양 북촌 명문가의 어질고 고왔던 윤씨 마님이, 하루아침에 억울한 역모의 누명을 쓰고 깊은 산골로 내쫓기고 말았더랬지요... 그리하여 차디찬 비바람이 들이치는 흙바닥에 주저앉아... 마님은 피눈물을 삼키며 서럽게 흐느꼈답니다. 하오나 바로 그때... 어둠을 뚫고 거친 숨을 몰아쉬며 우직한 머슴 돌쇠가 달려왔지요... 그러자 돌쇠는 말없이 제 낡은 저고리를 벗어, 마님의 떨리는 어깨를 따뜻하게 감싸 안았답니다..."
+            </div>
+            <div class="audio-wrap">
+                <audio controls preload="auto" src="phrasing_storyteller_master.mp3"></audio>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "title": "GPT-SoVITS 한국어 고음질 클린 훈련 데이터셋 (Open Clean Corpus)",
+  "version": "1.0",
+  "total_speakers": 12,
+  "format": "PCM 16-bit WAV (Dry Studio, Noise-Free)",
+  "labeling": "GPT-SoVITS Standard <wav_path>|<speaker>|KO|<text>",
+  "licenses": [
+    {
+      "name": "CC BY 4.0",
+      "coverage": "Zeroth-Korean 스튜디오 음원 전 화자"
+    },
+    {
+      "name": "공공누리 제1유형",
+      "coverage": "한국구비문학대계 전통 야담 구연가"
+    }
+  ]
+}

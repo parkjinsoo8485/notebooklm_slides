@@ -5,8 +5,11 @@ import time
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-OUTPUT_DIR = "output"
-SLIDES_DATA_PATH = os.path.join(OUTPUT_DIR, "slides_data.json")
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+OUTPUT_DIR = PROJECT_ROOT / "output"
+SLIDES_DATA_PATH = OUTPUT_DIR / "slides_data.json"
 
 with open(SLIDES_DATA_PATH, "r", encoding="utf-8") as f:
     slides = json.load(f)
@@ -41,6 +44,13 @@ for p_num, p_data in parts.items():
         dur = s.get("audio_duration", 0.0)
         script = s.get("voice_script", "")
         screen_txt = s.get("slide_screen_text", "")
+        phonetic = s.get("phonetic_script", "")
+        phonetic_box = ""
+        if phonetic:
+            phonetic_box = f"""
+                <div class="script-label" style="margin-top:10px; color:#38bdf8;">🗣️ 표준 연음/발음 적용 낭독문 (TTS 실제 발음)</div>
+                <div class="script-content" style="color:#6ee7b7; font-size:13.5px; background:rgba(16,185,129,0.08); padding:8px 12px; border-radius:6px; border-left:3px solid #10b981;">"{phonetic}"</div>
+            """
         
         slides_cards += f"""
         <div class="slide-card" id="slide-card-{idx}">
@@ -52,8 +62,9 @@ for p_num, p_data in parts.items():
                 <div class="duration-tag">⏱️ {dur:.1f}s</div>
             </div>
             <div class="script-box">
-                <div class="script-label">📜 정서법 & 연음 적용 대본</div>
+                <div class="script-label">📜 정서법 원문 대본 (자막용)</div>
                 <div class="script-content">"{script}"</div>
+                {phonetic_box}
             </div>
             <div class="audio-box">
                 <audio id="audio-{idx}" controls preload="none" src="audio/slide_{idx:03d}.mp3?v={v_tag}" onended="onAudioEnded({idx})" onplay="onAudioPlay({idx})"></audio>
@@ -432,7 +443,7 @@ html = f"""<!DOCTYPE html>
 </html>
 """
 
-player_path = "output/full_story_player.html"
+player_path = OUTPUT_DIR / "full_story_player.html"
 with open(player_path, "w", encoding="utf-8") as f:
     f.write(html)
 

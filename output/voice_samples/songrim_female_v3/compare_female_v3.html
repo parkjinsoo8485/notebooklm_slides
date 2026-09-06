@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>송림야담 여성 나레이터 복원 비교 v3</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070c15;--card:#0e1628;--border:#1e2d45;--text:#e8edf5;--muted:#5a7090;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;padding:40px 20px;}
+.container{max-width:880px;margin:0 auto;}
+h1{font-family:'Noto Serif KR',serif;font-size:28px;font-weight:700;
+    background:linear-gradient(135deg,#60a5fa,#a78bfa,#f472b6);
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+    text-align:center;margin-bottom:8px;}
+.subtitle{color:var(--muted);font-size:13px;text-align:center;margin-bottom:32px;line-height:1.7;}
+
+/* 분석 박스 */
+.analysis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:28px;}
+@media(max-width:600px){.analysis{grid-template-columns:repeat(2,1fr);}}
+.metric{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;text-align:center;}
+.metric-val{font-size:22px;font-weight:700;color:#60a5fa;}
+.metric-lbl{font-size:10px;color:var(--muted);margin-top:3px;text-transform:uppercase;letter-spacing:.5px;}
+.metric-sub{font-size:10px;color:#a78bfa;margin-top:2px;}
+
+/* 원본 */
+.original{background:linear-gradient(135deg,rgba(239,68,68,.12),var(--card));
+           border:2px solid #ef4444;border-radius:16px;padding:22px;margin-bottom:24px;
+           box-shadow:0 8px 25px -5px rgba(239,68,68,.25);}
+.section-title{font-size:15px;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+.script{background:rgba(0,0,0,.4);border-left:3px solid #ef4444;
+         padding:14px 18px;border-radius:0 8px 8px 0;
+         font-family:'Noto Serif KR',serif;font-size:14px;line-height:1.9;
+         color:#f1f5f9;margin-bottom:14px;}
+
+/* 클론 카드 */
+.section-head{font-size:16px;font-weight:700;color:#a78bfa;margin-bottom:14px;}
+.clone-card{background:var(--card);border:1.5px solid var(--border);border-radius:14px;
+             padding:18px;margin-bottom:12px;transition:transform .15s;}
+.clone-card:hover{transform:translateY(-2px);}
+.card-header{display:flex;align-items:center;gap:12px;margin-bottom:12px;}
+.badge{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;
+        justify-content:center;font-weight:800;font-size:13px;color:#fff;flex-shrink:0;}
+.card-meta{flex:1;}
+.card-title{font-weight:700;font-size:13.5px;margin-bottom:3px;}
+.card-params{font-size:11px;color:var(--muted);font-family:monospace;}
+audio{width:100%;height:38px;border-radius:8px;}
+
+/* 가이드 */
+.guide{background:var(--card);border:1px solid var(--border);border-radius:14px;
+        padding:20px;margin-top:24px;}
+.guide h3{font-size:13px;font-weight:700;color:#fbbf24;margin-bottom:10px;}
+.guide li{font-size:13px;color:var(--muted);line-height:2;list-style:none;}
+.guide li::before{content:"→ ";color:#60a5fa;}
+.guide li strong{color:var(--text);}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🎙️ 송림야담 여성 나레이터 복원 비교 v3</h1>
+  <p class="subtitle">원본 F0 분석 기반 · 7가지 파라미터 조합 A/B 테스트<br>
+  원본과 가장 동일한 버전을 선택 후 알려주시면 최종 적용합니다</p>
+
+  <div class="analysis">
+    <div class="metric">
+      <div class="metric-val">193.7</div>
+      <div class="metric-lbl">원본 F0 (Hz)</div>
+      <div class="metric-sub">Alto / Mezzo</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">130~259</div>
+      <div class="metric-lbl">F0 범위 (Hz)</div>
+      <div class="metric-sub">±25.7 변동폭</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">1632</div>
+      <div class="metric-lbl">Spectral Cent.</div>
+      <div class="metric-sub">따뜻한 중저음</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">0.049</div>
+      <div class="metric-lbl">ZCR (부드러움)</div>
+      <div class="metric-sub">매우 부드러운</div>
+    </div>
+  </div>
+
+  <div class="original">
+    <div class="section-title" style="color:#fca5a5;">🔴 원본: 유튜브 '송림야담' 실제 여성 나레이터 음성</div>
+    <div class="script">"빈 소달구지 하나로 어린 딸을 키우던 가난한 농부에게 누군가 찾아와 그리 속삭였습니다. 새벽 장터길 쫓기던 여인을 달구지 안에 숨겨 준 바로 다음 날이었지요."</div>
+    <audio controls preload="auto" src="../songrim_100pct_replica/01_youtube_actual_original.mp3"></audio>
+  </div>
+
+  <div class="section-head">🧬 복제 버전 7개 비교</div>
+  
+        <div class="clone-card" style="border-color:#10b981; box-shadow:0 6px 20px -4px #10b98133;">
+            <div class="card-header">
+                <span class="badge" style="background:#10b981;">1</span>
+                <div class="card-meta">
+                    <div class="card-title" style="color:#10b981;">[v1] 따뜻한 -35Hz 기준</div>
+                    <div class="card-params">rate: -8% · pitch: -35Hz · EQ: warm_narrator</div>
+                </div>
+            </div>
+            <audio controls preload="none" src="v1_warm_-35hz.mp3"></audio>
+        </div>
+
+        <div class="clone-card" style="border-color:#3b82f6; box-shadow:0 6px 20px -4px #3b82f633;">
+            <div class="card-header">
+                <span class="badge" style="background:#3b82f6;">2</span>
+                <div class="card-meta">
+                    <div class="card-title" style="color:#3b82f6;">[v2] 더 부드럽고 낮음 -40Hz</div>
+                    <div class="card-params">rate: -10% · pitch: -40Hz · EQ: soft_warm</div>
+                </div>
+            </div>
+            <audio controls preload="none" src="v2_soft_-40hz.mp3"></audio>
+        </div>
+
+        <div class="clone-card" style="border-color:#f59e0b; box-shadow:0 6px 20px -4px #f59e0b33;">
+            <div class="card-header">
+                <span class="badge" style="background:#f59e0b;">3</span>
+                <div class="card-meta">
+                    <div class="card-title" style="color:#f59e0b;">[v3] 야담 감성 -38Hz</div>
+                    <div class="card-params">rate: -7% · pitch: -38Hz · EQ: yadam_story</div>
+                </div>
+            </div>
+            <audio controls preload="none" src="v3_yadam_-38hz.mp3"></audio>
+        </div>
+
+        <div class="clone-card" style="border-color:#ec4899; box-shadow:0 6px 20px -4px #ec489933;">
+            <div class="card-header">
+                <span class="badge" style="background:#ec4899;">4</span>
+                <div class="card-meta">
+                    <div class="card-title" style="color:#ec4899;">[v4] 방송용 깔끔 -32Hz</div>
+                    <div class="card-params">rate: -6% · pitch: -32Hz · EQ: broadcast_female</div>
+                </div>
+            </div>
+            <audio controls preload="none" src="v4_bcast_-32hz.mp3"></audio>
+        </div>
+
+        <div class="clone-card" style="border-color:#8b5cf6; box-shadow:0 6px 20px -4px #8b5cf633;">
+            <div class="card-header">
+                <span class="badge" style="background:#8b5cf6;">5</span>
+                <div class="card-meta">
+                    <div class="card-title" style="color:#8b5cf6;">[v5] 가장 낮고 느림 -45Hz</div>
+                    <div class="card-params">rate: -12% · pitch: -45Hz · EQ: soft_warm</div>
+                </div>
+            </div>
+            <audio controls preload="none" src="v5_deep_-45hz.mp3"></audio>
+        </div>
+
+        <div class="clone-card" style="border-color:#06b6d4; box-shadow:0 6px 20px -4px #06b6d433;">
+            <div class="card-header">
+                <span class="badge" style="background:#06b6d4;">6</span>
+                <div class="card-meta">
+                    <div class="card-title" style="color:#06b6d4;">[v6] 자연스러운 속도 -30Hz</div>
+                    <div class="card-params">rate: -5% · pitch: -30Hz · EQ: warm_narrator</div>
+                </div>
+            </div>
+            <audio controls preload="none" src="v6_nat_-30hz.mp3"></audio>
+        </div>
+
+        <div class="clone-card" style="border-color:#f97316; box-shadow:0 6px 20px -4px #f9731633;">
+            <div class="card-header">
+                <span class="badge" style="background:#f97316;">7</span>
+                <div class="card-meta">
+                    <div class="card-title" style="color:#f97316;">[v7] EQ 없음 (순수 피치만)</div>
+                    <div class="card-params">rate: -7% · pitch: -38Hz · EQ: no_eq</div>
+                </div>
+            </div>
+            <audio controls preload="none" src="v7_noeq_-38hz.mp3"></audio>
+        </div>
+
+
+  <div class="guide">
+    <h3>📋 선택 방법</h3>
+    <ul>
+      <li>원본 ▶ 재생 후 각 버전과 <strong>A/B 반복 비교</strong></li>
+      <li>배경음악 때문에 판단 어려우면 <strong>01_vocals_only.wav</strong> 활용</li>
+      <li>가장 비슷한 버전 번호 → <strong>알려주시면 최종 적용</strong>합니다</li>
+      <li>pitch + rate + EQ 조합이 핵심 - 미세 조정 가능</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

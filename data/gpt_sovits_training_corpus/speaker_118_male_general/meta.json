@@ -1,0 +1,14 @@
+{
+  "speaker_id": "118",
+  "profile": {
+    "folder": "speaker_118_male_general",
+    "name": "표준어 일반 남성 #118",
+    "gender": "male",
+    "license": "CC BY 4.0 (저작권 완전 무료)",
+    "source": "Zeroth-Korean (OpenSLR 40)",
+    "style": "자연스러운 일상 대화 및 서술 톤"
+  },
+  "sample_count": 90,
+  "total_duration_sec": 808.4,
+  "train_list": "C:\\My_Project\\src\\notebooklm_slides\\data\\gpt_sovits_training_corpus\\speaker_118_male_general\\train.list"
+}

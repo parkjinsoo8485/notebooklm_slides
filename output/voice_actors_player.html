@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[송림야담] 저작권 무료 오픈 성우 음원 보관소 & 청음실</title>
+<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700;900&family=Noto+Serif+KR:wght@600;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+    --bg: #07090e;
+    --card: rgba(17, 24, 39, 0.95);
+    --accent: #38bdf8;
+    --gold: #f59e0b;
+    --emerald: #10b981;
+    --text: #f8fafc;
+    --muted: #94a3b8;
+    --border: rgba(255, 255, 255, 0.1);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    background: radial-gradient(ellipse at 50% 0%, #0d1e38 0%, #080d1a 50%, var(--bg) 100%);
+    color: var(--text);
+    font-family: 'Pretendard', sans-serif;
+    min-height: 100vh;
+    padding: 50px 20px 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    text-align: center;
+    max-width: 900px;
+    margin-bottom: 40px;
+}
+.header h1 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #ffffff 40%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 12px;
+}
+.header p {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.6;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--gold);
+    margin: 30px 0 15px 0;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1100px;
+    margin-bottom: 30px;
+}
+.voice-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.voice-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+}
+.voice-card.highlight {
+    border: 1px solid rgba(245, 158, 11, 0.4);
+    background: linear-gradient(180deg, rgba(245, 158, 11, 0.08) 0%, rgba(17, 24, 39, 0.95) 100%);
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.badge {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.badge.blue { background: rgba(56, 189, 248, 0.15); color: var(--accent); border: 1px solid rgba(56, 189, 248, 0.3); }
+.badge.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); border: 1px solid rgba(245, 158, 11, 0.3); }
+.tag { font-size: 12px; color: var(--muted); }
+.voice-name { font-size: 17px; font-weight: 700; color: #fff; }
+.script-box {
+    background: rgba(0,0,0,0.4);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #e2e8f0;
+    min-height: 60px;
+}
+.instruct-box {
+    font-size: 12px;
+    color: #94a3b8;
+    line-height: 1.4;
+}
+audio {
+    width: 100%;
+    height: 38px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+.nav-bar {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+}
+.nav-btn {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    transition: all 0.2s;
+}
+.nav-btn:hover {
+    background: var(--accent);
+    color: #000;
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎙️ 저작권 무료 오픈 성우 음원 보관소</h1>
+        <p>상업적 이용 및 변형이 완전 자유로운 무반향 스튜디오 전문 성우 원음입니다.<br>잡음과 에코가 전혀 없어 GPT-SoVITS 훈련 및 레퍼런스 복제에 즉시 사용 가능합니다.</p>
+    </div>
+
+    <div class="section-title">👑 정통 성우 마스터 코퍼스 (Zeroth-Korean 스튜디오 음원)</div>
+    <div class="grid">
+        
+        <div class="voice-card highlight">
+            <div class="card-header">
+                <span class="badge gold">CC BY 4.0 정통 성우</span>
+                <span class="tag">64개 발화 보유</span>
+            </div>
+            <div class="voice-name">표준어 정통 남성 성우 #104 (CC BY 4.0)</div>
+            <div class="script-box">"지난해 삼 월 김 전 장관의 동료인 장동련 홍익대 교수가 민간 자문단장으로 위촉되면서 본격적인 공모와 개발 작업에 들어갔다"</div>
+            <audio controls preload="none" src="../data/gpt_sovits_training_corpus/speaker_104_male_studio/wavs/104_003_0019.wav"></audio>
+        </div>
+        
+        <div class="voice-card highlight">
+            <div class="card-header">
+                <span class="badge gold">CC BY 4.0 정통 성우</span>
+                <span class="tag">40개 발화 보유</span>
+            </div>
+            <div class="voice-name">표준어 정통 여성 성우 #105 (CC BY 4.0)</div>
+            <div class="script-box">"몬터규는 자녀들이 사랑을 제대로 못 받고 크면 매우 심각한 결과가 초래된다는 결론을 내렸습니다"</div>
+            <audio controls preload="none" src="../data/gpt_sovits_training_corpus/speaker_105_female_studio/wavs/105_003_0029.wav"></audio>
+        </div>
+        
+        <div class="voice-card highlight">
+            <div class="card-header">
+                <span class="badge gold">CC BY 4.0 정통 성우</span>
+                <span class="tag">39개 발화 보유</span>
+            </div>
+            <div class="voice-name">차분한 남성 나레이터 #126 (CC BY 4.0)</div>
+            <div class="script-box">"지역별로 균형 있게 인력을 채용하고 각 지점에 배치해 지역 밀착형 영업을 강화한다는 윤종규 국민은행장의 인사 철학을 반영해 지방 방문 면접을 진행하는 점도 두드러진다"</div>
+            <audio controls preload="none" src="../data/gpt_sovits_training_corpus/speaker_126_male_narrator/wavs/126_003_0095.wav"></audio>
+        </div>
+        
+    </div>
+
+    <div class="section-title">🎙️ 스튜디오 전문 성우 발화 세트 (daje/korean-tts-training)</div>
+    <div class="grid">
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">1-숫자</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #1 (audio_101.wav)</div>
+            <div class="script-box">"고객센터 번호는 1588-3920이고, 팩스는 02-555-7812입니다."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a clear, informative tone as if providing contact details to a customer — pr...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_101.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">1-숫자</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #2 (audio_102.wav)</div>
+            <div class="script-box">"이번 달 월세 85만 원에 관리비 12만 3천 원을 더하면 97만 3천 원이에요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a conversational tone as if casually explaining a bill — make sure large Kor...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_102.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">1-숫자</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #3 (audio_103.wav)</div>
+            <div class="script-box">"생일이 1995년 11월 15일이니까 올해로 서른 살이 되네요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a friendly, conversational tone as if chatting about someone's birthday — na...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_103.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">1-숫자</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #4 (audio_104.wav)</div>
+            <div class="script-box">"오전 9시 45분부터 오후 6시 10분까지 근무합니다."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a neutral, professional tone as if stating office hours — clearly distinguis...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_104.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">1-숫자</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #5 (audio_105.wav)</div>
+            <div class="script-box">"서울에서 부산까지 거리는 약 325킬로미터이고, 소요 시간은 4시간 30분입니다."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a factual, informative tone like a travel guide — smoothly connect numbers w...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_105.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">1-숫자</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #6 (audio_106.wav)</div>
+            <div class="script-box">"합격률은 23.7퍼센트이고, 지원자 수는 총 1만 5천 480명이었습니다."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a composed, report-like tone — clearly articulate the decimal point and hand...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_106.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">1-숫자</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #7 (audio_107.wav)</div>
+            <div class="script-box">"엘리베이터를 타고 지하 2층에서 내려서 3번 출구로 나가세요."</div>
+            <div class="instruct-box">💡 <i>Read aloud as helpful navigation directions — clear and steady, with slight emphasis on fl...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_107.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">1-숫자</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #8 (audio_108.wav)</div>
+            <div class="script-box">"대기 번호 247번, 현재 203번까지 처리 중입니다."</div>
+            <div class="instruct-box">💡 <i>Read aloud as a waiting-room announcement — even-paced and clear, with each three-digit nu...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_108.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">1-숫자</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #9 (audio_109.wav)</div>
+            <div class="script-box">"제 키는 175센티미터이고 몸무게는 68.5킬로그램입니다."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a matter-of-fact, casual tone as if filling out a health form — handle the d...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_109.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">1-숫자</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #10 (audio_110.wav)</div>
+            <div class="script-box">"2023년 대비 2024년 매출이 약 18퍼센트 증가했습니다."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a professional, business-briefing tone — emphasize the year-over-year compar...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_110.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">2-겹받침</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #11 (audio_201.wav)</div>
+            <div class="script-box">"맑은 하늘 아래 흙을 밟으며 산책했어요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a calm, peaceful tone as if describing a pleasant walk outdoors — pay carefu...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_201.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">2-겹받침</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #12 (audio_202.wav)</div>
+            <div class="script-box">"삶의 가치를 젊었을 때 깨닫는 게 중요해요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a thoughtful, reflective tone as if sharing life wisdom — handle the double ...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_202.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">2-겹받침</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #13 (audio_203.wav)</div>
+            <div class="script-box">"여덟 명이 넓은 마당에서 밟아가며 춤을 췄어요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a lively, storytelling tone describing a group dance — clearly pronounce eac...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_203.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">2-겹받침</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #14 (audio_204.wav)</div>
+            <div class="script-box">"값어치가 없으니까 그냥 버리는 게 나아요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a blunt, practical tone as if giving straightforward advice — articulate the...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_204.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">2-겹받침</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #15 (audio_205.wav)</div>
+            <div class="script-box">"놓은 자리가 좋으니까 그냥 놓아두세요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a relaxed, reassuring tone — handle the ㅎ-final consonant deletion and aspir...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_205.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">2-겹받침</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #16 (audio_206.wav)</div>
+            <div class="script-box">"몫을 나누고 넋을 잃은 듯 멍하니 앉아 있었어요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a dazed, absent-minded tone as if someone is lost in thought — pronounce the...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_206.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">2-겹받침</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #17 (audio_207.wav)</div>
+            <div class="script-box">"앉아서 얹어놓은 접시를 천천히 들어 올렸어요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a slow, careful tone as if describing a delicate action — make sure each dou...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_207.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">2-겹받침</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #18 (audio_208.wav)</div>
+            <div class="script-box">"좋다고 해놓고 싫다고 뒤집으면 곤란해요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a mildly reproachful tone as if pointing out someone's inconsistency — handl...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_208.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">2-겹받침</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #19 (audio_209.wav)</div>
+            <div class="script-box">"핥아먹던 강아지가 갑자기 짖어대기 시작했어요."</div>
+            <div class="instruct-box">💡 <i>Read aloud in a lively, amused storytelling tone as if recounting a funny pet moment — han...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_209.wav"></audio>
+        </div>
+        
+        <div class="voice-card">
+            <div class="card-header">
+                <span class="badge blue">전문 성우 스튜디오</span>
+                <span class="tag">2-겹받침</span>
+            </div>
+            <div class="voice-name">스튜디오 성우 발화 #20 (audio_210.wav)</div>
+            <div class="script-box">"잃어버리지 않도록 끓여서 졸인 뒤 뚜껑을 닫으세요."</div>
+            <div class="instruct-box">💡 <i>Read aloud as calm cooking instructions — steady pace with clear pronunciation of each com...</i></div>
+            <audio controls preload="none" src="../data/clean_voice_actors/korean_tts_training_studio/wavs/audio_210.wav"></audio>
+        </div>
+        
+    </div>
+
+    <div class="nav-bar">
+        <a class="nav-btn" href="all_listening_rooms_hub.html">🌐 통합 청음실 포털로 돌아가기</a>
+        <a class="nav-btn" href="full_story_player.html">👑 120개 슬라이드 전편 완독실</a>
+    </div>
+</body>
+</html>

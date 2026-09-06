@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>한국어 민담/이야기꾼 특화 중년 여성 보이스 비교</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif; }
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 36px;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #f59e0b, #fbbf24, #d97706);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
+        }
+        .header p {
+            color: #94a3b8;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        .script-box {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(245, 158, 11, 0.2);
+            border-radius: 12px;
+            padding: 18px 24px;
+            margin-bottom: 30px;
+            font-size: 15px;
+            line-height: 1.7;
+            color: #e2e8f0;
+        }
+        .script-box strong {
+            color: #fbbf24;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        @media (max-width: 768px) {
+            .grid { grid-template-columns: 1fr; }
+        }
+        .voice-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+        .voice-card:hover {
+            transform: translateY(-4px);
+            border-color: #f59e0b;
+            box-shadow: 0 12px 24px -10px rgba(245, 158, 11, 0.3);
+        }
+        .badge {
+            align-self: flex-start;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+        }
+        .voice-card h2 {
+            font-size: 19px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #f8fafc;
+        }
+        .voice-card .desc {
+            color: #94a3b8;
+            font-size: 13.5px;
+            line-height: 1.5;
+            margin-bottom: 16px;
+            flex-grow: 1;
+        }
+        .param-tags {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .tag {
+            background: #0f172a;
+            color: #38bdf8;
+            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-family: monospace;
+        }
+        .audio-box audio {
+            width: 100%;
+            height: 40px;
+            border-radius: 8px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📜 한국어 민담 / 이야기꾼 특화 중년 여성 보이스 비교</h1>
+            <p>이야기나 전래 민담·야담에 최적화된 연륜과 깊이가 있는 4가지 중년 여성 음색 프리셋입니다.<br>각 카드의 재생 버튼을 눌러 원하는 분위기의 목소리를 직접 청음해보세요.</p>
+        </div>
+
+        <div class="script-box">
+            <strong>📖 테스트 낭독 지문 (민담 서사):</strong><br>
+            "옛날 옛적 깊은 산골에, 소박맞아 쫓겨난 윤씨 마님이 눈보라를 헤치며 울고 있었지요... 그때 어둠 속에서, 묵묵히 마님의 뒤를 지키는 우직한 머슴 돌쇠의 그림자가 있었답니다. 바람은 매섭게 불어오고, 마님의 눈가엔 차가운 눈물이 맺혔지만... 돌쇠는 아무 말 없이 자신의 저고리를 벗어 마님의 어깨를 감싸 안았지요."
+        </div>
+
+        <div class="grid">
+            
+        <div class="voice-card">
+            <div class="badge" style="background-color: #4A3B32;">40대 중후반 기품 있는 양반가 마님/서사 낭독자</div>
+            <h2>1. [단아한 중년 마님 서사 낭독]</h2>
+            <p class="desc">기계음을 완전히 억제하고 피치를 낮춰, 차분하고 품격 있는 중년 여성의 지혜로운 낭독 질감 구현</p>
+            <div class="param-tags">
+                <span class="tag">Rate: -20%</span>
+                <span class="tag">Pitch: -16Hz</span>
+            </div>
+            <div class="audio-box">
+                <audio controls preload="auto" src="matron_noble_deep.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="voice-card">
+            <div class="badge" style="background-color: #8C4A2F;">50대 산골 주막 여주인 / 전래 민담 구연가</div>
+            <h2>2. [구수한 주막 주모 / 민담 이야기꾼]</h2>
+            <p class="desc">깊고 따뜻한 중저음과 느릿한 호흡으로 청중을 휘어잡는 전통 야담·민담 전문 이야기꾼 음색</p>
+            <div class="param-tags">
+                <span class="tag">Rate: -26%</span>
+                <span class="tag">Pitch: -22Hz</span>
+            </div>
+            <div class="audio-box">
+                <audio controls preload="auto" src="storyteller_yadam_folklore.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="voice-card">
+            <div class="badge" style="background-color: #2C3E50;">50대 후반 세월의 풍파를 아는 인자한 노파/어머니</div>
+            <h2>3. [심야 고전 야담 / 애절한 회상 톤]</h2>
+            <p class="desc">가장 깊은 저음과 슬로우 템포로 짙은 여운과 몰입감을 전하는 심야 라디오 / 고전 설화 톤</p>
+            <div class="param-tags">
+                <span class="tag">Rate: -30%</span>
+                <span class="tag">Pitch: -25Hz</span>
+            </div>
+            <div class="audio-box">
+                <audio controls preload="auto" src="midnight_yadam_sorrow.mp3"></audio>
+            </div>
+        </div>
+        
+        <div class="voice-card">
+            <div class="badge" style="background-color: #1E5F74;">40대 판소리 명창 / 활기찬 옛날이야기 구연</div>
+            <h2>4. [판소리 아니리 / 생생한 구연 톤]</h2>
+            <p class="desc">말하듯 읊조리며 전달력을 극대화한 생동감 넘치는 우리 소리 아니리 스타일 낭독</p>
+            <div class="param-tags">
+                <span class="tag">Rate: -15%</span>
+                <span class="tag">Pitch: -12Hz</span>
+            </div>
+            <div class="audio-box">
+                <audio controls preload="auto" src="pansori_aniri_rhythm.mp3"></audio>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>
